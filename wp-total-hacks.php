@@ -18,12 +18,18 @@ class WPBIZ {
 
 public function __construct()
 {
+    load_plugin_textdomain(
+        "wpbiz",
+        PLUGINDIR.'/'.dirname(plugin_basename(__FILE__)).'/langs',
+        dirname(plugin_basename(__FILE__)).'/langs'
+    );
     if (strlen($this->op('wfb_revision'))) {
         define('WP_POST_REVISIONS', $this->op('wfb_revision'));
     }
     if (strlen($this->op('wfb_autosave'))) {
         define('AUTOSAVE_INTERVAL', 86400);
     }
+    add_action('init',              array(&$this, 'init'));
     add_action('wp_head',           array(&$this, 'wp_head'));
     add_filter('the_generator',     array(&$this, 'the_generator'));
     add_action('admin_head',        array(&$this, 'admin_head'));
@@ -34,6 +40,16 @@ public function __construct()
     add_filter('login_headertitle', array(&$this, 'login_headertitle'));
     add_action('pre_ping',          array(&$this, 'pre_ping'));
     add_action('wp_dashboard_setup',array(&$this, 'wp_dashboard_setup'));
+}
+
+public function init()
+{
+    if (get_option('wfb_remove_xmlrpc')) {
+        if (!get_option("enable_app") && !get_option('enable_xmlrpc')) {
+            remove_action('wp_head', 'wlwmanifest_link');
+            remove_action('wp_head', 'rsd_link');
+        }
+    }
 }
 
 public function wp_dashboard_setup()
@@ -86,7 +102,8 @@ public function login_headertitle($url)
 
 public function wp_head()
 {
-    if (!is_user_logged_in()) {
+    if (get_option("wfb_exclude_loggedin") && is_user_logged_in()) {
+    } else {
         echo stripslashes($this->op("wfb_google_analytics"));
     }
     if ($this->op('wfb_favicon')) {
@@ -160,6 +177,7 @@ private function op($key, $default = false)
 {
     return trim(stripslashes(get_option($key, $default)));
 }
+
 }
 
 ?>

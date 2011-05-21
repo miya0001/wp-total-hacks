@@ -25,6 +25,8 @@ private $params = array(
     'wfb_login_url' => 'text',
     'wfb_login_title' => 'text',
     'wfb_webmaster' => 'bool',
+    'wfb_remove_xmlrpc' => 'bool',
+    'wfb_exclude_loggedin' => 'bool',
 );
 private $widgets = array(
     'dashboard_right_now' => array(
@@ -153,7 +155,7 @@ public function admin_init()
             wp_redirect(admin_url('options-general.php?page=wp-biz&err=true'));
         }
         $this->save();
-        wp_redirect(admin_url('options-general.php?page=wp-biz&update=true'));
+        wp_redirect(admin_url('options-general.php?page=wp-biz&update=true'.$_POST['tabid']));
     }
 }
 
@@ -222,6 +224,7 @@ public function form()
     echo '<form method="post" action="'.$url.'">';
     $nonce = wp_create_nonce(plugin_basename(__FILE__));
     echo '<input type="hidden" name="wpbiz-nonce" value="'.$nonce.'" />';
+    echo '<input type="hidden" id="tabid" name="tabid" value="" />';
     echo '<div id="tabs">';
     echo '<ul id="menu"></ul>';
     include(dirname(__FILE__).'/form/site.php');

@@ -13,6 +13,9 @@ jQuery('document').ready(function(){
         jQuery("#tabs").tabs({fx:{opacity:'toggle', duration:'fast'}});
         jQuery("#tabs h3").css('display', 'none');
     });
+    jQuery("#menu a").click(function(){
+        jQuery('#tabid').val(jQuery(this).attr('href'));
+    });
     jQuery('#tabs').css('display', 'block');
 
     // setup media uploader
