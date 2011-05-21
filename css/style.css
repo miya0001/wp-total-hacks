@@ -1,0 +1,131 @@
+.wrap p,
+.wrap ul,
+.wrap ol,
+.wrap blockquote,
+.wrap input,
+.wrap select
+{
+    font-size: 14px;
+}
+
+.wrap .a
+{
+    text-decoration: none;
+}
+
+.wrap a:hover
+{
+    text-decoration: underline;
+}
+
+.wrap textarea
+{
+    font-family: 'ＭＳ ゴシック', 'MS Gothic', 'Osaka-等幅', 'Osaka-Mono', monospace !important;
+    width: 100%;
+}
+
+.wrap
+{
+}
+
+#err_block
+{
+    padding: 50px 0;
+    margin: 20px auto;
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #555555;
+    font-size: 200%;
+}
+
+.block
+{
+    clear: both;
+    margin-bottom: 1em;
+}
+
+.block h4
+{
+    font-size: 120%;
+    display: block;
+    border: 1px solid #aed0ea;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    position: relative;
+    padding: 10px 0;
+    text-indent: 10px;
+    margin: 0;
+    color: #666666;
+    cursor: pointer;
+    background: #d7ebf9;
+    background-image: url(images/ui-bg_glass_80_d7ebf9_1x400.png);
+    background-repeat: repeat-x;
+    background-position: left center;
+    text-shadow: 0 1px 0 #fff;
+    font-weight: normal;
+}
+
+.block h4.active
+{
+    background-image: url(images/ui-bg_glass_50_3baae3_1x400.png);
+    color: #ffffff;
+    text-shadow: 0 1px 0 #999999;
+}
+
+.block h4 img
+{
+    position: absolute;
+    right: 8px;
+    display: none;
+}
+
+.block_content
+{
+    padding: 10px;
+    border-bottom: 1px solid #aed0ea;
+    border-left: 1px solid #aed0ea;
+    border-right: 1px solid #aed0ea;
+    background-color: #ffffff;
+    display: none;
+}
+
+.media,
+.text
+{
+    width: 300px;
+}
+
+input,
+textarea,
+select
+{
+}
+
+img.caption
+{
+    border: 1px solid #cccccc;
+}
+
+dt
+{
+    float: left;
+    width: 70px;
+}
+
+#tabs
+{
+    display :none;
+    margin-top: 2em;
+    margin-right: 200px;
+    min-width: 500px;
+}
+
+.tab
+{
+}
+
+
