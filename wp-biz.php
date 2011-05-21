@@ -58,10 +58,10 @@ public function pre_ping(&$links)
     if (!$this->op('wfb_selfping')) {
         return;
     }
-	$home = get_option( 'home' );
-	foreach ($links as $l => $link) {
-		if (0 === strpos($link, $home)) {
-			unset($links[$l]);
+    $home = get_option( 'home' );
+    foreach ($links as $l => $link) {
+    if (0 === strpos($link, $home)) {
+            unset($links[$l]);
         }
     }
 }
