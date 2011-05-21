@@ -115,11 +115,13 @@
     float: left;
     width: 70px;
     line-height: 30px;
+    height: 30px;
 }
 
 .wrap dd
 {
     line-height: 30px;
+    height: 30px;
 }
 
 .wrap #tabs
