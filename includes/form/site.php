@@ -29,7 +29,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove version number from head', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Remove "&ltmeta name="generator" content="WordPress x.x.x" /&gt;" from head.', 'wpbiz'); ?></p>
+        <p><?php _e('Remove "&lt;meta name="generator" content="WordPress x.x.x" /&gt;" from head.', 'wpbiz'); ?></p>
         <?php $this->sel('wfb_hide_version'); ?>
     </div>
 </div>
