@@ -13,7 +13,7 @@
 <?php else: ?>
                 <input id="wfb_widget_<?php echo $wgt; ?>" type="checkbox" name="wfb_widget[]" value="<?php echo $wgt; ?>" />
 <?php endif; ?>
-                <label for="wfb_widget_<?php echo $wgt; ?>"><?php echo __($pos['title']); ?></label>
+                <label for="wfb_widget_<?php echo $wgt; ?>"><?php _e($pos['title']); ?></label>
             </li>
             <?php endforeach; ?>
         </ul>
@@ -38,6 +38,25 @@
             <dt><?php _e('Email'); ?></dt>
             <dd><input class="text" type="text" name="wfb_emailaddress" value="<?php $this->op('wfb_emailaddress')?>" /></dd>
         </dl>
+    </div>
+</div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete default contact methods', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Delete default contact methods from user profile.', 'wpbiz'); ?></p>
+        <ul>
+            <?php foreach ($this->contact_methods as $c => $n): ?>
+            <li>
+<?php if (get_option('wfb_contact_methods') && is_array(get_option('wfb_contact_methods')) && in_array($c, get_option('wfb_contact_methods'))): ?>
+                <input id="wfb_contact_methods_<?php echo $c; ?>" type="checkbox" name="wfb_contact_methods[]" value="<?php echo $c; ?>" checked="checked" />
+<?php else: ?>
+                <input id="wfb_contact_methods_<?php echo $c; ?>" type="checkbox" name="wfb_contact_methods[]" value="<?php echo $c; ?>" />
+<?php endif; ?>
+                <label for="wfb_contact_methods_<?php echo $c; ?>"><?php _e($n); ?></label>
+            </li>
+            <?php endforeach; ?>
+        </ul>
     </div>
 </div>
 

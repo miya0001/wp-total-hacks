@@ -1,6 +1,6 @@
 
 <div id="admin" class="tab">
-<h3><?php _e('Appearance', 'wpbiz'); ?></h3>
+<h3><?php _e('Appearance in admin', 'wpbiz'); ?></h3>
 
 <div class="block">
     <h4><img alt="" src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Change admin header logo', 'wpbiz'); ?></h4>

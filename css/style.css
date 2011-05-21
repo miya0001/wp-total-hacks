@@ -126,8 +126,7 @@
 {
     display :none;
     margin-top: 2em;
-    margin-right: 200px;
-    min-width: 500px;
+    margin-right: 300px;
 }
 
 .wrap .tab
@@ -144,4 +143,28 @@
     font-size: 80%;
     color: #555555;
 }
+
+.wrap .block_content p
+{
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.wrap #wfb-sidebar
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    width: 270px;
+    padding: 8px;
+}
+
+.wrap #wfb-sidebar h3
+{
+    margin-top: 2em;
+}
+
+
 

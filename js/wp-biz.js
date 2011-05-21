@@ -34,7 +34,7 @@ jQuery('document').ready(function(){
     });
 
     // setup visual editor
-    jQuery('a.thickbox').each(function(){
+    jQuery('#tabs a.thickbox').each(function(){
         jQuery(this).click(function(){
             window.send_to_editor = send;
         });
@@ -43,7 +43,7 @@ jQuery('document').ready(function(){
 
 function wpbiz() {
     var self = this;
-    jQuery('h4').each(function(){
+    jQuery('#tabs h4').each(function(){
         jQuery(this).bind('click', self, self.click);
         var p = jQuery(jQuery(this).parent().get(0));
         if (self.getStatus(p)) {

@@ -46,6 +46,20 @@ public function __construct()
     add_filter('wp_mail_from',      array(&$this, 'wp_mail_from'));
     add_filter('wp_mail_from_name', array(&$this, 'wp_mail_from_name'));
     add_filter('plugin_row_meta', array(&$this, 'plugin_row_meta'), 10, 2);
+    add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
+}
+
+public function user_contactmethods($meth)
+{
+    $del = $this->op('wfb_contact_methods');
+    if ($del && is_array($del)) {
+        foreach ($meth as $m => $s) {
+            if (in_array($m, $del)) {
+                unset($meth[$m]);
+            }
+        }
+    }
+    return $meth;
 }
 
 public function wp_mail_from($str)

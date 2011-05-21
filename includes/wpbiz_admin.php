@@ -34,6 +34,7 @@ private $params = array(
     'wfb_pagemetas' => 'array',
     'wfb_emailaddress' => 'email',
     'wfb_sendername' => 'text',
+    'wfb_contact_methods' => 'array',
 );
 private $widgets = array(
     'dashboard_right_now' => array(
@@ -117,6 +118,11 @@ private $page_metas = array(
     'postcustom' => array(
         'title' => 'Custom Fields'
     ),
+);
+private $contact_methods = array(
+    'aim' => 'AIM',
+    'yim' => 'Yahoo IM',
+    'jabber' => 'Jabber / Google Talk',
 );
 
 function __construct($url)
@@ -252,12 +258,15 @@ public function save()
     } // endforeach
 
     if (get_option('wfb_webmaster')) {
-        new wfb_createNewRole(
-            'webmaster',
-            'Webmaster',
-            'editor',
-            array('edit_theme_options')
-        );
+        global $wp_roles;
+        if (!isset($wp_roles->roles['webmaster'])) {
+            new wfb_createNewRole(
+                'webmaster',
+                'Webmaster',
+                'editor',
+                array('edit_theme_options')
+            );
+        }
     } else {
         remove_role('webmaster');
     }
@@ -276,11 +285,14 @@ public function options()
         $this->form();
     }
 
+    echo '<div id="wfb-sidebar">';
+    include(dirname(__FILE__).'/form/sidebar.php');
+    echo '</div><!--end #wfb-sidebar-->';
     echo '</div><!--end #wfb-container-->';
     echo '</div>';
 }
 
-public function form()
+private function form()
 {
     $url = admin_url('options-general.php?page=wp-biz');
     echo '<form method="post" action="'.$url.'">';
@@ -298,14 +310,14 @@ public function form()
     echo '</form>';
 }
 
-public function error()
+private function error()
 {
     echo '<div id="err_block">';
     echo 'Security failure.';
     echo '</div>';
 }
 
-public function get_plugin_url()
+private function get_plugin_url()
 {
     return $this->plugin_url;
 }
