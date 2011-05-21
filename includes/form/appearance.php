@@ -1,6 +1,6 @@
 
 <div id="admin" class="tab">
-<h3>Admin Settings</h3>
+<h3>Appearance</h3>
 
 <div class="block">
     <h4><img alt="" src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Change admin header logo</h4>
@@ -39,17 +39,6 @@
         <dt>Title:</dt>
         <dd><input class="text" type="text" name="wfb_login_title" value="<?php $this->op('wfb_login_title'); ?>" /></dd>
         </dl>
-    </div>
-</div>
-
-<div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Add role "Webmaster"</h4>
-    <div class="block_content">
-        <select name="wfb_webmaster" id="wfb_webmaster">
-            <option value="">No</option>
-            <option value="1" <?php if(get_option('wfb_webmaster')) echo 'selected="selected"'; ?>>Yes</option>
-        </select>
-        &nbsp;"Webmaster" role is able to "Editor" + "edit_theme_options".
     </div>
 </div>
 

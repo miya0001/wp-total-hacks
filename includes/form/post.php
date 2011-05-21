@@ -1,20 +1,50 @@
 
 <div id="post" class="tab">
-<h3>Post & Pages</h3>
+<h3>Posts & Pages</h3>
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Hide Post Custom Fields</h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete meta boxes for Posts', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <select name="wfb_hide_custom_fields" id="wfb_hide_custom_fields">
-            <option value="">No</option>
-            <option value="1" <?php if(get_option('wfb_hide_custom_fields')) echo 'selected="selected"'; ?>>Yes</option>
-        </select>
+        <p><?php _e('Click on the check box that you want to delete.', 'wpbiz'); ?></p>
+        <ul>
+            <?php foreach ($this->post_metas as $wgt => $pos): ?>
+            <li>
+<?php if (get_option('wfb_postmetas') && is_array(get_option('wfb_postmetas')) && in_array($wgt, get_option('wfb_postmetas'))): ?>
+                <input id="wfb_postmetas_<?php echo $wgt; ?>" type="checkbox" name="wfb_postmetas[]" value="<?php echo $wgt; ?>" checked="checked" />
+<?php else: ?>
+                <input id="wfb_postmetas_<?php echo $wgt; ?>" type="checkbox" name="wfb_postmetas[]" value="<?php echo $wgt; ?>" />
+<?php endif; ?>
+                <label for="wfb_postmetas_<?php echo $wgt; ?>"><?php echo __($pos['title']); ?></label>
+            </li>
+            <?php endforeach; ?>
+        </ul>
     </div>
 </div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete meta boxes for Pages', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Click on the check box that you want to delete.', 'wpbiz'); ?></p>
+        <ul>
+            <?php foreach ($this->page_metas as $wgt => $pos): ?>
+            <li>
+<?php if (get_option('wfb_pagemetas') && is_array(get_option('wfb_pagemetas')) && in_array($wgt, get_option('wfb_pagemetas'))): ?>
+                <input id="wfb_pagemetas_<?php echo $wgt; ?>" type="checkbox" name="wfb_pagemetas[]" value="<?php echo $wgt; ?>" checked="checked" />
+<?php else: ?>
+                <input id="wfb_pagemetas_<?php echo $wgt; ?>" type="checkbox" name="wfb_pagemetas[]" value="<?php echo $wgt; ?>" />
+<?php endif; ?>
+                <label for="wfb_pagemetas_<?php echo $wgt; ?>"><?php echo __($pos['title']); ?></label>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div>
+
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Revision Control</h4>
     <div class="block_content">
+        <p><?php _e('Please select limit the number of allowed revisions.', 'wpbiz'); ?></p>
         <select name="wfb_revision" id="wfb_revision">
-            <option value="">Off</option>
+            <option value=""><?php _e('Store All', 'wpbiz'); ?></option>
             <?php for($i=0; $i<21; $i++): ?>
             <?php
                 if (strlen(get_option("wfb_revision")) && intval(get_option("wfb_revision")) === $i) {
@@ -28,24 +58,29 @@
         </select>
     </div>
 </div>
-<div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Disable Auto Save</h4>
-    <div class="block_content">
-        <select name="wfb_autosave" id="wfb_autosave">
-            <option value="">No</option>
-            <option value="1" <?php if(get_option('wfb_autosave')) echo 'selected="selected"'; ?>>Yes</option>
-        </select>
-    </div>
-</div>
-<div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Stop Self Pings</h4>
-    <div class="block_content">
-        <select name="wfb_selfping" id="wfb_selfping">
-            <option value="">No</option>
-            <option value="1" <?php if(get_option('wfb_selfping')) echo 'selected="selected"'; ?>>Yes</option>
-        </select>
-    </div>
-</div>
-</div><!--end .tab-->
 
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Disable Auto Save', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <?php $this->sel('wfb_autosave'); ?>
+    </div>
+</div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Stop Self Pings', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Stop sending pings from your own site to your own site when you write posts.', 'wpbiz'); ?></p>
+        <?php $this->sel('wfb_selfping'); ?>
+    </div>
+</div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add "Excerpt" support for Pages.', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Requires to add excerpt text in a Pages.', 'wpbiz'); ?></p>
+        <?php $this->sel('wfb_pageexcerpt'); ?>
+    </div>
+</div>
+
+</div><!--end .tab-->
 

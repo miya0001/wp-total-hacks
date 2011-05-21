@@ -6,7 +6,7 @@ class WPBIZ_ADMIN {
 
 private $role = 'manage_options';
 private $plugin_url = '';
-private $page_title = 'Business Settings';
+private $page_title = 'WP Total Hacks';
 private $params = array(
     'wfb_google_analytics' => 'text',
     'wfb_favicon' => 'text',
@@ -27,6 +27,13 @@ private $params = array(
     'wfb_webmaster' => 'bool',
     'wfb_remove_xmlrpc' => 'bool',
     'wfb_exclude_loggedin' => 'bool',
+    'wfb_adjacent_posts_rel_links' => 'bool',
+    'wfb_remove_more' => 'bool',
+    'wfb_pageexcerpt' => 'bool',
+    'wfb_postmetas' => 'array',
+    'wfb_pagemetas' => 'array',
+    'wfb_emailaddress' => 'email',
+    'wfb_sendername' => 'text',
 );
 private $widgets = array(
     'dashboard_right_now' => array(
@@ -60,6 +67,55 @@ private $widgets = array(
     'dashboard_secondary' => array(
         'position' => 'normal',
         'title' => 'Other WordPress News'
+    ),
+);
+private $post_metas = array(
+    'commentstatusdiv' => array(
+        'title' => 'Discussion'
+    ),
+    'commentsdiv' => array(
+        'title' => 'Comments'
+    ),
+    'slugdiv' => array(
+        'title' => 'Slug'
+    ),
+    'authordiv' => array(
+        'title' => 'Author'
+    ),
+    'postcustom' => array(
+        'title' => 'Custom Fields'
+    ),
+    'postexcerpt' => array(
+        'title' => 'Excerpt'
+    ),
+    'trackbacksdiv' => array(
+        'title' => 'Send Trackbacks'
+    ),
+    'formatdiv' => array(
+        'title' => 'Format'
+    ),
+    'tagsdiv-post_tag' => array(
+        'title' => 'Post Tags'
+    ),
+    'categorydiv' => array(
+        'title' => 'Categories'
+    ),
+);
+private $page_metas = array(
+    'commentstatusdiv' => array(
+        'title' => 'Discussion'
+    ),
+    'commentsdiv' => array(
+        'title' => 'Comments'
+    ),
+    'slugdiv' => array(
+        'title' => 'Slug'
+    ),
+    'authordiv' => array(
+        'title' => 'Author'
+    ),
+    'postcustom' => array(
+        'title' => 'Custom Fields'
     ),
 );
 
@@ -111,7 +167,7 @@ public function admin_menu()
 {
     $hook = add_options_page(
         $this->page_title,
-        'WP for Business',
+        'WP Total Hacks',
         $this->role,
         'wp-biz',
         array(&$this, 'options')
@@ -164,10 +220,19 @@ public function save()
     foreach ($this->params as $key => $type) {
         if (isset($_POST[$key]) && is_array($_POST[$key])) {
             if (count($_POST[$key]) && $type === 'array') {
-                update_option($key, $_POST[$key]);
-            } else {
-                delete_option($key);
+                $arr = array();
+                foreach ($_POST[$key] as $str) {
+                    $str = trim($str);
+                    if (strlen($str)) {
+                        $arr[] = $str;
+                    }
+                }
+                if (count($arr)) {
+                    update_option($key, $arr);
+                    continue;
+                }
             }
+            delete_option($key);
         } elseif (isset($_POST[$key]) && strlen($_POST[$key])) {
             switch ($type) {
                 case 'text':
@@ -183,13 +248,20 @@ public function save()
                 case 'int':
                     update_option($key, intval(trim($_POST[$key])));
                     break;
+                case 'email':
+                    if (is_email(trim($_POST[$key]))) {
+                        update_option($key, trim($_POST[$key]));
+                    } else {
+                        delete_option($key);
+                    }
+                    break;
                 default:
                     delete_option($key);
             }
         } else {
             delete_option($key);
         }
-    }
+    } // endforeach
 
     if (get_option('wfb_webmaster')) {
         new wfb_createNewRole(
@@ -229,8 +301,8 @@ public function form()
     echo '<ul id="menu"></ul>';
     include(dirname(__FILE__).'/form/site.php');
     include(dirname(__FILE__).'/form/post.php');
-    include(dirname(__FILE__).'/form/dashboard.php');
-    include(dirname(__FILE__).'/form/admin.php');
+    include(dirname(__FILE__).'/form/appearance.php');
+    include(dirname(__FILE__).'/form/other.php');
     echo '</div><!--end #tabs-->';
     echo '<p class="submit"><input type="submit" name="submit" id="submit" class="button-primary" value="'.__('Save Changes').'" /></p>';
     echo '</form>';
@@ -251,6 +323,18 @@ public function get_plugin_url()
 private function op($key)
 {
     echo trim(stripslashes(get_option($key)));
+}
+
+private function sel($id)
+{
+    echo '<select name="'.$id.'" id="'.$id.'">';
+    echo '<option value="">'.__('Deactivate').'</option>';
+    if (get_option($id)) {
+        echo '<option value="1" selected="selected">'.__('Activate').'</option>';
+    } else {
+        echo '<option value="1">'.__('Activate').'</option>';
+    }
+    echo '</select>';
 }
 
 }
