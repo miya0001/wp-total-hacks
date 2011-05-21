@@ -123,7 +123,6 @@ function __construct($url)
 {
     $this->plugin_url = $url;
     add_action('admin_menu', array(&$this, 'admin_menu'));
-    add_filter('plugin_row_meta', array(&$this, 'plugin_row_meta'), 10, 2);
 }
 
 public function admin_styles() {
@@ -150,17 +149,6 @@ public function admin_scripts() {
     );
     wp_enqueue_script('wfb-upload');
     add_action('admin_print_footer_scripts', 'wp_tiny_mce_preload_dialogs', 30);
-}
-
-public function plugin_row_meta($links, $file)
-{
-    $pname = plugin_basename(__FILE__);
-    if ($pname === $file) {
-        $url = "https://www.paypal.com/";
-        $url .= "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K8BY3GVRHSCHY";
-        $links[] = sprintf('<a href="%s">Donate</a>', $url);
-    }
-    return $links;
 }
 
 public function admin_menu()
@@ -280,6 +268,7 @@ public function options()
     echo '<div class="wrap">';
     echo '<div id="icon-options-general" class="icon32"><br /></div>';
     echo '<h2>'.$this->page_title.'</h2>';
+    echo '<div id="wfb-container">';
 
     if (isset($_GET['err']) && $_GET['err']) {
         $this->error();
@@ -287,6 +276,7 @@ public function options()
         $this->form();
     }
 
+    echo '</div><!--end #wfb-container-->';
     echo '</div>';
 }
 

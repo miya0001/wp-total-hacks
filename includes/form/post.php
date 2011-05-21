@@ -1,6 +1,7 @@
 
 <div id="post" class="tab">
-<h3>Posts & Pages</h3>
+<h3><?php _e('Posts & Pages', 'wpbiz'); ?></h3>
+
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete meta boxes for Posts', 'wpbiz'); ?></h4>
     <div class="block_content">
@@ -32,7 +33,7 @@
 <?php else: ?>
                 <input id="wfb_pagemetas_<?php echo $wgt; ?>" type="checkbox" name="wfb_pagemetas[]" value="<?php echo $wgt; ?>" />
 <?php endif; ?>
-                <label for="wfb_pagemetas_<?php echo $wgt; ?>"><?php echo __($pos['title']); ?></label>
+                <label for="wfb_pagemetas_<?php echo $wgt; ?>"><?php _e($pos['title']); ?></label>
             </li>
             <?php endforeach; ?>
         </ul>
@@ -40,7 +41,7 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Revision Control</h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Revision Control', 'wpbiz'); ?></h4>
     <div class="block_content">
         <p><?php _e('Please select limit the number of allowed revisions.', 'wpbiz'); ?></p>
         <select name="wfb_revision" id="wfb_revision">

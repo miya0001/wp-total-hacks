@@ -1,5 +1,5 @@
 <div id="site" class="tab">
-<h3>Site Settings</h3>
+<h3><?php _e('Site Settings', 'wpbiz'); ?></h3>
 
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add a favicon', 'wpbiz'); ?></h4>
@@ -21,7 +21,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove adjacent posts rel links from head on Pages', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Remove adjacent posts rel links from head on Pages.<br />Example: &lt;link rel="next" ...&gt; &lt;link rel="prev" ...&gt;', 'wpbiz'); ?></p>
+        <p><?php _e('Remove adjacent posts rel links from head on Pages.<br /><span class="ex">e.g. &lt;link rel="next" ...&gt; &lt;link rel="prev" ...&gt;</span>', 'wpbiz'); ?></p>
         <?php $this->sel('wfb_adjacent_posts_rel_links'); ?>
     </div>
 </div>
@@ -29,7 +29,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove version number from head', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Remove "&lt;meta name="generator" content="WordPress x.x.x" /&gt;" from head.', 'wpbiz'); ?></p>
+        <p><?php _e('Remove generator tag from head. <span class="ex">e.g. &lt;meta name="generator" content="WordPress x.x.x" /&gt;</span>', 'wpbiz'); ?></p>
         <?php $this->sel('wfb_hide_version'); ?>
     </div>
 </div>
@@ -37,7 +37,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove #more anchor', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Remove #more anchor.', 'wpbiz'); ?></p>
+        <p><?php _e('Remove #more-xxx anchor from more links.', 'wpbiz'); ?></p>
         <?php $this->sel('wfb_remove_more'); ?>
     </div>
 </div>
@@ -61,11 +61,11 @@
     <div class="block_content">
         <p><?php _e('Enter your meta key "content" value to verify your blog with <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a>, <a href="https://siteexplorer.search.yahoo.com/">Yahoo! Site Explorer</a>, and <a href="http://www.bing.com/webmaster">Bing Webmaster Center</a>.', 'wpbiz'); ?></p>
         <dl>
-            <dt>Google:</dt>
+            <dt>Google</dt>
             <dd><input class="text" type="text" name="wfb_google" value="<?php $this->op('wfb_google')?>" /></dd>
-            <dt>Yahoo:</dt>
+            <dt>Yahoo</dt>
             <dd><input class="text" type="text" name="wfb_yahoo" value="<?php $this->op('wfb_yahoo')?>" /></dd>
-            <dt>Bing:</dt>
+            <dt>Bing</dt>
             <dd><input class="text" type="text" name="wfb_bing" value="<?php $this->op('wfb_bing')?>" /></dd>
         </dl>
     </div>

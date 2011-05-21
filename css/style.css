@@ -40,13 +40,13 @@
     font-size: 200%;
 }
 
-.block
+.wrap .block
 {
     clear: both;
     margin-bottom: 1em;
 }
 
-.block h4
+.wrap .block h4
 {
     font-size: 120%;
     display: block;
@@ -69,21 +69,21 @@
     font-weight: normal;
 }
 
-.block h4.active
+.wrap .block h4.active
 {
     background-image: url(images/ui-bg_glass_50_3baae3_1x400.png);
     color: #ffffff;
     text-shadow: 0 1px 0 #999999;
 }
 
-.block h4 img
+.wrap .block h4 img
 {
     position: absolute;
     right: 8px;
     display: none;
 }
 
-.block_content
+.wrap .block_content
 {
     padding: 10px;
     border-bottom: 1px solid #aed0ea;
@@ -93,30 +93,36 @@
     display: none;
 }
 
-.media,
-.text
+.wrap .media,
+.wrap .text
 {
     width: 300px;
 }
 
-input,
-textarea,
-select
+.wrap input,
+.wrap textarea,
+.wrap select
 {
 }
 
-img.caption
+.wrap img.caption
 {
     border: 1px solid #cccccc;
 }
 
-dt
+.wrap dt
 {
     float: left;
     width: 70px;
+    line-height: 30px;
 }
 
-#tabs
+.wrap dd
+{
+    line-height: 30px;
+}
+
+.wrap #tabs
 {
     display :none;
     margin-top: 2em;
@@ -124,8 +130,18 @@ dt
     min-width: 500px;
 }
 
-.tab
+.wrap .tab
 {
 }
 
+.wrap #wfb-container
+{
+    position: relative;
+}
+
+.wrap .ex
+{
+    font-size: 80%;
+    color: #555555;
+}
 

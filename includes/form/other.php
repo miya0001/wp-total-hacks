@@ -1,9 +1,10 @@
-
 <div id="dashboard" class="tab">
-<h3>Other</h3>
+<h3><?php _e('Other', 'wpbiz'); ?></h3>
+
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Deactive Dashboard Widgets</h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Deactive Dashboard Widgets', 'wpbiz'); ?></h4>
     <div class="block_content">
+        <p><?php _e('Click on the check box that you want to delete.', 'wpbiz'); ?></p>
         <ul>
             <?php foreach ($this->widgets as $wgt => $pos): ?>
             <li>
@@ -20,13 +21,10 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" />Add role "Webmaster"</h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <select name="wfb_webmaster" id="wfb_webmaster">
-            <option value="">No</option>
-            <option value="1" <?php if(get_option('wfb_webmaster')) echo 'selected="selected"'; ?>>Yes</option>
-        </select>
-        &nbsp;"Webmaster" role is able to "Editor" + "edit_theme_options".
+        <p>"Webmaster" is role able to "Editor" + "edit_theme_options".</p>
+        <?php $this->sel('wfb_webmaster'); ?>
     </div>
 </div>
 
@@ -35,9 +33,9 @@
     <div class="block_content">
         <p><?php _e('Change the default eamil address and sender name.', 'wpbiz'); ?></p>
         <dl>
-            <dt>Name:</dt>
+            <dt><?php _e('Name'); ?></dt>
             <dd><input class="text" type="text" name="wfb_sendername" value="<?php $this->op('wfb_sendername')?>" /></dd>
-            <dt>Address:</dt>
+            <dt><?php _e('Email'); ?></dt>
             <dd><input class="text" type="text" name="wfb_emailaddress" value="<?php $this->op('wfb_emailaddress')?>" /></dd>
         </dl>
     </div>

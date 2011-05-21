@@ -3,16 +3,12 @@
 Plugin Name: WP Total Hacks
 Author: Takayuki Miyauchi
 Plugin URI: http://firegoby.theta.ne.jp/
-Description: Customize your WP
+Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
 Version: 0.1.0
 Author URI: http://firegoby.theta.ne.jp/
 */
 
-if (is_admin()) {
-    require_once(dirname(__FILE__).'/includes/wpbiz_admin.php');
-    new WPBIZ_ADMIN(WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)));
-}
 
 new WPBIZ();
 
@@ -25,8 +21,14 @@ public function __construct()
         PLUGINDIR.'/'.dirname(plugin_basename(__FILE__)).'/langs',
         dirname(plugin_basename(__FILE__)).'/langs'
     );
+    if (is_admin()) {
+        require_once(dirname(__FILE__).'/includes/wpbiz_admin.php');
+        new WPBIZ_ADMIN(WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)));
+    }
     if (strlen($this->op('wfb_revision'))) {
-        define('WP_POST_REVISIONS', $this->op('wfb_revision'));
+        if (!defined('WP_POST_REVISIONS')) {
+            define('WP_POST_REVISIONS', $this->op('wfb_revision'));
+        }
     }
     add_action('init',              array(&$this, 'init'));
     add_action('get_header',        array(&$this, 'get_header'));
@@ -43,6 +45,7 @@ public function __construct()
     add_action('wp_print_scripts',  array(&$this, 'wp_print_scripts'));
     add_filter('wp_mail_from',      array(&$this, 'wp_mail_from'));
     add_filter('wp_mail_from_name', array(&$this, 'wp_mail_from_name'));
+    add_filter('plugin_row_meta', array(&$this, 'plugin_row_meta'), 10, 2);
 }
 
 public function wp_mail_from($str)
@@ -233,6 +236,23 @@ private function op($key, $default = false)
     } else {
         return trim(stripslashes($op));
     }
+}
+
+public function plugin_row_meta($links, $file)
+{
+    $pname = plugin_basename(__FILE__);
+    if ($pname === $file) {
+        $link = '<a href="%s">%s</a>';
+        $links[] = sprintf(
+            $link,
+            admin_url('options-general.php?page=wp-biz'),
+            __("Settings")
+        );
+        $url = "https://www.paypal.com/";
+        $url .= "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K8BY3GVRHSCHY";
+        $links[] = sprintf($link, $url, __("Donate", "wpbiz"));
+    }
+    return $links;
 }
 
 }
