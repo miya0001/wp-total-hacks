@@ -45,8 +45,17 @@ public function __construct()
     add_action('wp_print_scripts',  array(&$this, 'wp_print_scripts'));
     add_filter('wp_mail_from',      array(&$this, 'wp_mail_from'));
     add_filter('wp_mail_from_name', array(&$this, 'wp_mail_from_name'));
-    add_filter('plugin_row_meta', array(&$this, 'plugin_row_meta'), 10, 2);
+    add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
+    add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
+}
+
+public function excerpt_more($str)
+{
+    if ($this->op('wfb_remove_excerpt')) {
+        return null;
+    }
+    return $str;
 }
 
 public function user_contactmethods($meth)
@@ -84,6 +93,9 @@ public function wp_mail_from_name($str)
 
 public function init()
 {
+    if ($this->op("wfb_pageexcerpt")) {
+        add_post_type_support('page', 'excerpt');
+    }
     if ($this->op("wfb_pageexcerpt")) {
         add_post_type_support('page', 'excerpt');
     }
@@ -240,6 +252,13 @@ public function admin_menu()
             remove_meta_box($meta, 'page', 'normal');
         }
     }
+    if ($this->op('wfb_update_notification')) {
+        global $user_login;
+        get_currentuserinfo();
+        if (!current_user_can('update_plugins')) {
+            remove_action('admin_notices', 'update_nag', 3);
+        }
+    }
 }
 
 private function op($key, $default = false)
@@ -262,8 +281,7 @@ public function plugin_row_meta($links, $file)
             admin_url('options-general.php?page=wp-biz'),
             __("Settings")
         );
-        $url = "https://www.paypal.com/";
-        $url .= "cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=K8BY3GVRHSCHY";
+        $url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU";
         $links[] = sprintf($link, $url, __("Donate", "wpbiz"));
     }
     return $links;

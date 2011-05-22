@@ -35,6 +35,8 @@ private $params = array(
     'wfb_emailaddress' => 'email',
     'wfb_sendername' => 'text',
     'wfb_contact_methods' => 'array',
+    'wfb_remove_excerpt' => 'bool',
+    'wfb_update_notification' => 'bool',
 );
 private $widgets = array(
     'dashboard_right_now' => array(
@@ -275,7 +277,6 @@ public function save()
 public function options()
 {
     echo '<div class="wrap">';
-    echo '<div id="icon-options-general" class="icon32"><br /></div>';
     echo '<h2>'.$this->page_title.'</h2>';
     echo '<div id="wfb-container">';
 
@@ -285,6 +286,9 @@ public function options()
         $this->form();
     }
 
+    echo '<div id="wfb-footer">';
+    include(dirname(__FILE__).'/form/footer.php');
+    echo '</div><!--end #wfb-footer-->';
     echo '<div id="wfb-sidebar">';
     include(dirname(__FILE__).'/form/sidebar.php');
     echo '</div><!--end #wfb-sidebar-->';

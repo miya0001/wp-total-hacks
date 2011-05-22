@@ -43,6 +43,14 @@
 </div>
 
 <div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove "[...]" from excerpt', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Remove "[...]" from output of the_excerpt().', 'wpbiz'); ?></p>
+        <?php $this->sel('wfb_remove_excerpt'); ?>
+    </div>
+</div>
+
+<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Install Google Analytics', 'wpbiz'); ?></h4>
     <div class="block_content">
         <p><?php _e('Add Google analytics code.', 'wpbiz'); ?></p>

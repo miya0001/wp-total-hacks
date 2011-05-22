@@ -1,3 +1,15 @@
+.wrap h2
+{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 60px;
+    width: 334px;
+    margin: 0;
+}
+
 .wrap p,
 .wrap ul,
 .wrap ol,
@@ -26,6 +38,7 @@
 
 .wrap
 {
+    padding: 20px 0;
 }
 
 #err_block
@@ -127,7 +140,6 @@
 .wrap #tabs
 {
     display :none;
-    margin-top: 2em;
     margin-right: 300px;
 }
 
@@ -157,16 +169,56 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    width: 285px;
+}
+
+.wrap .bside
+{
     border: 1px solid #dedede;
     border-radius: 5px;
-    width: 270px;
-    padding: 8px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
 }
 
-.wrap #wfb-sidebar h3
+.wrap .bside a
 {
-    margin-top: 2em;
+    text-decoration: none;
 }
 
+.wrap .bside a:hover
+{
+    text-decoration: underline;
+}
+
+.wrap .bside p
+{
+    font-size: 12px;
+    margin: 10px;
+}
+
+.wrap .bside h3
+{
+    margin-top: 0;
+    margin-bottom: 1em;
+    background-color: #555555;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.wrap .bside li
+{
+    background-image: url(../img/10x10.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 14px;
+    margin-left: 10px;
+}
+
+.wrap #wfb-footer
+{
+    margin-right: 300px;
+}
 
 

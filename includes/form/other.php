@@ -23,7 +23,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wpbiz'); ?></h4>
     <div class="block_content">
-        <p>"Webmaster" is role able to "Editor" + "edit_theme_options".</p>
+        <p><?php _e('"Webmaster" is role able to "Editor" + "edit_theme_options".', 'wpbiz'); ?></p>
         <?php $this->sel('wfb_webmaster'); ?>
     </div>
 </div>
@@ -57,6 +57,14 @@
             </li>
             <?php endforeach; ?>
         </ul>
+    </div>
+</div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove Update Notification', 'wpbiz'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Remove Update Notification for all users except Admin User.', 'wpbiz'); ?></p>
+        <?php $this->sel('wfb_update_notification'); ?>
     </div>
 </div>
 
