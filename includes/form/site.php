@@ -6,7 +6,7 @@
     <div class="block_content">
         <p><?php _e('Please upload .ico image.', 'wp-total-hacks'); ?></p>
         <input type="text" id="wfb_favicon" name="wfb_favicon" class="media" value="<?php $this->op('wfb_favicon'); ?>" />
-        <a class="media-upload" href="JavaScript:void(0);" rel="wfb_favicon">Select File</a>
+        <a class="media-upload" href="JavaScript:void(0);" rel="wfb_favicon"><?php _e('Select File', 'wp-total-hacks'); ?></a>
     </div>
 </div>
 

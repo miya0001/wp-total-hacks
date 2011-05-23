@@ -4,6 +4,22 @@ require_once(dirname(__FILE__).'/role.class.php');
 
 class WPBIZ_ADMIN {
 
+private $contributors = array(
+    'Takayuki Miyauchi' => array(
+        'country' => 'Japan',
+        'url' => 'http://twitter.com/#!/miya0001',
+    ),
+);
+private $translators = array(
+    'Takayuki Miyauchi' => array(
+        'lang' => 'Japanese',
+        'url' => 'http://twitter.com/#!/miya0001',
+    ),
+    'Andrea Bersi' => array(
+        'lang' => 'Italian',
+        'url' => 'http://www.andreabersi.com/',
+    ),
+);
 private $role = 'manage_options';
 private $plugin_url = '';
 private $page_title = 'WP Total Hacks';
@@ -342,6 +358,26 @@ private function sel($id)
         echo '<option value="1">'.__('Activate').'</option>';
     }
     echo '</select>';
+}
+
+private function get_contributors()
+{
+    $html = '<a href="%s">%s</a> (%s)';
+    $list = array();
+    foreach ($this->contributors as $u => $props) {
+        $list[] = sprintf($html, $props['url'], $u, $props['country']);
+    }
+    echo join(', ', $list);
+}
+
+private function get_translators()
+{
+    $html = '<a href="%s">%s</a> (%s)';
+    $list = array();
+    foreach ($this->translators as $u => $props) {
+        $list[] = sprintf($html, $props['url'], $u, $props['lang']);
+    }
+    echo join(', ', $list);
 }
 
 }
