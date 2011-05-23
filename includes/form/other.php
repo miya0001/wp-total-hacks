@@ -1,10 +1,10 @@
 <div id="dashboard" class="tab">
-<h3><?php _e('Other', 'wpbiz'); ?></h3>
+<h3><?php _e('Other', 'wp-total-hacks'); ?></h3>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Deactive Dashboard Widgets', 'wpbiz'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Deactive Dashboard Widgets', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Click on the check box that you want to delete.', 'wpbiz'); ?></p>
+        <p><?php _e('Click on the check box that you want to delete.', 'wp-total-hacks'); ?></p>
         <ul>
             <?php foreach ($this->widgets as $wgt => $pos): ?>
             <li>
@@ -21,17 +21,17 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wpbiz'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('"Webmaster" is role able to "Editor" + "edit_theme_options".', 'wpbiz'); ?></p>
+        <p><?php _e('"Webmaster" is role able to "Editor" + "edit_theme_options".', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_webmaster'); ?>
     </div>
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Change the default eamil address', 'wpbiz'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Change the default eamil address', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Change the default eamil address and sender name.', 'wpbiz'); ?></p>
+        <p><?php _e('Change the default eamil address and sender name.', 'wp-total-hacks'); ?></p>
         <dl>
             <dt><?php _e('Name'); ?></dt>
             <dd><input class="text" type="text" name="wfb_sendername" value="<?php $this->op('wfb_sendername')?>" /></dd>
@@ -42,9 +42,9 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete default contact methods', 'wpbiz'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete default contact methods', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Delete default contact methods from user profile.', 'wpbiz'); ?></p>
+        <p><?php _e('Delete default contact methods from user profile.', 'wp-total-hacks'); ?></p>
         <ul>
             <?php foreach ($this->contact_methods as $c => $n): ?>
             <li>
@@ -61,9 +61,9 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove Update Notification', 'wpbiz'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove Update Notification', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Remove Update Notification for all users except Admin User.', 'wpbiz'); ?></p>
+        <p><?php _e('Remove Update Notification for all users except Admin User.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_update_notification'); ?>
     </div>
 </div>

@@ -126,9 +126,10 @@
 .wrap dt
 {
     float: left;
-    width: 70px;
+    width: 100px;
     line-height: 30px;
     height: 30px;
+    font-size: 90%;
 }
 
 .wrap dd
