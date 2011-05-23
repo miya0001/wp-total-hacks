@@ -19,7 +19,6 @@
         <p><img class="caption" alt="" src="<?php echo $this->get_plugin_url(); ?>/img/admin_footer_text.png"></p>
         <div class="poststuff">
         <div class="postdivrich" class="postarea">
-        <?php wp_tiny_mce(false); ?>
         <?php the_editor(trim(stripslashes(get_option('wfb_admin_footer_text'))), "wfb_admin_footer_text"); ?>
         </div><!--end #postdivrich-->
         </div><!--end #poststuff-->

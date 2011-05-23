@@ -298,6 +298,7 @@ public function options()
 
 private function form()
 {
+    wp_tiny_mce(false);
     $url = admin_url('options-general.php?page=wp-biz');
     echo '<form method="post" action="'.$url.'">';
     $nonce = wp_create_nonce(plugin_basename(__FILE__));
