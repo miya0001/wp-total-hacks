@@ -2,7 +2,7 @@
 /*
 Plugin Name: WP Total Hacks
 Author: Takayuki Miyauchi
-Plugin URI: http://firegoby.theta.ne.jp/
+Plugin URI: http://firegoby.theta.ne.jp/wp/wp-total-hacks
 Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
 Version: 0.2.0
