@@ -38,6 +38,7 @@ All items you can select to Active or Deactive.
 
 * Japanese(ja) - [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
 * Italian(it_IT) - [Andrea Bersi](http://www.andreabersi.com/)
+* Russian(ru_RU) - [LiVsI](http://lezhnevs.ru/)
 
 You can send your own language pack to me.
 
