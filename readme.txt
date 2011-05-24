@@ -40,8 +40,11 @@ All items you can select to Active or Deactive.
 * Italian(it_IT) - [Andrea Bersi](http://www.andreabersi.com/)
 
 You can send your own language pack to me.
-Please Contac @miya0001 on twitter.
 
+Please contact to me.
+
+* @miya0001 on twitter.
+* http://www.facebook.com/firegoby
 
 = Contributors =
 
