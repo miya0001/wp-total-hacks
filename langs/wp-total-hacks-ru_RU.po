@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 23:09+0300\n"
+"PO-Revision-Date: 2011-05-24 23:17+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Изменить логотип в форме входа"
 
 #: ../includes/form/appearance.php:32
 msgid "You can customize logo, URL and Title. The logo image size is recommended 310 x 70 pixel."
-msgstr "Вы имеете возможность изменить logo, URL и Title. Рекомендуемый размер логотипа - 310 x 70 px."
+msgstr "Можно изменить логотип, URL и заголовое страницы входа. Рекомендуемый размер логотипа - 310 x 70&nbsp;px."
 
 #: ../includes/form/appearance.php:35
 msgid "Logo"
@@ -109,15 +109,15 @@ msgstr "E-mail"
 
 #: ../includes/form/other.php:45
 msgid "Delete default contact methods"
-msgstr "Удалить заданные по умолчанию каналы для связи"
+msgstr "Удалить часть методов обратной связи"
 
 #: ../includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
-msgstr "Удалить заданные по умолчанию методы обратной связи из профиля пользователя."
+msgstr "Выбранные методы обратной связи будут удалены из профиля пользователя."
 
 #: ../includes/form/other.php:64
 msgid "Remove Update Notification"
-msgstr "Удалить извещения по обновлению"
+msgstr "Убрать уведомления по обновлению"
 
 #: ../includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
@@ -129,11 +129,11 @@ msgstr "Записи и страницы"
 
 #: ../includes/form/post.php:6
 msgid "Delete meta boxes for Posts"
-msgstr "Удаление отдельных блоков из формы Записи"
+msgstr "Убрать отдельные блоки из формы Записи"
 
 #: ../includes/form/post.php:25
 msgid "Delete meta boxes for Pages"
-msgstr "Удаление отдельных блоков из формы Страница"
+msgstr "Убрать отдельные блоки из формы Страница"
 
 #: ../includes/form/post.php:44
 msgid "Revision Control"
