@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 21:54+0300\n"
+"PO-Revision-Date: 2011-05-24 22:41+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -18,32 +18,32 @@ msgstr ""
 
 #: ../includes/form/appearance.php:3
 msgid "Appearance in admin"
-msgstr ""
+msgstr "Админинтерфейс"
 
 #: ../includes/form/appearance.php:6
 msgid "Change admin header logo"
-msgstr ""
+msgstr "Изменить логотип в заголовке админинтерфейса"
 
 #: ../includes/form/appearance.php:8
 msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr ""
+msgstr "Загрузить изображение (30 x 30px) для логотипа в заголовке админинтерфейса."
 
 #: ../includes/form/appearance.php:11
 #: ../includes/form/appearance.php:36
 msgid "Select File"
-msgstr ""
+msgstr "Выберите файл"
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"
-msgstr ""
+msgstr "Изменить текст в \"подвале\" админинтерфейса"
 
 #: ../includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
-msgstr ""
+msgstr "Можно отредактировать текст в \"подвале\". Разрывы строк будут удалены."
 
 #: ../includes/form/appearance.php:30
 msgid "Change login logo"
-msgstr ""
+msgstr "Изменить логотип в форме входа"
 
 #: ../includes/form/appearance.php:32
 msgid "You can customize logo, URL and Title. The logo image size is recommended 310 x 70 pixel."
@@ -51,7 +51,7 @@ msgstr ""
 
 #: ../includes/form/appearance.php:35
 msgid "Logo"
-msgstr ""
+msgstr "Логотип"
 
 #: ../includes/form/appearance.php:37
 msgid "URL"
@@ -63,19 +63,19 @@ msgstr ""
 
 #: ../includes/form/footer.php:2
 msgid "Translators"
-msgstr ""
+msgstr "Переводчики"
 
 #: ../includes/form/footer.php:7
 msgid "Contributors"
-msgstr ""
+msgstr "Спонсоры"
 
 #: ../includes/form/other.php:2
 msgid "Other"
-msgstr ""
+msgstr "Дополнительно"
 
 #: ../includes/form/other.php:5
 msgid "Deactive Dashboard Widgets"
-msgstr ""
+msgstr "Деактивировать виджеты в консоли"
 
 #: ../includes/form/other.php:7
 #: ../includes/form/post.php:8
@@ -85,11 +85,11 @@ msgstr ""
 
 #: ../includes/form/other.php:24
 msgid "Add role \"Webmaster\""
-msgstr ""
+msgstr "Добавить роль \"Webmaster\""
 
 #: ../includes/form/other.php:26
 msgid "\"Webmaster\" is role able to \"Editor\" + \"edit_theme_options\"."
-msgstr ""
+msgstr "\"Webmaster\" - роль с возможностями \"Editor\" + \"edit_theme_options\"."
 
 #: ../includes/form/other.php:32
 msgid "Change the default eamil address"
@@ -101,15 +101,15 @@ msgstr ""
 
 #: ../includes/form/other.php:36
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: ../includes/form/other.php:38
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: ../includes/form/other.php:45
 msgid "Delete default contact methods"
-msgstr ""
+msgstr "Удалить заданные по умолчанию каналы для связи"
 
 #: ../includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../includes/form/other.php:64
 msgid "Remove Update Notification"
-msgstr ""
+msgstr "Удалить извещения по обновлению"
 
 #: ../includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
@@ -125,7 +125,7 @@ msgstr ""
 
 #: ../includes/form/post.php:3
 msgid "Posts & Pages"
-msgstr ""
+msgstr "Записи и страницы"
 
 #: ../includes/form/post.php:6
 msgid "Delete meta boxes for Posts"
@@ -137,7 +137,7 @@ msgstr ""
 
 #: ../includes/form/post.php:44
 msgid "Revision Control"
-msgstr ""
+msgstr "Контроль ревизий"
 
 #: ../includes/form/post.php:46
 msgid "Please select limit the number of allowed revisions."
@@ -145,19 +145,19 @@ msgstr ""
 
 #: ../includes/form/post.php:48
 msgid "Store All"
-msgstr ""
+msgstr "Сохранить все"
 
 #: ../includes/form/post.php:64
 msgid "Disable Auto Save"
-msgstr ""
+msgstr "Отключить автосохранение"
 
 #: ../includes/form/post.php:71
 msgid "Stop Self Pings"
-msgstr ""
+msgstr "Остановить пинг внутри сайта"
 
 #: ../includes/form/post.php:73
 msgid "Stop sending pings from your own site to your own site when you write posts."
-msgstr ""
+msgstr "Остановить отсылку пингов внутри сайта (при написании записей, ссылающихся на уже существующие)."
 
 #: ../includes/form/post.php:79
 msgid "Add \"Excerpt\" support for Pages."
@@ -169,11 +169,11 @@ msgstr ""
 
 #: ../includes/form/sidebar.php:2
 msgid "WordPress Plugins"
-msgstr ""
+msgstr "Плагины WordPress"
 
 #: ../includes/form/sidebar.php:13
 msgid "This Plugin needs your support"
-msgstr ""
+msgstr "Это плагин нуждается в Вашей поддержке"
 
 #: ../includes/form/sidebar.php:14
 msgid "Please help support the continued development."
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../includes/form/sidebar.php:20
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #: ../includes/form/site.php:2
 msgid "Site Settings"
@@ -193,11 +193,11 @@ msgstr "Общие настройки"
 
 #: ../includes/form/site.php:5
 msgid "Add a favicon"
-msgstr ""
+msgstr "Добавить favicon для сайта"
 
 #: ../includes/form/site.php:7
 msgid "Please upload .ico image."
-msgstr ""
+msgstr "Загрузите .ico файл."
 
 #: ../includes/form/site.php:14
 msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../includes/form/site.php:38
 msgid "Remove #more anchor"
-msgstr ""
+msgstr "Удалить #more якорь"
 
 #: ../includes/form/site.php:40
 msgid "Remove #more-xxx anchor from more links."
@@ -234,7 +234,7 @@ msgstr ""
 
 #: ../includes/form/site.php:46
 msgid "Remove \"[...]\" from excerpt"
-msgstr ""
+msgstr "Удалить \"[...]\" из отрывков"
 
 #: ../includes/form/site.php:48
 msgid "Remove \"[...]\" from output of the_excerpt()."
@@ -242,42 +242,42 @@ msgstr ""
 
 #: ../includes/form/site.php:54
 msgid "Install Google Analytics"
-msgstr ""
+msgstr "Установить код Google Analytics"
 
 #: ../includes/form/site.php:56
 msgid "Add Google analytics code."
-msgstr ""
+msgstr "Добавить код Google analytics."
 
 #: ../includes/form/site.php:63
 msgid "Exclude user logged in."
-msgstr ""
+msgstr "Exclude user logged in."
 
 #: ../includes/form/site.php:68
 msgid "Webmaster Tools Verification"
-msgstr ""
+msgstr "Подтверждение прав на управление сайтом"
 
 #: ../includes/form/site.php:70
 msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
-msgstr ""
+msgstr "Введите ключ \"content\" значения для отслеживания блога с помощью <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 #: ../includes/wpbiz_admin.php:313
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: ../includes/wpbiz_admin.php:337
 msgid "Deactivate"
-msgstr ""
+msgstr "Деактивировать"
 
 #: ../includes/wpbiz_admin.php:339
 #: ../includes/wpbiz_admin.php:341
 msgid "Activate"
-msgstr ""
+msgstr "Активировать"
 
 #: ../wp-total-hacks.php:282
 msgid "Settings"
-msgstr ""
+msgstr "Настройки"
 
 #: ../wp-total-hacks.php:285
 msgid "Donate"
-msgstr ""
+msgstr "Спонсировать"
 
