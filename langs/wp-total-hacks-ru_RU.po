@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 22:41+0300\n"
+"PO-Revision-Date: 2011-05-24 22:55+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Изменить логотип в форме входа"
 
 #: ../includes/form/appearance.php:32
 msgid "You can customize logo, URL and Title. The logo image size is recommended 310 x 70 pixel."
-msgstr ""
+msgstr "Вы имеете возможность изменить logo, URL и Title. Рекомендуемый размер логотипа - 310 x 70 px."
 
 #: ../includes/form/appearance.php:35
 msgid "Logo"
@@ -67,7 +67,7 @@ msgstr "Переводчики"
 
 #: ../includes/form/footer.php:7
 msgid "Contributors"
-msgstr "Спонсоры"
+msgstr "Разработчики"
 
 #: ../includes/form/other.php:2
 msgid "Other"
@@ -93,7 +93,7 @@ msgstr "\"Webmaster\" - роль с возможностями \"Editor\" + \"ed
 
 #: ../includes/form/other.php:32
 msgid "Change the default eamil address"
-msgstr ""
+msgstr "Изменить e-mail по умолчанию"
 
 #: ../includes/form/other.php:34
 msgid "Change the default eamil address and sender name."
@@ -121,7 +121,7 @@ msgstr "Удалить извещения по обновлению"
 
 #: ../includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
-msgstr ""
+msgstr "Убрать уведомления о обновлениях для всех пользователей за исключением Администратора."
 
 #: ../includes/form/post.php:3
 msgid "Posts & Pages"
@@ -177,15 +177,15 @@ msgstr "Это плагин нуждается в Вашей поддержке"
 
 #: ../includes/form/sidebar.php:14
 msgid "Please help support the continued development."
-msgstr ""
+msgstr "Вы можете оказать поддержку для продолжения разработки."
 
 #: ../includes/form/sidebar.php:16
 msgid "$200+ makes you an official contributor."
-msgstr ""
+msgstr "Более $200+ пожертвовано официальному разработчику."
 
 #: ../includes/form/sidebar.php:20
 msgid "Contact"
-msgstr "Контакт"
+msgstr "Контакты"
 
 #: ../includes/form/site.php:2
 msgid "Site Settings"
@@ -201,7 +201,7 @@ msgstr "Загрузите .ico файл."
 
 #: ../includes/form/site.php:14
 msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
-msgstr ""
+msgstr "Установить автоматическое удаление \"wlwmanifest\" и \"xmlrpc\" из блока <head>."
 
 #: ../includes/form/site.php:16
 #, php-format
@@ -218,11 +218,11 @@ msgstr ""
 
 #: ../includes/form/site.php:30
 msgid "Remove version number from head"
-msgstr ""
+msgstr "Удалить номер версии Wordpress из секции <head> html разметки"
 
 #: ../includes/form/site.php:32
 msgid "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
-msgstr ""
+msgstr "Удалить тег \"generator\" из секции <head> html разметки: <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
 #: ../includes/form/site.php:38
 msgid "Remove #more anchor"
@@ -230,7 +230,7 @@ msgstr "Удалить #more якорь"
 
 #: ../includes/form/site.php:40
 msgid "Remove #more-xxx anchor from more links."
-msgstr ""
+msgstr "Удалить #more-xxx якорь для ссылок \"Подробнее\"."
 
 #: ../includes/form/site.php:46
 msgid "Remove \"[...]\" from excerpt"
@@ -238,7 +238,7 @@ msgstr "Удалить \"[...]\" из отрывков"
 
 #: ../includes/form/site.php:48
 msgid "Remove \"[...]\" from output of the_excerpt()."
-msgstr ""
+msgstr "Удалить \"[...]\" из вывода функции the_excerpt()."
 
 #: ../includes/form/site.php:54
 msgid "Install Google Analytics"
@@ -258,7 +258,7 @@ msgstr "Подтверждение прав на управление сайто
 
 #: ../includes/form/site.php:70
 msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
-msgstr "Введите ключ \"content\" значения для отслеживания блога с помощью <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+msgstr "Введите ключ для отслеживания блога с помощью <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 #: ../includes/wpbiz_admin.php:313
 msgid "Save Changes"
