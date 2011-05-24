@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 23:26+0300\n"
+"PO-Revision-Date: 2011-05-24 23:36+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -258,7 +258,7 @@ msgstr "Подтверждение прав на управление сайто
 
 #: ../includes/form/site.php:70
 msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
-msgstr "Введите ключ для отслеживания блога с помощью <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+msgstr "Введите ключ для отслеживания блога с помощью <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, и <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 #: ../includes/wpbiz_admin.php:313
 msgid "Save Changes"
