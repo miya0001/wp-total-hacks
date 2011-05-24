@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 23:17+0300\n"
+"PO-Revision-Date: 2011-05-24 23:21+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -266,12 +266,12 @@ msgstr "Сохранить изменения"
 
 #: ../includes/wpbiz_admin.php:337
 msgid "Deactivate"
-msgstr "Деактивировать"
+msgstr "Выключить"
 
 #: ../includes/wpbiz_admin.php:339
 #: ../includes/wpbiz_admin.php:341
 msgid "Activate"
-msgstr "Активировать"
+msgstr "Включить"
 
 #: ../wp-total-hacks.php:282
 msgid "Settings"
