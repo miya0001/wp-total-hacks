@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 23:21+0300\n"
+"PO-Revision-Date: 2011-05-24 23:24+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgstr "Общие настройки"
 
 #: ../includes/form/site.php:5
 msgid "Add a favicon"
-msgstr "Добавить favicon для сайта"
+msgstr "Добавить иконку для сайта"
 
 #: ../includes/form/site.php:7
 msgid "Please upload .ico image."
@@ -206,7 +206,7 @@ msgstr "Установить автоматическое удаление \"wlw
 #: ../includes/form/site.php:16
 #, php-format
 msgid "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove unnecessary tags from head."
-msgstr "Если \"<a href=\"%s\">Remote Publishing</a>\" не используется, можно удалить  \"лишние\" теги из секции <head> html разметки."
+msgstr "Если \"<a href=\"%s\">Удалённая публикация</a>\" не используется, можно удалить  \"лишние\" теги из секции <b>head</b> html разметки."
 
 #: ../includes/form/site.php:22
 msgid "Remove adjacent posts rel links from head on Pages"
