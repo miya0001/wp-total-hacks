@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: 2011-05-24 22:55+0300\n"
+"PO-Revision-Date: 2011-05-24 23:09+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
 "MIME-Version: 1.0\n"
@@ -55,11 +55,11 @@ msgstr "Логотип"
 
 #: ../includes/form/appearance.php:37
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../includes/form/appearance.php:39
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: ../includes/form/footer.php:2
 msgid "Translators"
@@ -81,7 +81,7 @@ msgstr "Деактивировать виджеты в консоли"
 #: ../includes/form/post.php:8
 #: ../includes/form/post.php:27
 msgid "Click on the check box that you want to delete."
-msgstr ""
+msgstr "Отметьте какие блоки Вы хотели бы скрыть."
 
 #: ../includes/form/other.php:24
 msgid "Add role \"Webmaster\""
@@ -97,7 +97,7 @@ msgstr "Изменить e-mail по умолчанию"
 
 #: ../includes/form/other.php:34
 msgid "Change the default eamil address and sender name."
-msgstr ""
+msgstr "Изменение e-mail адреса и имени отправителя по умолчанию."
 
 #: ../includes/form/other.php:36
 msgid "Name"
@@ -113,7 +113,7 @@ msgstr "Удалить заданные по умолчанию каналы д�
 
 #: ../includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
-msgstr ""
+msgstr "Удалить заданные по умолчанию методы обратной связи из профиля пользователя."
 
 #: ../includes/form/other.php:64
 msgid "Remove Update Notification"
@@ -129,11 +129,11 @@ msgstr "Записи и страницы"
 
 #: ../includes/form/post.php:6
 msgid "Delete meta boxes for Posts"
-msgstr ""
+msgstr "Удаление отдельных блоков из формы Записи"
 
 #: ../includes/form/post.php:25
 msgid "Delete meta boxes for Pages"
-msgstr ""
+msgstr "Удаление отдельных блоков из формы Страница"
 
 #: ../includes/form/post.php:44
 msgid "Revision Control"
@@ -141,7 +141,7 @@ msgstr "Контроль ревизий"
 
 #: ../includes/form/post.php:46
 msgid "Please select limit the number of allowed revisions."
-msgstr ""
+msgstr "Укажите количество сохраняемых ревизий."
 
 #: ../includes/form/post.php:48
 msgid "Store All"
@@ -161,15 +161,15 @@ msgstr "Остановить отсылку пингов внутри сайта
 
 #: ../includes/form/post.php:79
 msgid "Add \"Excerpt\" support for Pages."
-msgstr ""
+msgstr "Добавить поддержку \"Цитат\" для Страниц."
 
 #: ../includes/form/post.php:81
 msgid "Requires to add excerpt text in a Pages."
-msgstr ""
+msgstr "Установить поддержку цитирования текста для Страниц."
 
 #: ../includes/form/sidebar.php:2
 msgid "WordPress Plugins"
-msgstr "Плагины WordPress"
+msgstr "Плагины автора для WordPress"
 
 #: ../includes/form/sidebar.php:13
 msgid "This Plugin needs your support"
@@ -181,7 +181,7 @@ msgstr "Вы можете оказать поддержку для продол�
 
 #: ../includes/form/sidebar.php:16
 msgid "$200+ makes you an official contributor."
-msgstr "Более $200+ пожертвовано официальному разработчику."
+msgstr "Более $200 получено официальным разработчиком."
 
 #: ../includes/form/sidebar.php:20
 msgid "Contact"
@@ -206,15 +206,15 @@ msgstr "Установить автоматическое удаление \"wlw
 #: ../includes/form/site.php:16
 #, php-format
 msgid "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove unnecessary tags from head."
-msgstr ""
+msgstr "Если \"<a href=\"%s\">Remote Publishing</a>\" не используется, можно удалить  \"лишние\" теги из секции <head> html разметки."
 
 #: ../includes/form/site.php:22
 msgid "Remove adjacent posts rel links from head on Pages"
-msgstr ""
+msgstr "Удалить ссылки на \"смежные\" записи из <head> секции html разметки"
 
 #: ../includes/form/site.php:24
 msgid "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
-msgstr ""
+msgstr "Удалить ссылки на смежные записи из <head> секции html разметки на Страницах.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
 #: ../includes/form/site.php:30
 msgid "Remove version number from head"
