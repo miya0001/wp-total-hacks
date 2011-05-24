@@ -96,9 +96,6 @@ public function init()
     if ($this->op("wfb_pageexcerpt")) {
         add_post_type_support('page', 'excerpt');
     }
-    if ($this->op("wfb_pageexcerpt")) {
-        add_post_type_support('page', 'excerpt');
-    }
 }
 
 public function wp_print_scripts()
