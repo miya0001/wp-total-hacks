@@ -263,7 +263,7 @@ msgstr "Google Analytics をインストール"
 
 #: ../includes/form/site.php:56
 msgid "Add Google analytics code."
-msgstr "Google Abalytics コードを入力してください。"
+msgstr "Google Analytics コードを入力してください。"
 
 #: ../includes/form/site.php:63
 msgid "Exclude user logged in."
