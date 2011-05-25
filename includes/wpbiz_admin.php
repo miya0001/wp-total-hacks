@@ -23,6 +23,10 @@ private $translators = array(
         'lang' => 'Russian',
         'url' => 'http://lezhnevs.ru/',
     ),
+    'Serkan Algur' => array(
+        'lang' => 'Turkish',
+        'url' => 'http://www.kaisercrazy.com/',
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
