@@ -65,7 +65,6 @@ Please contact to me.
 2. Posts & Pages
 3. Appearance in Admin
 4. Other
-5. Customized Login logo
 
 == Changelog ==
 
