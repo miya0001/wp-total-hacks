@@ -12,7 +12,7 @@ WP Total Hacks can customize more than 20 settings on your WordPress Site.
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 
-http://www.youtube.com/watch?v=cTkaX9vTVp8
+http://www.youtube.com/watch?v=05LFDZJwPAE
 
 [This Plugin published on GitHub.](https://github.com/miya0001/wp-total-hacks)
 
