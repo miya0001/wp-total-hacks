@@ -77,13 +77,13 @@ msgid "Other"
 msgstr "Diğer"
 
 #: ../includes/form/other.php:5
-msgid "Deactive Dashboard Widgets"
+msgid "Deactivate Dashboard Widgets"
 msgstr "Yönetim alanı bileşenlerini etkisizleştir"
 
 #: ../includes/form/other.php:7
 #: ../includes/form/post.php:8
 #: ../includes/form/post.php:27
-msgid "Click on the check box that you want to delete."
+msgid "Choose the items you want to remove."
 msgstr "Kaldırmak istediklerinizin yanındaki seçim kutucuğuna tıkalyın"
 
 #: ../includes/form/other.php:24
@@ -91,15 +91,15 @@ msgid "Add role \"Webmaster\""
 msgstr "\"Webmaster\" rolü ekle"
 
 #: ../includes/form/other.php:26
-msgid "\"Webmaster\" is role able to \"Editor\" + \"edit_theme_options\"."
+msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
 msgstr "\"Webmaster\" rolü \"Editor\" + \"edit_theme_options\"."
 
 #: ../includes/form/other.php:32
-msgid "Change the default eamil address"
+msgid "Change default email address"
 msgstr "Varsayılan e-posta adresini değiştir"
 
 #: ../includes/form/other.php:34
-msgid "Change the default eamil address and sender name."
+msgid "Change the email address and sender name used by automatic email notifications."
 msgstr "Varsayılan e-posta adresi ve gönderen ismini değiştir."
 
 #: ../includes/form/other.php:36
@@ -127,15 +127,15 @@ msgid "Remove Update Notification for all users except Admin User."
 msgstr "Yönetici hariç tüm kullanıcılardan güncelleme bildirimlerini kaldır"
 
 #: ../includes/form/post.php:3
-msgid "Posts & Pages"
+msgid "Posts &amp; Pages"
 msgstr "Yazı ve Sayfalar"
 
 #: ../includes/form/post.php:6
-msgid "Delete meta boxes for Posts"
+msgid "Remove meta boxes for Posts"
 msgstr "Yazıların meta kutularını kaldır"
 
 #: ../includes/form/post.php:25
-msgid "Delete meta boxes for Pages"
+msgid "Remove meta boxes for Pages"
 msgstr "Sayfaların meta kurularını kaldır"
 
 #: ../includes/form/post.php:44
@@ -143,7 +143,7 @@ msgid "Revision Control"
 msgstr "Revizyon kontrolü"
 
 #: ../includes/form/post.php:46
-msgid "Please select limit the number of allowed revisions."
+msgid "Limit the number of revisions allowed."
 msgstr "İzin verilen revizyon sayısını belirleyin"
 
 #: ../includes/form/post.php:48
@@ -155,11 +155,11 @@ msgid "Disable Auto Save"
 msgstr "Otomatik kaydı kapat"
 
 #: ../includes/form/post.php:71
-msgid "Stop Self Pings"
+msgid "Stop self-pingbacks"
 msgstr "Kendine ping atmasını durdur"
 
 #: ../includes/form/post.php:73
-msgid "Stop sending pings from your own site to your own site when you write posts."
+msgid "Stop sending pingbacks from your own site to your own site when writing posts."
 msgstr "Sitenizin kendi kendisine ping atmasını engeller (site içi linkler ile ilgili)"
 
 #: ../includes/form/post.php:79
@@ -167,7 +167,7 @@ msgid "Add \"Excerpt\" support for Pages."
 msgstr "Sayfalar için \"Devamını oku\" desteğini aktif et"
 
 #: ../includes/form/post.php:81
-msgid "Requires to add excerpt text in a Pages."
+msgid "Allows you to add excerpt text to pages."
 msgstr "Devamını oku ibaresinin sayfalara eklenmesini gerektirir."
 
 #: ../includes/form/sidebar.php:2
@@ -203,7 +203,7 @@ msgid "Please upload .ico image."
 msgstr "Lütfen .ico dosyası yükleyin"
 
 #: ../includes/form/site.php:14
-msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
+msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "\"wlwmanifest\" ve \"xmlrpc\" nin otomatik olarak silinmesini aktif et"
 
 #: ../includes/form/site.php:16

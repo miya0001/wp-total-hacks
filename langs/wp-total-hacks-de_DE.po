@@ -1,104 +1,100 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-05-23 14:56+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2011-06-03 09:49+0100\n"
+"Last-Translator: Felix Kern <kernfel@gmail.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../includes/form/appearance.php:3
 msgid "Appearance in admin"
-msgstr ""
+msgstr "Admin-Erscheinungsbild"
 
 #: ../includes/form/appearance.php:6
 msgid "Change admin header logo"
-msgstr ""
+msgstr "Admin-Kopfzeilenlogo ändern"
 
 #: ../includes/form/appearance.php:8
 msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr ""
+msgstr "Lade ein Kopfzeilenlogo hoch (Bilddatei, 30*30 Pixel)."
 
-#: ../includes/form/appearance.php:11 ../includes/form/appearance.php:36
+#: ../includes/form/appearance.php:11
+#: ../includes/form/appearance.php:36
 msgid "Select File"
-msgstr ""
+msgstr "Datei auswählen..."
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"
-msgstr ""
+msgstr "Admin-Fußzeilentext ändern"
 
 #: ../includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
-msgstr ""
+msgstr "Du kannst deinen eigenen Fußzeilentext festlegen. (Zeilenumbrüche werden entfernt!)"
 
 #: ../includes/form/appearance.php:30
 msgid "Change login logo"
-msgstr ""
+msgstr "Login-Logo ändern"
 
 #: ../includes/form/appearance.php:32
-msgid ""
-"You can customize logo, URL and Title. The logo image size is recommended "
-"310 x 70 pixel."
-msgstr ""
+msgid "You can customize logo, URL and Title. The logo image size is recommended 310 x 70 pixel."
+msgstr "Du kannst das Logo, die URL und den Titel der Loginseite ändern. Das Logo sollte 310*70 Pixel groß sein."
 
 #: ../includes/form/appearance.php:35
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: ../includes/form/appearance.php:37
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../includes/form/appearance.php:39
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: ../includes/form/footer.php:2
 msgid "Translators"
-msgstr ""
+msgstr "Übersetzer"
 
 #: ../includes/form/footer.php:7
 msgid "Contributors"
-msgstr ""
+msgstr "Mitwirkende"
 
 #: ../includes/form/other.php:2
 msgid "Other"
-msgstr ""
+msgstr "Diverse"
 
 #: ../includes/form/other.php:5
 msgid "Deactivate Dashboard Widgets"
-msgstr ""
+msgstr "Dashboard-Widgets deaktivieren"
 
-#: ../includes/form/other.php:7 ../includes/form/post.php:8
+#: ../includes/form/other.php:7
+#: ../includes/form/post.php:8
 #: ../includes/form/post.php:27
 msgid "Choose the items you want to remove."
-msgstr ""
+msgstr "Wähle die Elemente, die nicht angezeigt werden sollen."
 
 #: ../includes/form/other.php:24
 msgid "Add role \"Webmaster\""
-msgstr ""
+msgstr "Benutzerrolle \"Webmaster\" hinzufügen"
 
 #: ../includes/form/other.php:26
 msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
-msgstr ""
+msgstr "\"Webmaster\" haben die gleichen Befugnisse wie \"Redakteure\" und können zusätzlich Theme-Optionen bearbeiten."
 
 #: ../includes/form/other.php:32
 msgid "Change default email address"
-msgstr ""
+msgstr "E-Mail-Adresse ändern"
 
 #: ../includes/form/other.php:34
 msgid "Change the email address and sender name used by automatic email notifications."
-msgstr ""
+msgstr "Ändere den Absender automatischer versandter E-Mails."
 
 #: ../includes/form/other.php:36
 msgid "Name"
@@ -110,166 +106,155 @@ msgstr ""
 
 #: ../includes/form/other.php:45
 msgid "Delete default contact methods"
-msgstr ""
+msgstr "Kontaktinfos entfernen"
 
 #: ../includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
-msgstr ""
+msgstr "Wähle die Kontaktinfos, die im Profil nicht angezeigt werden sollen."
 
 #: ../includes/form/other.php:64
 msgid "Remove Update Notification"
-msgstr ""
+msgstr "Update-Meldungen unterdrücken"
 
 #: ../includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
-msgstr ""
+msgstr "Unterdrückt Update-Meldungen für alle Benutzer außer Administratoren."
 
 #: ../includes/form/post.php:3
 msgid "Posts &amp; Pages"
-msgstr ""
+msgstr "Artikel &amp; Seiten"
 
 #: ../includes/form/post.php:6
 msgid "Remove meta boxes for Posts"
-msgstr ""
+msgstr "Metaboxen für Artikel entfernen"
 
 #: ../includes/form/post.php:25
 msgid "Remove meta boxes for Pages"
-msgstr ""
+msgstr "Metaboxen für Seiten entfernen"
 
 #: ../includes/form/post.php:44
 msgid "Revision Control"
-msgstr ""
+msgstr "Revisionskontrolle"
 
 #: ../includes/form/post.php:46
 msgid "Limit the number of revisions allowed."
-msgstr ""
+msgstr "Beschränke die mögliche Anzahl von Revisionen."
 
 #: ../includes/form/post.php:48
 msgid "Store All"
-msgstr ""
+msgstr "Unbegrenzt"
 
 #: ../includes/form/post.php:64
 msgid "Disable Auto Save"
-msgstr ""
+msgstr "Automatisches Speichern deaktivieren"
 
 #: ../includes/form/post.php:71
 msgid "Stop self-pingbacks"
-msgstr ""
+msgstr "Pingbacks auf eigene Artikel verhindern"
 
 #: ../includes/form/post.php:73
-msgid ""
-"Stop sending pingbacks from your own site to your own site when writing posts."
-msgstr ""
+msgid "Stop sending pingbacks from your own site to your own site when writing posts."
+msgstr "Verhindert, dass deine Artikel Pingbacks von anderen deiner Artikel erhalten."
 
 #: ../includes/form/post.php:79
 msgid "Add \"Excerpt\" support for Pages."
-msgstr ""
+msgstr "Auszüge für Seiten ermöglichen"
 
 #: ../includes/form/post.php:81
 msgid "Allows you to add excerpt text to pages."
-msgstr ""
+msgstr "Ermöglicht das Hinzufügen von Auszügen bei Seiten."
 
 #: ../includes/form/sidebar.php:2
 msgid "WordPress Plugins"
-msgstr ""
+msgstr "WordPress Plugins"
 
 #: ../includes/form/sidebar.php:13
 msgid "This Plugin needs your support"
-msgstr ""
+msgstr "Dieses Plugin braucht deine Unterstützung"
 
 #: ../includes/form/sidebar.php:14
 msgid "Please help support the continued development."
-msgstr ""
+msgstr "Hilf mit, seine weitere Entwicklung zu finanzieren."
 
 #: ../includes/form/sidebar.php:16
 msgid "$200+ makes you an official contributor."
-msgstr ""
+msgstr "Ab 200$ wirst du als Mitwirkende/r aufgeführt."
 
 #: ../includes/form/sidebar.php:20
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: ../includes/form/site.php:2
 msgid "Site Settings"
-msgstr ""
+msgstr "Seiteneinstellungen"
 
 #: ../includes/form/site.php:5
 msgid "Add a favicon"
-msgstr ""
+msgstr "Favicon hinzufügen"
 
 #: ../includes/form/site.php:7
 msgid "Please upload .ico image."
-msgstr ""
+msgstr "Lade eine .ico-Bilddatei hoch."
 
 #: ../includes/form/site.php:14
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
-msgstr ""
+msgstr "\"wlwmanifest\"- und \"xmlrpc\"-Tags entfernen"
 
 #: ../includes/form/site.php:16
 #, php-format
-msgid ""
-"If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
-"unnecessary tags from head."
-msgstr ""
+msgid "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove unnecessary tags from head."
+msgstr "Wenn du \"<a href=\"%s\">Fernpublizieren</a>\" nicht verwendest, kannst du diese unnötigen Tags aus dem &lt;head&gt; entfernen."
 
 #: ../includes/form/site.php:22
 msgid "Remove adjacent posts rel links from head on Pages"
-msgstr ""
+msgstr "rel-Links zu angrenzenden Artikel aus dem &lt;head&gt; von Seiten entfernen"
 
 #: ../includes/form/site.php:24
-msgid ""
-"Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
-"\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
-msgstr ""
+msgid "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
+msgstr "Entfernt diese bei Seiten unnötigen Links.<br /><span class=\"ex\">z.B. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
 #: ../includes/form/site.php:30
 msgid "Remove version number from head"
-msgstr ""
+msgstr "Versionsnummer aus dem &lt;head&gt; entfernen"
 
 #: ../includes/form/site.php:32
-msgid ""
-"Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
-"\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
-msgstr ""
+msgid "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
+msgstr "Entfernt den Generator-Tag (<span class=\"ex\">&lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>) aus dem &lt;head&gt;."
 
 #: ../includes/form/site.php:38
 msgid "Remove #more anchor"
-msgstr ""
+msgstr "#more-Anker entfernen"
 
 #: ../includes/form/site.php:40
 msgid "Remove #more-xxx anchor from more links."
-msgstr ""
+msgstr "Entfernt den \"#more-xxx\"-Anker aus den \"Weiterlesen\"-Links."
 
 #: ../includes/form/site.php:46
 msgid "Remove \"[...]\" from excerpt"
-msgstr ""
+msgstr "\"[...]\" aus Auszügen entfernen"
 
 #: ../includes/form/site.php:48
 msgid "Remove \"[...]\" from output of the_excerpt()."
-msgstr ""
+msgstr "Entfernt \"[...]\" aus dem mit the_excerpt() angeforderten Text."
 
 #: ../includes/form/site.php:54
 msgid "Install Google Analytics"
-msgstr ""
+msgstr "Google Analytics installieren"
 
 #: ../includes/form/site.php:56
 msgid "Add Google analytics code."
-msgstr ""
+msgstr "Fügt Google-Analytics-Code ein."
 
 #: ../includes/form/site.php:63
 msgid "Exclude user logged in."
-msgstr ""
+msgstr "Nur für nicht eingeloggte Benutzer"
 
 #: ../includes/form/site.php:68
 msgid "Webmaster Tools Verification"
 msgstr ""
 
 #: ../includes/form/site.php:70
-msgid ""
-"Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 
 #: ../includes/wpbiz_admin.php:313
@@ -280,7 +265,8 @@ msgstr ""
 msgid "Deactivate"
 msgstr ""
 
-#: ../includes/wpbiz_admin.php:339 ../includes/wpbiz_admin.php:341
+#: ../includes/wpbiz_admin.php:339
+#: ../includes/wpbiz_admin.php:341
 msgid "Activate"
 msgstr ""
 
@@ -290,4 +276,5 @@ msgstr ""
 
 #: ../wp-total-hacks.php:285
 msgid "Donate"
-msgstr ""
+msgstr "Spenden"
+

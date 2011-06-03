@@ -74,13 +74,13 @@ msgid "Other"
 msgstr "Дополнительно"
 
 #: ../includes/form/other.php:5
-msgid "Deactive Dashboard Widgets"
+msgid "Deactivate Dashboard Widgets"
 msgstr "Деактивировать виджеты в консоли"
 
 #: ../includes/form/other.php:7
 #: ../includes/form/post.php:8
 #: ../includes/form/post.php:27
-msgid "Click on the check box that you want to delete."
+msgid "Choose the items you want to remove."
 msgstr "Отметьте какие блоки Вы хотели бы скрыть."
 
 #: ../includes/form/other.php:24
@@ -88,15 +88,15 @@ msgid "Add role \"Webmaster\""
 msgstr "Добавить роль \"Webmaster\""
 
 #: ../includes/form/other.php:26
-msgid "\"Webmaster\" is role able to \"Editor\" + \"edit_theme_options\"."
+msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
 msgstr "\"Webmaster\" - роль с возможностями \"Editor\" + \"edit_theme_options\"."
 
 #: ../includes/form/other.php:32
-msgid "Change the default eamil address"
+msgid "Change default email address"
 msgstr "Изменить e-mail по умолчанию"
 
 #: ../includes/form/other.php:34
-msgid "Change the default eamil address and sender name."
+msgid "Change the email address and sender name used by automatic email notifications."
 msgstr "Изменение e-mail адреса и имени отправителя по умолчанию."
 
 #: ../includes/form/other.php:36
@@ -124,15 +124,15 @@ msgid "Remove Update Notification for all users except Admin User."
 msgstr "Убрать уведомления о обновлениях для всех пользователей за исключением Администратора."
 
 #: ../includes/form/post.php:3
-msgid "Posts & Pages"
+msgid "Posts &amp; Pages"
 msgstr "Записи и страницы"
 
 #: ../includes/form/post.php:6
-msgid "Delete meta boxes for Posts"
+msgid "Remove meta boxes for Posts"
 msgstr "Убрать отдельные блоки из формы Записи"
 
 #: ../includes/form/post.php:25
-msgid "Delete meta boxes for Pages"
+msgid "Remove meta boxes for Pages"
 msgstr "Убрать отдельные блоки из формы Страница"
 
 #: ../includes/form/post.php:44
@@ -140,7 +140,7 @@ msgid "Revision Control"
 msgstr "Контроль ревизий"
 
 #: ../includes/form/post.php:46
-msgid "Please select limit the number of allowed revisions."
+msgid "Limit the number of revisions allowed."
 msgstr "Укажите количество сохраняемых ревизий."
 
 #: ../includes/form/post.php:48
@@ -152,11 +152,11 @@ msgid "Disable Auto Save"
 msgstr "Отключить автосохранение"
 
 #: ../includes/form/post.php:71
-msgid "Stop Self Pings"
+msgid "Stop self-pingbacks"
 msgstr "Остановить пинг внутри сайта"
 
 #: ../includes/form/post.php:73
-msgid "Stop sending pings from your own site to your own site when you write posts."
+msgid "Stop sending pingbacks from your own site to your own site when writing posts."
 msgstr "Остановить отсылку пингов внутри сайта (при написании записей, ссылающихся на уже существующие)."
 
 #: ../includes/form/post.php:79
@@ -164,7 +164,7 @@ msgid "Add \"Excerpt\" support for Pages."
 msgstr "Добавить поддержку \"Цитат\" для Страниц."
 
 #: ../includes/form/post.php:81
-msgid "Requires to add excerpt text in a Pages."
+msgid "Allows you to add excerpt text to pages."
 msgstr "Установить поддержку цитирования текста для Страниц."
 
 #: ../includes/form/sidebar.php:2
@@ -200,7 +200,7 @@ msgid "Please upload .ico image."
 msgstr "Загрузите .ico файл."
 
 #: ../includes/form/site.php:14
-msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
+msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "Установить автоматическое удаление \"wlwmanifest\" и \"xmlrpc\" из блока <head>."
 
 #: ../includes/form/site.php:16

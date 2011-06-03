@@ -1,11 +1,11 @@
 
 <div id="post" class="tab">
-<h3><?php _e('Posts & Pages', 'wp-total-hacks'); ?></h3>
+<h3><?php _e('Posts &amp; Pages', 'wp-total-hacks'); ?></h3>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete meta boxes for Posts', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove meta boxes for Posts', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Click on the check box that you want to delete.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Choose the items you want to remove.', 'wp-total-hacks'); ?></p>
         <ul>
             <?php foreach ($this->post_metas as $wgt => $pos): ?>
             <li>
@@ -22,9 +22,9 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Delete meta boxes for Pages', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove meta boxes for Pages', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Click on the check box that you want to delete.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Choose the items you want to remove.', 'wp-total-hacks'); ?></p>
         <ul>
             <?php foreach ($this->page_metas as $wgt => $pos): ?>
             <li>
@@ -43,7 +43,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Revision Control', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Please select limit the number of allowed revisions.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Limit the number of revisions allowed.', 'wp-total-hacks'); ?></p>
         <select name="wfb_revision" id="wfb_revision">
             <option value=""><?php _e('Store All', 'wp-total-hacks'); ?></option>
             <?php for($i=0; $i<21; $i++): ?>
@@ -68,9 +68,9 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Stop Self Pings', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Stop self-pingbacks', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Stop sending pings from your own site to your own site when you write posts.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Stop sending pingbacks from your own site to your own site when writing posts.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_selfping'); ?>
     </div>
 </div>
@@ -78,7 +78,7 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add "Excerpt" support for Pages.', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Requires to add excerpt text in a Pages.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Allows you to add excerpt text to pages.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_pageexcerpt'); ?>
     </div>
 </div>

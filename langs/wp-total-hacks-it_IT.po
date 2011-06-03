@@ -74,13 +74,13 @@ msgid "Other"
 msgstr "Altro"
 
 #: ../includes/form/other.php:5
-msgid "Deactive Dashboard Widgets"
+msgid "Deactivate Dashboard Widgets"
 msgstr "Disattiva Widgets Bacheca"
 
 #: ../includes/form/other.php:7
 #: ../includes/form/post.php:8
 #: ../includes/form/post.php:27
-msgid "Click on the check box that you want to delete."
+msgid "Choose the items you want to remove."
 msgstr "Click sul check box per cancellare"
 
 #: ../includes/form/other.php:24
@@ -88,15 +88,15 @@ msgid "Add role \"Webmaster\""
 msgstr "Aggiungi ruolo \"Webmaster\""
 
 #: ../includes/form/other.php:26
-msgid "\"Webmaster\" is role able to \"Editor\" + \"edit_theme_options\"."
+msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
 msgstr "\"Webmaster\"  è ruolo  analogo a \"Editor\" + \"edit_theme_options\" "
 
 #: ../includes/form/other.php:32
-msgid "Change the default eamil address"
+msgid "Change default email address"
 msgstr "Cambia valore email di default"
 
 #: ../includes/form/other.php:34
-msgid "Change the default eamil address and sender name."
+msgid "Change the email address and sender name used by automatic email notifications."
 msgstr "Cambia valore email di default e nome del sender"
 
 #: ../includes/form/other.php:36
@@ -124,15 +124,15 @@ msgid "Remove Update Notification for all users except Admin User."
 msgstr "Rimuovi notifiche di aggiornamento per tutti utenti tranne Amministratore"
 
 #: ../includes/form/post.php:3
-msgid "Posts & Pages"
+msgid "Posts &amp; Pages"
 msgstr "Articoli e Pagine"
 
 #: ../includes/form/post.php:6
-msgid "Delete meta boxes for Posts"
+msgid "Remove meta boxes for Posts"
 msgstr "Elimina meta box per Articoli"
 
 #: ../includes/form/post.php:25
-msgid "Delete meta boxes for Pages"
+msgid "Remove meta boxes for Pages"
 msgstr "Elimina meta box per Pagine"
 
 #: ../includes/form/post.php:44
@@ -140,7 +140,7 @@ msgid "Revision Control"
 msgstr "Controllo revisioni"
 
 #: ../includes/form/post.php:46
-msgid "Please select limit the number of allowed revisions."
+msgid "Limit the number of revisions allowed."
 msgstr "Seleziona numero di revisione ammesse"
 
 #: ../includes/form/post.php:48
@@ -152,11 +152,11 @@ msgid "Disable Auto Save"
 msgstr "Disabilita Salvataggio Automatico"
 
 #: ../includes/form/post.php:71
-msgid "Stop Self Pings"
-msgstr "Stop Self Pings"
+msgid "Stop self-pingbacks"
+msgstr "Stop self-pingbacks"
 
 #: ../includes/form/post.php:73
-msgid "Stop sending pings from your own site to your own site when you write posts."
+msgid "Stop sending pingbacks from your own site to your own site when writing posts."
 msgstr "Stop sending pings verso altri siti quando pubblichi contenuti."
 
 #: ../includes/form/post.php:79
@@ -164,7 +164,7 @@ msgid "Add \"Excerpt\" support for Pages."
 msgstr "Aggiungi \"Riassunto\" alle pagine"
 
 #: ../includes/form/post.php:81
-msgid "Requires to add excerpt text in a Pages."
+msgid "Allows you to add excerpt text to pages."
 msgstr "Necessario per aggiungere riassunto alle pagine"
 
 #: ../includes/form/sidebar.php:2
@@ -200,7 +200,7 @@ msgid "Please upload .ico image."
 msgstr "Caricare una immagine .ico"
 
 #: ../includes/form/site.php:14
-msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
+msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "Abilita la rimozione di \"wlwmanifest\" e \"xmlrpc\" dai meta tag"
 
 #: ../includes/form/site.php:16
@@ -222,7 +222,7 @@ msgstr "Rimuovi tag di versione dai meta tag"
 
 #: ../includes/form/site.php:32
 msgid "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
-msgstr "generator タグを head から削除します。<span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
+msgstr "Rimuovi tag di versione dai meta tag. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
 #: ../includes/form/site.php:38
 msgid "Remove #more anchor"

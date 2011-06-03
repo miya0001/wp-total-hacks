@@ -27,7 +27,7 @@ msgstr "管理画面のヘッダーのロゴを変更"
 
 #: ../includes/form/appearance.php:8
 msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr ""
+msgstr "30 x 30 ピクセルの画像をアップロードしてください。"
 
 #: ../includes/form/appearance.php:11 ../includes/form/appearance.php:36
 msgid "Select File"
@@ -78,12 +78,12 @@ msgid "Other"
 msgstr "その他"
 
 #: ../includes/form/other.php:5
-msgid "Deactive Dashboard Widgets"
+msgid "Deactivate Dashboard Widgets"
 msgstr "ダッシュボードウィジェットの無効化"
 
 #: ../includes/form/other.php:7 ../includes/form/post.php:8
 #: ../includes/form/post.php:27
-msgid "Click on the check box that you want to delete."
+msgid "Choose the items you want to remove."
 msgstr "削除したい項目をクリックしてください。"
 
 #: ../includes/form/other.php:24
@@ -91,16 +91,16 @@ msgid "Add role \"Webmaster\""
 msgstr "\"Webmaster\" 権限を追加"
 
 #: ../includes/form/other.php:26
-msgid "\"Webmaster\" is role able to \"Editor\" + \"edit_theme_options\"."
+msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
 msgstr ""
 "\"Webmaster\" は、\"Editor\" 権限と \"edit_theme_options\" が可能です。"
 
 #: ../includes/form/other.php:32
-msgid "Change the default eamil address"
+msgid "Change default email address"
 msgstr "デフォルトのメールアドレスを変更"
 
 #: ../includes/form/other.php:34
-msgid "Change the default eamil address and sender name."
+msgid "Change the email address and sender name used by automatic email notifications."
 msgstr "デフォルトのメールアドレスと送信者名を変更します。"
 
 #: ../includes/form/other.php:36
@@ -128,15 +128,15 @@ msgid "Remove Update Notification for all users except Admin User."
 msgstr "アップデート通知を管理者以外の全てのユーザーに対して停止します。"
 
 #: ../includes/form/post.php:3
-msgid "Posts & Pages"
+msgid "Posts &amp; Pages"
 msgstr "投稿 & ページ"
 
 #: ../includes/form/post.php:6
-msgid "Delete meta boxes for Posts"
+msgid "Remove meta boxes for Posts"
 msgstr "投稿のメタボックスを削除"
 
 #: ../includes/form/post.php:25
-msgid "Delete meta boxes for Pages"
+msgid "Remove meta boxes for Pages"
 msgstr "ページのメタボックスを削除"
 
 #: ../includes/form/post.php:44
@@ -144,7 +144,7 @@ msgid "Revision Control"
 msgstr "リビジョンコントロール"
 
 #: ../includes/form/post.php:46
-msgid "Please select limit the number of allowed revisions."
+msgid "Limit the number of revisions allowed."
 msgstr "保存するリビジョン数を選択してください。"
 
 #: ../includes/form/post.php:48
@@ -156,12 +156,12 @@ msgid "Disable Auto Save"
 msgstr "自動保存を無効"
 
 #: ../includes/form/post.php:71
-msgid "Stop Self Pings"
+msgid "Stop self-pingbacks"
 msgstr "セルフピンバックを停止"
 
 #: ../includes/form/post.php:73
 msgid ""
-"Stop sending pings from your own site to your own site when you write posts."
+"Stop sending pingbacks from your own site to your own site when writing posts."
 msgstr "あなたのサイトからあなたのサイトへのピンバックを停止する。"
 
 #: ../includes/form/post.php:79
@@ -169,7 +169,7 @@ msgid "Add \"Excerpt\" support for Pages."
 msgstr "ページに\"抜粋\"を追加"
 
 #: ../includes/form/post.php:81
-msgid "Requires to add excerpt text in a Pages."
+msgid "Allows you to add excerpt text to pages."
 msgstr "ページに\"抜粋\"を追加できます。"
 
 #: ../includes/form/sidebar.php:2
@@ -205,7 +205,7 @@ msgid "Please upload .ico image."
 msgstr ".ico 画像をアップロードしてください。"
 
 #: ../includes/form/site.php:14
-msgid "Enable auto remove \"wlwmanifest\" and \"xmlrpc\" from meta."
+msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "\"wlwmanifest\" と \"xmlrpc\" の自動削除"
 
 #: ../includes/form/site.php:16

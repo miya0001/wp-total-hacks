@@ -2,9 +2,9 @@
 <h3><?php _e('Other', 'wp-total-hacks'); ?></h3>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Deactive Dashboard Widgets', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Deactivate Dashboard Widgets', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Click on the check box that you want to delete.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Choose the items you want to remove.', 'wp-total-hacks'); ?></p>
         <ul>
             <?php foreach ($this->widgets as $wgt => $pos): ?>
             <li>
@@ -23,15 +23,15 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('"Webmaster" is role able to "Editor" + "edit_theme_options".', 'wp-total-hacks'); ?></p>
+        <p><?php _e('This role has the capabilities of an "Editor", but can also edit theme options.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_webmaster'); ?>
     </div>
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Change the default eamil address', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Change default email address', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Change the default eamil address and sender name.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Change the email address and sender name used by automatic email notifications.', 'wp-total-hacks'); ?></p>
         <dl>
             <dt><?php _e('Name'); ?></dt>
             <dd><input class="text" type="text" name="wfb_sendername" value="<?php $this->op('wfb_sendername')?>" /></dd>
