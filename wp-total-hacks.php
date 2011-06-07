@@ -211,7 +211,7 @@ private function get_meta($name, $content)
 {
     if ($name && $content) {
         return sprintf(
-            '<meta name="%s" content="%s">',
+            '<meta name="%s" content="%s" />',
             $name,
             $content
         );
