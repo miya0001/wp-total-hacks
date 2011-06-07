@@ -9,6 +9,10 @@ private $contributors = array(
         'country' => 'Japan',
         'url' => 'http://twitter.com/#!/miya0001',
     ),
+    'Felix Kern' => array(
+        'country' => 'Germany',
+        'url' => 'http://twitter.com/#!/kernfel',
+    ),
 );
 private $translators = array(
     'Takayuki Miyauchi' => array(
@@ -26,6 +30,10 @@ private $translators = array(
     'Serkan Algur' => array(
         'lang' => 'Turkish',
         'url' => 'http://www.kaisercrazy.com/',
+    ),
+    'Felix Kern' => array(
+        'lang' => 'German',
+        'url' => 'http://twitter.com/#!/kernfel',
     ),
 );
 private $role = 'manage_options';

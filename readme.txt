@@ -4,7 +4,7 @@ Donate link: http://firegoby.theta.ne.jp/
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.1
 Tested up to: 3.1
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 
@@ -41,6 +41,7 @@ All items you can select to Active or Deactive.
 * Italian(it_IT) - [Andrea Bersi](http://www.andreabersi.com/)
 * Russian(ru_RU) - [LiVsI](http://lezhnevs.ru/)
 * Turkish(tr_TR) - [Serkan Algur](http://www.kaisercrazy.com/)
+* German(de_DE) - [Felix Kern](http://twitter.com/#!/kernfel)
 
 You can send your own language pack to me.
 
@@ -52,6 +53,7 @@ Please contact to me.
 = Contributors =
 
 * [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
+* [Felix Kern](http://twitter.com/#!/kernfel)
 
 
 == Installation ==
