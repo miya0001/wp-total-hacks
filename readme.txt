@@ -74,6 +74,9 @@ Please contact to me.
 
 == Changelog ==
 
+= 0.2.3 =
+* Dutch support
+
 = 0.2.2 =
 * German support
 
