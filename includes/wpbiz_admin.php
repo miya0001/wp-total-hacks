@@ -35,6 +35,10 @@ private $translators = array(
         'lang' => 'German',
         'url' => 'http://twitter.com/#!/kernfel',
     ),
+    'Guy Steyaert' => array(
+        'lang' => 'Dutch',
+        'url' => 'https://twitter.com/#!/ideosky/'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
