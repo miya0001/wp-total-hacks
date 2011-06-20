@@ -235,9 +235,11 @@ public function replace_text_in_thickbox($translated_text, $source_text, $domain
 
 public function admin_notice()
 {
-    echo "<div class=\"error\"><p>";
-    echo "Security failure!";
-    echo "</p></div>";
+    if (isset($_GET['err']) && $_GET['err']) {
+        echo "<div class=\"error\"><p>";
+        echo "Security failure!";
+        echo "</p></div>";
+    }
 }
 
 public function admin_init()
@@ -349,6 +351,7 @@ private function form()
     echo '<input type="hidden" name="wpbiz-nonce" value="'.$nonce.'" />';
     echo '<input type="hidden" id="tabid" name="tabid" value="" />';
     echo '<div id="tabs">';
+    echo '<div id="wfb-notice"><div>'.__('Saved.').'</div></div>';
     echo '<ul id="menu"></ul>';
     include(dirname(__FILE__).'/form/site.php');
     include(dirname(__FILE__).'/form/post.php');
