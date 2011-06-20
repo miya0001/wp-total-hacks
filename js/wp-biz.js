@@ -1,6 +1,7 @@
 jQuery('document').ready(function(){
     var send = window.send_to_editor;
     var biz = new wpbiz();
+    jQuery('#tabid').val(location.hash);
 
     // setup tab menu
     jQuery('#tabs .tab').each(function(){
