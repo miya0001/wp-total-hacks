@@ -167,6 +167,7 @@ function __construct($url)
 {
     $this->plugin_url = $url;
     add_action('admin_menu', array(&$this, 'admin_menu'));
+    add_filter('gettext', array(&$this, 'replace_text_in_thickbox'), 1, 3);
 }
 
 public function admin_styles() {
@@ -223,6 +224,13 @@ public function admin_head()
     wp_admin_css();
     do_action("admin_print_styles-post-php");
     do_action('admin_print_styles');
+}
+
+public function replace_text_in_thickbox($translated_text, $source_text, $domain) {
+    if (isset($_GET['post_id']) && !$_GET['post_id'] && 'Insert into Post' == $source_text) {
+        return __('Select File', 'wp-total-hacks');
+    }
+    return $translated_text;
 }
 
 public function admin_notice()
