@@ -74,6 +74,9 @@ Please contact to me.
 
 == Changelog ==
 
+= 0.3.0 =
+* Bug fix for admin UI
+
 = 0.2.3 =
 * Dutch support
 
