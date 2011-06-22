@@ -50,6 +50,7 @@ Please contact to me.
 
 * @miya0001 on twitter.
 * http://www.facebook.com/firegoby
+* https://github.com/miya0001/wp-total-hacks
 
 = Contributors =
 
