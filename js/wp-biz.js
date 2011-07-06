@@ -40,8 +40,14 @@ wpbiz.prototype.getStatus = function(o)
 {
     var flag = false;
     jQuery('input[type="checkbox"]', o).each(function(){
-        if (jQuery(this).attr('checked') == true) {
-            flag = true;
+        try {
+            if (jQuery(this).prop('checked') == true) {
+                flag = true;
+            }
+        } catch(e) {
+            if (jQuery(this).attr('checked') == true) {
+                flag = true;
+            }
         }
     });
     jQuery('select', o).each(function(){

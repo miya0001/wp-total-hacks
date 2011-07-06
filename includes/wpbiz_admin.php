@@ -170,6 +170,16 @@ function __construct($url)
     add_filter('gettext', array(&$this, 'replace_text_in_thickbox'), 1, 3);
 }
 
+public function tiny_mce_before_init($init)
+{
+    $init['plugins'] = str_replace(
+        array('wpfullscreen',',,'),
+        array('', ','),
+        $init['plugins']
+    );
+    return $init;
+}
+
 public function admin_styles() {
     $style = $this->plugin_url.'/css/style.css';
     printf(
@@ -184,6 +194,7 @@ public function admin_styles() {
 }
 
 public function admin_scripts() {
+    global $wp_version;
     wp_enqueue_script('jquery-ui-tabs');
     wp_enqueue_script('editor');
     add_thickbox();
@@ -193,7 +204,9 @@ public function admin_scripts() {
         array('thickbox')
     );
     wp_enqueue_script('wfb-upload');
-    add_action('admin_print_footer_scripts', 'wp_tiny_mce_preload_dialogs', 30);
+    if (version_compare($wp_version, '3.2', '<')) {
+        add_action('admin_print_footer_scripts', 'wp_tiny_mce_preload_dialogs', 30);
+    }
 }
 
 public function admin_menu()
@@ -205,7 +218,6 @@ public function admin_menu()
         'wp-biz',
         array(&$this, 'options')
     );
-
     add_action("admin_head-".$hook, array(&$this, 'admin_head'));
     add_action('admin_print_scripts-'.$hook, array(&$this, 'admin_scripts'));
     add_action('admin_print_styles-'.$hook, array(&$this, 'admin_styles'));
@@ -224,6 +236,7 @@ public function admin_head()
     wp_admin_css();
     do_action("admin_print_styles-post-php");
     do_action('admin_print_styles');
+    add_filter('tiny_mce_before_init', array(&$this, 'tiny_mce_before_init'), 999);
 }
 
 public function replace_text_in_thickbox($translated_text, $source_text, $domain) {
@@ -344,7 +357,10 @@ public function options()
 
 private function form()
 {
-    wp_tiny_mce(false);
+    global $wp_version;
+    if (version_compare($wp_version, '3.2', '<')) {
+        wp_tiny_mce(true);
+    }
     $url = admin_url('options-general.php?page=wp-biz');
     echo '<form method="post" action="'.$url.'">';
     $nonce = wp_create_nonce(plugin_basename(__FILE__));
