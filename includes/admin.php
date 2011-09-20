@@ -46,6 +46,7 @@ private $page_title = 'WP Total Hacks';
 private $params = array(
     'wfb_google_analytics' => 'text',
     'wfb_favicon' => 'url',
+    'wfb_apple_icon' => 'url',
     'wfb_hide_version' => 'bool',
     'wfb_google' => 'text',
     'wfb_yahoo' => 'text',

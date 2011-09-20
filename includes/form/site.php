@@ -11,6 +11,15 @@
 </div>
 
 <div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add a apple-touch-icon', 'wp-total-hacks'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Please upload .png image.', 'wp-total-hacks'); ?></p>
+        <input type="text" id="wfb_apple_icon" name="wfb_apple_icon" class="media" value="<?php $this->op('wfb_apple_icon'); ?>" />
+        <a class="media-upload" href="JavaScript:void(0);" rel="wfb_apple_icon"><?php _e('Select File', 'wp-total-hacks'); ?></a>
+    </div>
+</div>
+
+<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove "wlwmanifest" and "xmlrpc" from meta.', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php printf(__('If you don\'t use "<a href="%s">Remote Publishing</a>", remove unnecessary tags from head.', 'wp-total-hacks'), admin_url('options-writing.php')); ?></p>

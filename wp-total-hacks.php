@@ -195,8 +195,12 @@ public function wp_head()
         }
     }
     if ($this->op('wfb_favicon')) {
-        $link = '<link rel="Shortcut Icon" type="image/x-icon" href="%s" />';
+        $link = '<link rel="Shortcut Icon" type="image/x-icon" href="%s" />'."\n";
         printf($link, esc_url($this->op("wfb_favicon")));
+    }
+    if ($this->op('wfb_apple_icon')) {
+        $link = '<link rel="apple-touch-icon" href="%s" />'."\n";
+        printf($link, esc_url($this->op("wfb_apple_icon")));
     }
     echo $this->get_meta('google-site-verification', $this->op('wfb_google'));
     echo $this->get_meta('y_key', $this->op('wfb_yahoo'));
