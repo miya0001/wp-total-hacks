@@ -77,6 +77,9 @@ Please contact to me.
 
 == Changelog ==
 
+= 0.5.0 =
+* Security fix.
+
 = 0.3.0 =
 * Bug fix for admin UI
 

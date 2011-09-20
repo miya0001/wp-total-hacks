@@ -12,7 +12,7 @@
     window.scrollTo(0,0);
     var send = window.send_to_editor;
     var biz = new wpbiz();
-    jQuery('#tabid').val(location.hash);
+    jQuery('#tabid').val(location.hash.substring(1, location.hash.length));
 
     // setup tab menu
     jQuery('#tabs .tab').each(function(){
@@ -26,7 +26,9 @@
         jQuery("#tabs h3").css('display', 'none');
     });
     jQuery("#menu a").click(function(){
-        jQuery('#tabid').val(jQuery(this).attr('href'));
+        var href = jQuery(this).attr('href');
+        href = href.substring(1, href.length);
+        jQuery('#tabid').val(href);
     });
     jQuery('#tabs').css('display', 'block');
 

@@ -266,7 +266,12 @@ public function admin_init()
             wp_redirect(admin_url('options-general.php?page=wp-biz&err=true'));
         }
         $this->save();
-        wp_redirect(admin_url('options-general.php?page=wp-biz&update=true'.$_POST['tabid']));
+        if (preg_match("/^[a-z]+$/", $_POST['tabid'])) {
+            $tabid = $_POST['tabid'];
+        } else {
+            $tabid = '';
+        }
+        wp_redirect(admin_url('options-general.php?page=wp-biz&update=true#'.$tabid));
     }
 }
 
