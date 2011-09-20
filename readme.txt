@@ -7,6 +7,7 @@ Tested up to: 3.2
 Stable tag: 0.4.0
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
+PHP5 is required!
 
 == Description ==
 
@@ -19,6 +20,7 @@ http://www.youtube.com/watch?v=05LFDZJwPAE
 = Some features: =
 
 All items you can select to Active or Deactive.
+PHP5 is required!
 
 * Add a favicon.
 * Change admin header logo.

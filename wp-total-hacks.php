@@ -7,22 +7,19 @@ Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
 Version: 0.4.0
 Author URI: http://firegoby.theta.ne.jp/
+Domain Path: /languages
+Text Domain: wp-total-hacks
 */
 
 
-new WPBIZ();
+new TotalHacks();
 
-class WPBIZ {
+class TotalHacks {
 
 public function __construct()
 {
-    load_plugin_textdomain(
-        "wp-total-hacks",
-        PLUGINDIR.'/'.dirname(plugin_basename(__FILE__)).'/langs',
-        dirname(plugin_basename(__FILE__)).'/langs'
-    );
     if (is_admin()) {
-        require_once(dirname(__FILE__).'/includes/wpbiz_admin.php');
+        require_once(dirname(__FILE__).'/includes/admin.php');
         new WPBIZ_ADMIN(WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)));
     }
     if (strlen($this->op('wfb_revision'))) {
@@ -31,6 +28,7 @@ public function __construct()
         }
     }
     add_action('init',              array(&$this, 'init'));
+    add_action('plugins_loaded',    array(&$this, 'plugins_loaded'));
     add_action('get_header',        array(&$this, 'get_header'));
     add_action('wp_head',           array(&$this, 'wp_head'));
     add_action('admin_head',        array(&$this, 'admin_head'));
@@ -48,6 +46,15 @@ public function __construct()
     add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
     add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
+}
+
+public function plugins_loaded()
+{
+    load_plugin_textdomain(
+        "wp-total-hacks",
+        false,
+        dirname(plugin_basename(__FILE__)).'/languages'
+    );
 }
 
 public function excerpt_more($str)
@@ -108,7 +115,7 @@ public function wp_print_scripts()
 public function the_content_more_link($str)
 {
     if ($this->op('wfb_remove_more')) {
-        $str = preg_replace('/#more-[\d]+/i', '', $str);
+        $str = preg_replace('/#more-[0-9]+/i', '', $str);
     }
     return $str;
 }
@@ -189,7 +196,7 @@ public function wp_head()
     }
     if ($this->op('wfb_favicon')) {
         $link = '<link rel="Shortcut Icon" type="image/x-icon" href="%s" />';
-        printf($link, $this->op("wfb_favicon"));
+        printf($link, esc_url($this->op("wfb_favicon")));
     }
     echo $this->get_meta('google-site-verification', $this->op('wfb_google'));
     echo $this->get_meta('y_key', $this->op('wfb_yahoo'));
@@ -204,16 +211,16 @@ public function admin_head()
     $style = '<style type="text/css">';
     $style .= '#header-logo{background-image: url(%s) !important;}';
     $style .= '</style>';
-    printf($style, $this->op("wfb_custom_logo"));
+    printf($style, esc_url($this->op("wfb_custom_logo")));
 }
 
 private function get_meta($name, $content)
 {
     if ($name && $content) {
         return sprintf(
-            '<meta name="%s" content="%s" />',
+            '<meta name="%s" content="%s" />'."\n",
             $name,
-            $content
+            esc_attr($content)
         );
     }
 }
@@ -232,7 +239,7 @@ public function login_head()
     if ($this->op("wfb_login_logo")) {
         printf(
             '<style type="text/css">h1 a {background-image: url(%s) !important;}</style>',
-            $this->op('wfb_login_logo')
+            esc_url($this->op('wfb_login_logo'))
         );
     }
 }
@@ -281,7 +288,7 @@ public function plugin_row_meta($links, $file)
             __("Settings")
         );
         $url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU";
-        $links[] = sprintf($link, $url, __("Donate", "wp-total-hacks"));
+        $links[] = sprintf($link, esc_url($url), __("Donate", "wp-total-hacks"));
     }
     return $links;
 }

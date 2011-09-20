@@ -45,7 +45,7 @@ private $plugin_url = '';
 private $page_title = 'WP Total Hacks';
 private $params = array(
     'wfb_google_analytics' => 'text',
-    'wfb_favicon' => 'text',
+    'wfb_favicon' => 'url',
     'wfb_hide_version' => 'bool',
     'wfb_google' => 'text',
     'wfb_yahoo' => 'text',
@@ -55,10 +55,10 @@ private $params = array(
     'wfb_autosave' => 'bool',
     'wfb_selfping' => 'bool',
     'wfb_widget' => 'array',
-    'wfb_custom_logo' => 'text',
-    'wfb_admin_footer_text' => 'text',
-    'wfb_login_logo' => 'text',
-    'wfb_login_url' => 'text',
+    'wfb_custom_logo' => 'url',
+    'wfb_admin_footer_text' => 'html',
+    'wfb_login_logo' => 'url',
+    'wfb_login_url' => 'url',
     'wfb_login_title' => 'text',
     'wfb_webmaster' => 'bool',
     'wfb_remove_xmlrpc' => 'bool',
@@ -293,6 +293,12 @@ public function save()
                 case 'text':
                     update_option($key, trim($_POST[$key]));
                     break;
+                case 'url':
+                    update_option($key, trim($_POST[$key]));
+                    break;
+                case 'html':
+                    update_option($key, trim($_POST[$key]));
+                    break;
                 case 'bool':
                     if ($_POST[$key] === "1") {
                         update_option($key, trim($_POST[$key]));
@@ -390,9 +396,30 @@ private function get_plugin_url()
     return $this->plugin_url;
 }
 
-private function op($key)
+private function op($key, $display = true)
 {
-    echo trim(stripslashes(get_option($key)));
+    $value = trim(stripslashes(get_option($key)));
+    switch ($this->params[$key]) {
+        case 'url':
+            $value = esc_html(esc_url($value));
+            break;
+        case 'html':
+            $value = $value;
+            break;
+        case 'int':
+            $value = intval($value);
+            break;
+        case 'bool':
+            $value = intval($value);
+            break;
+        default:
+            $value = esc_html($value);
+    }
+    if ($display) {
+        echo $value;
+    } else {
+        return $value;
+    }
 }
 
 private function sel($id)
