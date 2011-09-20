@@ -79,6 +79,7 @@ Please contact to me.
 
 = 0.5.0 =
 * Security fix.
+* apple-touch-icon
 
 = 0.3.0 =
 * Bug fix for admin UI
