@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-05-23 14:56+0900\n"
+"POT-Creation-Date: 2011-09-21 02:55+0900\n"
 "PO-Revision-Date: 2011-05-23 09:15+0100\n"
 "Last-Translator: Andrea Bersi\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../includes/admin.php:245 ../includes/form/appearance.php:11
+#: ../includes/form/appearance.php:35 ../includes/form/site.php:9
+#: ../includes/form/site.php:18
+msgid "Select File"
+msgstr "Seleziona file"
+
+#: ../includes/admin.php:382
+msgid "Saved."
+msgstr ""
+
+#: ../includes/admin.php:389
+msgid "Save Changes"
+msgstr "Salva"
+
+#: ../includes/admin.php:434
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: ../includes/admin.php:436 ../includes/admin.php:438
+msgid "Activate"
+msgstr "Attiva"
 
 #: ../includes/form/appearance.php:3
 msgid "Appearance in admin"
@@ -28,36 +50,37 @@ msgstr "Cambia logo in testata amministrazione"
 msgid "Upload 30 x 30 pixel image for admin header logo."
 msgstr "Carica immagine 30 x 30 pixel per logo amministrazione"
 
-#: ../includes/form/appearance.php:11
-#: ../includes/form/appearance.php:36
-msgid "Select File"
-msgstr "Seleziona file"
-
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"
 msgstr "Cambia testo piè di pagina amministrazione"
 
 #: ../includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
-msgstr "Puoi cambiare il testo del pié di pagina amministrazione. Gli a capo vengono rimosssi"
+msgstr ""
+"Puoi cambiare il testo del pié di pagina amministrazione. Gli a capo vengono "
+"rimosssi"
 
-#: ../includes/form/appearance.php:30
+#: ../includes/form/appearance.php:29
 msgid "Change login logo"
 msgstr "Cambia logo finestra accesso backend"
 
-#: ../includes/form/appearance.php:32
-msgid "You can customize logo, URL and Title. The logo image size is recommended 310 x 70 pixel."
-msgstr "Puoi personalizzare logo, URL e titolo. L'immagine del logo raccomandata è 310 x 70 pixel."
+#: ../includes/form/appearance.php:31
+msgid ""
+"You can customize logo, URL and Title. The logo image size is recommended "
+"310 x 70 pixel."
+msgstr ""
+"Puoi personalizzare logo, URL e titolo. L'immagine del logo raccomandata è "
+"310 x 70 pixel."
 
-#: ../includes/form/appearance.php:35
+#: ../includes/form/appearance.php:34
 msgid "Logo"
 msgstr "Logo"
 
-#: ../includes/form/appearance.php:37
+#: ../includes/form/appearance.php:36
 msgid "URL"
 msgstr "URL"
 
-#: ../includes/form/appearance.php:39
+#: ../includes/form/appearance.php:38
 msgid "Title"
 msgstr "Titolo"
 
@@ -77,8 +100,7 @@ msgstr "Altro"
 msgid "Deactivate Dashboard Widgets"
 msgstr "Disattiva Widgets Bacheca"
 
-#: ../includes/form/other.php:7
-#: ../includes/form/post.php:8
+#: ../includes/form/other.php:7 ../includes/form/post.php:8
 #: ../includes/form/post.php:27
 msgid "Choose the items you want to remove."
 msgstr "Click sul check box per cancellare"
@@ -88,7 +110,9 @@ msgid "Add role \"Webmaster\""
 msgstr "Aggiungi ruolo \"Webmaster\""
 
 #: ../includes/form/other.php:26
-msgid "This role has the capabilities of an \"Editor\", but can also edit theme options."
+msgid ""
+"This role has the capabilities of an \"Editor\", but can also edit theme "
+"options."
 msgstr "\"Webmaster\"  è ruolo  analogo a \"Editor\" + \"edit_theme_options\" "
 
 #: ../includes/form/other.php:32
@@ -96,7 +120,9 @@ msgid "Change default email address"
 msgstr "Cambia valore email di default"
 
 #: ../includes/form/other.php:34
-msgid "Change the email address and sender name used by automatic email notifications."
+msgid ""
+"Change the email address and sender name used by automatic email "
+"notifications."
 msgstr "Cambia valore email di default e nome del sender"
 
 #: ../includes/form/other.php:36
@@ -121,7 +147,8 @@ msgstr "Rimuovi notifiche di aggiornamento"
 
 #: ../includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
-msgstr "Rimuovi notifiche di aggiornamento per tutti utenti tranne Amministratore"
+msgstr ""
+"Rimuovi notifiche di aggiornamento per tutti utenti tranne Amministratore"
 
 #: ../includes/form/post.php:3
 msgid "Posts &amp; Pages"
@@ -156,7 +183,9 @@ msgid "Stop self-pingbacks"
 msgstr "Stop self-pingbacks"
 
 #: ../includes/form/post.php:73
-msgid "Stop sending pingbacks from your own site to your own site when writing posts."
+msgid ""
+"Stop sending pingbacks from your own site to your own site when writing "
+"posts."
 msgstr "Stop sending pings verso altri siti quando pubblichi contenuti."
 
 #: ../includes/form/post.php:79
@@ -200,84 +229,98 @@ msgid "Please upload .ico image."
 msgstr "Caricare una immagine .ico"
 
 #: ../includes/form/site.php:14
+msgid "Add a apple-touch-icon"
+msgstr "Aggiungi apple-touch-icon"
+
+#: ../includes/form/site.php:16
+msgid "Please upload .png image."
+msgstr "Caricare una immagine .png"
+
+#: ../includes/form/site.php:23
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "Abilita la rimozione di \"wlwmanifest\" e \"xmlrpc\" dai meta tag"
 
-#: ../includes/form/site.php:16
+#: ../includes/form/site.php:25
 #, php-format
-msgid "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove unnecessary tags from head."
-msgstr "Se non usi \"<a href=\"%s\">Pubblucazione da remoto</a>\" rimuovi i tag relativi dai meta tag"
+msgid ""
+"If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
+"unnecessary tags from head."
+msgstr ""
+"Se non usi \"<a href=\"%s\">Pubblucazione da remoto</a>\" rimuovi i tag "
+"relativi dai meta tag"
 
-#: ../includes/form/site.php:22
+#: ../includes/form/site.php:31
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "Rimuovi rel links dall'head nelle pagine"
 
-#: ../includes/form/site.php:24
-msgid "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
-msgstr "Rimuovi rel links dall'head nelle pagine<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
+#: ../includes/form/site.php:33
+msgid ""
+"Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
+"\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
+msgstr ""
+"Rimuovi rel links dall'head nelle pagine<br /><span class=\"ex\">e.g. &lt;"
+"link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
-#: ../includes/form/site.php:30
+#: ../includes/form/site.php:39
 msgid "Remove version number from head"
 msgstr "Rimuovi tag di versione dai meta tag"
 
-#: ../includes/form/site.php:32
-msgid "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
-msgstr "Rimuovi tag di versione dai meta tag. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
+#: ../includes/form/site.php:41
+msgid ""
+"Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
+"\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
+msgstr ""
+"Rimuovi tag di versione dai meta tag. <span class=\"ex\">e.g. &lt;meta name="
+"\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
-#: ../includes/form/site.php:38
+#: ../includes/form/site.php:47
 msgid "Remove #more anchor"
 msgstr "Rimuovi il tag #more "
 
-#: ../includes/form/site.php:40
+#: ../includes/form/site.php:49
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Rimuovi il tag #more-xxx dai link"
 
-#: ../includes/form/site.php:46
+#: ../includes/form/site.php:55
 msgid "Remove \"[...]\" from excerpt"
 msgstr "Rimuovi [...] dai riassunti"
 
-#: ../includes/form/site.php:48
+#: ../includes/form/site.php:57
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Rimuovi [...] dal testo dei riassunti"
 
-#: ../includes/form/site.php:54
+#: ../includes/form/site.php:63
 msgid "Install Google Analytics"
 msgstr "Installa Google Analytics"
 
-#: ../includes/form/site.php:56
+#: ../includes/form/site.php:65
 msgid "Add Google analytics code."
 msgstr "Aggiungi codice pe rGoogle Analytics"
 
-#: ../includes/form/site.php:63
+#: ../includes/form/site.php:72
 msgid "Exclude user logged in."
 msgstr "Escludi utente loggato"
 
-#: ../includes/form/site.php:68
+#: ../includes/form/site.php:77
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools Verification"
 
-#: ../includes/form/site.php:70
-msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
-msgstr "Inserisci la chiave dei meta tag  \"content\" per verificare il sito su  <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, e <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+#: ../includes/form/site.php:79
+msgid ""
+"Enter your meta key \"content\" value to verify your blog with <a href="
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
+"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
+"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+msgstr ""
+"Inserisci la chiave dei meta tag  \"content\" per verificare il sito su  <a "
+"href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</"
+"a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
+"a>, e <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: ../includes/wpbiz_admin.php:313
-msgid "Save Changes"
-msgstr "Salva"
-
-#: ../includes/wpbiz_admin.php:337
-msgid "Deactivate"
-msgstr "Disattiva"
-
-#: ../includes/wpbiz_admin.php:339
-#: ../includes/wpbiz_admin.php:341
-msgid "Activate"
-msgstr "Attiva"
-
-#: ../wp-total-hacks.php:282
+#: ../wp-total-hacks.php:292
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: ../wp-total-hacks.php:285
+#: ../wp-total-hacks.php:295
 msgid "Donate"
 msgstr "Dona"
-
