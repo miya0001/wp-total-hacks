@@ -2,7 +2,7 @@
 
 require_once(dirname(__FILE__).'/role.class.php');
 
-class WPBIZ_ADMIN {
+class TotalHacksAdmin {
 
 private $contributors = array(
     'Takayuki Miyauchi' => array(
