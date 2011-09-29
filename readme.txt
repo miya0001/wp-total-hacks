@@ -78,6 +78,9 @@ Please contact to me.
 
 == Changelog ==
 
+= 0.5.1 =
+* Chinese support
+
 = 0.5.0 =
 * Security fix.
 * apple-touch-icon
