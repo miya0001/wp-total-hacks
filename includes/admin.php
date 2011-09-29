@@ -39,6 +39,10 @@ private $translators = array(
         'lang' => 'Dutch',
         'url' => 'https://twitter.com/#!/ideosky/'
     ),
+    'missingPig' => array(
+        'lang' => 'Chinese',
+        'url' => 'https://github.com/missingPig'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
