@@ -43,6 +43,10 @@ private $translators = array(
         'lang' => 'Chinese',
         'url' => 'https://github.com/missingPig'
     ),
+    'Alexander Ovsov' => array(
+        'lang' => 'Belarusian',
+        'url' => 'http://webhostinggeeks.com/science/'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
