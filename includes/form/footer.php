@@ -15,22 +15,22 @@
     jQuery('#tabid').val(location.hash.substring(1, location.hash.length));
 
     // setup tab menu
-    jQuery('#tabs .tab').each(function(){
+    jQuery('#total-hacks-tabs .total-hacks-tab').each(function(){
         var id = jQuery(this).attr("id");
         var txt = jQuery(jQuery('h3', this).get(0)).text();
         var li = jQuery('<li><a href="#'+id+'"><span>'+txt+'</span></a></li>');
         jQuery('#menu').append(li);
     });
     jQuery(function(){
-        jQuery("#tabs").tabs({fx:{opacity:'toggle', duration:'fast'}});
-        jQuery("#tabs h3").css('display', 'none');
+        jQuery("#total-hacks-tabs").tabs({fx:{opacity:'toggle', duration:'fast'}});
+        jQuery("#total-hacks-tabs h3").css('display', 'none');
     });
     jQuery("#menu a").click(function(){
         var href = jQuery(this).attr('href');
         href = href.substring(1, href.length);
         jQuery('#tabid').val(href);
     });
-    jQuery('#tabs').css('display', 'block');
+    jQuery('#total-hacks-tabs').css('display', 'block');
 
     // setup media uploader
     jQuery('a.media-upload').each(function(){
@@ -48,7 +48,7 @@
     });
 
     // setup visual editor
-    jQuery('#tabs a.thickbox').each(function(){
+    jQuery('#total-hacks-tabs a.thickbox').each(function(){
         jQuery(this).click(function(){
             window.send_to_editor = send;
         });

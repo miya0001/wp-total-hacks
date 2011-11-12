@@ -1,6 +1,6 @@
 function totalhacks() {
     var self = this;
-    jQuery('#tabs h4').each(function(){
+    jQuery('#total-hacks-tabs h4').each(function(){
         jQuery(this).bind('click', self, self.click);
         var p = jQuery(jQuery(this).parent().get(0));
         if (self.getStatus(p)) {

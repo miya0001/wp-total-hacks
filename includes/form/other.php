@@ -1,4 +1,4 @@
-<div id="dashboard" class="tab">
+<div id="total-hacks-dashboard" class="total-hacks-tab">
 <h3><?php _e('Other', 'wp-total-hacks'); ?></h3>
 
 <div class="block">

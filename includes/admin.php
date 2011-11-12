@@ -220,7 +220,7 @@ public function admin_menu()
         $this->page_title,
         'WP Total Hacks',
         $this->role,
-        'wp-biz',
+        'wp-total-hacks',
         array(&$this, 'options')
     );
     add_action("admin_head-".$hook, array(&$this, 'admin_head'));
@@ -264,11 +264,11 @@ public function admin_init()
 {
     if (isset($_POST['wpbiz-nonce']) && $_POST['wpbiz-nonce']) {
         if (!current_user_can($this->role)) {
-            wp_redirect(admin_url('options-general.php?page=wp-biz&err=true'));
+            wp_redirect(admin_url('options-general.php?page=wp-total-hacks&err=true'));
         }
         $nonce = $_POST['wpbiz-nonce'];
         if (!$act = wp_verify_nonce($nonce, plugin_basename(__FILE__))) {
-            wp_redirect(admin_url('options-general.php?page=wp-biz&err=true'));
+            wp_redirect(admin_url('options-general.php?page=wp-total-hacks&err=true'));
         }
         $this->save();
         if (preg_match("/^[a-z]+$/", $_POST['tabid'])) {
@@ -276,7 +276,7 @@ public function admin_init()
         } else {
             $tabid = '';
         }
-        wp_redirect(admin_url('options-general.php?page=wp-biz&update=true#'.$tabid));
+        wp_redirect(admin_url('options-general.php?page=wp-total-hacks&update=true#'.$tabid));
     }
 }
 
@@ -373,12 +373,12 @@ public function options()
 
 private function form()
 {
-    $url = admin_url('options-general.php?page=wp-biz');
+    $url = admin_url('options-general.php?page=wp-total-hacks');
     echo '<form method="post" action="'.$url.'">';
     $nonce = wp_create_nonce(plugin_basename(__FILE__));
     echo '<input type="hidden" name="wpbiz-nonce" value="'.$nonce.'" />';
     echo '<input type="hidden" id="tabid" name="tabid" value="" />';
-    echo '<div id="tabs">';
+    echo '<div id="total-hacks-tabs">';
     echo '<div id="wfb-notice"><div>'.__('Saved.').'</div></div>';
     echo '<ul id="menu"></ul>';
     include(dirname(__FILE__).'/form/site.php');

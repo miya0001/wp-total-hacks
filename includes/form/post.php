@@ -1,5 +1,5 @@
 
-<div id="post" class="tab">
+<div id="total-hacks-post" class="total-hacks-tab">
 <h3><?php _e('Posts &amp; Pages', 'wp-total-hacks'); ?></h3>
 
 <div class="block">

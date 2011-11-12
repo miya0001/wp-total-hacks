@@ -1,5 +1,5 @@
 
-<div id="admin" class="tab">
+<div id="total-hacks-admin" class="total-hacks-tab">
 <h3><?php _e('Appearance in admin', 'wp-total-hacks'); ?></h3>
 
 <div class="block">

@@ -138,13 +138,13 @@
     height: 30px;
 }
 
-.wrap #tabs
+.wrap #total-hacks-tabs
 {
     display :none;
     margin-right: 300px;
 }
 
-.wrap .tab
+.wrap .total-hacks-tab
 {
 }
 

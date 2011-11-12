@@ -1,4 +1,4 @@
-<div id="site" class="tab">
+<div id="total-hacks-site" class="total-hacks-tab">
 <h3><?php _e('Site Settings', 'wp-total-hacks'); ?></h3>
 
 <div class="block">
