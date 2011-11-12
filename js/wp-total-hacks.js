@@ -1,4 +1,4 @@
-function wpbiz() {
+function totalhacks() {
     var self = this;
     jQuery('#tabs h4').each(function(){
         jQuery(this).bind('click', self, self.click);
@@ -10,7 +10,7 @@ function wpbiz() {
     });
 }
 
-wpbiz.prototype.click = function(e)
+totalhacks.prototype.click = function(e)
 {
     var p = jQuery(this).parent().get(0);
     var content = jQuery('.block_content', p).get(0);
@@ -27,7 +27,7 @@ wpbiz.prototype.click = function(e)
     }
 }
 
-wpbiz.prototype.reset = function()
+totalhacks.prototype.reset = function()
 {
     jQuery('#poststuff').attr("id", "");
     jQuery('#postdivrich').attr("id", "");
@@ -36,7 +36,7 @@ wpbiz.prototype.reset = function()
     jQuery('h4').attr('class', '');
 }
 
-wpbiz.prototype.getStatus = function(o)
+totalhacks.prototype.getStatus = function(o)
 {
     var flag = false;
     jQuery('input[type="checkbox"]', o).each(function(){

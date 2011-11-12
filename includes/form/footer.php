@@ -11,7 +11,7 @@
 <script type="text/javascript">
     window.scrollTo(0,0);
     var send = window.send_to_editor;
-    var biz = new wpbiz();
+    var hacks = new totalhacks();
     jQuery('#tabid').val(location.hash.substring(1, location.hash.length));
 
     // setup tab menu

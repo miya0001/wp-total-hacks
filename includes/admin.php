@@ -236,7 +236,7 @@ public function admin_menu()
 public function admin_head()
 {
     printf(
-        "<script type=\"text/javascript\" src=\"%s/js/wp-biz.js\"></script>",
+        "<script type=\"text/javascript\" src=\"%s/js/wp-total-hacks.js\"></script>",
         $this->plugin_url
     );
     if (isset($_GET['err']) && $_GET['err']) {
