@@ -51,38 +51,7 @@ private $translators = array(
 private $role = 'manage_options';
 private $plugin_url = '';
 private $page_title = 'WP Total Hacks';
-private $params = array(
-    'wfb_google_analytics' => 'text',
-    'wfb_favicon' => 'url',
-    'wfb_apple_icon' => 'url',
-    'wfb_hide_version' => 'bool',
-    'wfb_google' => 'text',
-    'wfb_yahoo' => 'text',
-    'wfb_bing' => 'text',
-    'wfb_hide_custom_fields' => 'bool',
-    'wfb_revision' => 'int',
-    'wfb_autosave' => 'bool',
-    'wfb_selfping' => 'bool',
-    'wfb_widget' => 'array',
-    'wfb_custom_logo' => 'url',
-    'wfb_admin_footer_text' => 'html',
-    'wfb_login_logo' => 'url',
-    'wfb_login_url' => 'url',
-    'wfb_login_title' => 'text',
-    'wfb_webmaster' => 'bool',
-    'wfb_remove_xmlrpc' => 'bool',
-    'wfb_exclude_loggedin' => 'bool',
-    'wfb_adjacent_posts_rel_links' => 'bool',
-    'wfb_remove_more' => 'bool',
-    'wfb_pageexcerpt' => 'bool',
-    'wfb_postmetas' => 'array',
-    'wfb_pagemetas' => 'array',
-    'wfb_emailaddress' => 'email',
-    'wfb_sendername' => 'text',
-    'wfb_contact_methods' => 'array',
-    'wfb_remove_excerpt' => 'bool',
-    'wfb_update_notification' => 'bool',
-);
+private $params = array();
 private $widgets = array(
     'dashboard_right_now' => array(
         'position' => 'normal',
@@ -172,9 +141,10 @@ private $contact_methods = array(
     'jabber' => 'Jabber / Google Talk',
 );
 
-function __construct($url)
+function __construct($url, $params)
 {
     $this->plugin_url = $url;
+    $this->params = $params;
     add_action('admin_menu', array(&$this, 'admin_menu'));
     add_filter('gettext', array(&$this, 'replace_text_in_thickbox'), 1, 3);
 }
@@ -271,7 +241,7 @@ public function admin_init()
             wp_redirect(admin_url('options-general.php?page=wp-total-hacks&err=true'));
         }
         $this->save();
-        if (preg_match("/^[a-z]+$/", $_POST['tabid'])) {
+        if (preg_match("/^total\-hacks\-[a-z]+$/", $_POST['tabid'])) {
             $tabid = $_POST['tabid'];
         } else {
             $tabid = '';

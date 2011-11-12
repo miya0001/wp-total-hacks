@@ -16,11 +16,48 @@ new TotalHacks();
 
 class TotalHacks {
 
+private $option_params = array(
+    'wfb_google_analytics' => 'text',
+    'wfb_favicon' => 'url',
+    'wfb_apple_icon' => 'url',
+    'wfb_hide_version' => 'bool',
+    'wfb_google' => 'text',
+    'wfb_yahoo' => 'text',
+    'wfb_bing' => 'text',
+    'wfb_hide_custom_fields' => 'bool',
+    'wfb_revision' => 'int',
+    'wfb_autosave' => 'bool',
+    'wfb_selfping' => 'bool',
+    'wfb_widget' => 'array',
+    'wfb_custom_logo' => 'url',
+    'wfb_admin_footer_text' => 'html',
+    'wfb_login_logo' => 'url',
+    'wfb_login_url' => 'url',
+    'wfb_login_title' => 'text',
+    'wfb_webmaster' => 'bool',
+    'wfb_remove_xmlrpc' => 'bool',
+    'wfb_exclude_loggedin' => 'bool',
+    'wfb_adjacent_posts_rel_links' => 'bool',
+    'wfb_remove_more' => 'bool',
+    'wfb_pageexcerpt' => 'bool',
+    'wfb_postmetas' => 'array',
+    'wfb_pagemetas' => 'array',
+    'wfb_emailaddress' => 'email',
+    'wfb_sendername' => 'text',
+    'wfb_contact_methods' => 'array',
+    'wfb_remove_excerpt' => 'bool',
+    'wfb_update_notification' => 'bool',
+);
+
 public function __construct()
 {
+    register_uninstall_hook(__FILE__, array(&$this, "uninstall"));
     if (is_admin()) {
         require_once(dirname(__FILE__).'/includes/admin.php');
-        new TotalHacksAdmin(WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)));
+        new TotalHacksAdmin(
+            WP_PLUGIN_URL.'/'.dirname(plugin_basename(__FILE__)),
+            $this->option_params
+        );
     }
     if (strlen($this->op('wfb_revision'))) {
         if (!defined('WP_POST_REVISIONS')) {
@@ -46,6 +83,13 @@ public function __construct()
     add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
     add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
+}
+
+public function uninstall()
+{
+    foreach ($this->option_params as $p => $value) {
+        delete_option($p);
+    }
 }
 
 public function plugins_loaded()
