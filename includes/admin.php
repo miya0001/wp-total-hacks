@@ -203,7 +203,6 @@ public function admin_styles() {
 }
 
 public function admin_scripts() {
-    global $wp_version;
     wp_enqueue_script('jquery-ui-tabs');
     wp_enqueue_script('editor');
     add_thickbox();
@@ -213,9 +212,6 @@ public function admin_scripts() {
         array('thickbox')
     );
     wp_enqueue_script('wfb-upload');
-    if (version_compare($wp_version, '3.2', '<')) {
-        add_action('admin_print_footer_scripts', 'wp_tiny_mce_preload_dialogs', 30);
-    }
 }
 
 public function admin_menu()
@@ -377,10 +373,6 @@ public function options()
 
 private function form()
 {
-    global $wp_version;
-    if (version_compare($wp_version, '3.2', '<')) {
-        wp_tiny_mce(true);
-    }
     $url = admin_url('options-general.php?page=wp-biz');
     echo '<form method="post" action="'.$url.'">';
     $nonce = wp_create_nonce(plugin_basename(__FILE__));
