@@ -51,7 +51,6 @@ private $option_params = array(
 
 public function __construct()
 {
-    register_uninstall_hook(__FILE__, array(&$this, "uninstall"));
     if (is_admin()) {
         require_once(dirname(__FILE__).'/includes/admin.php');
         new TotalHacksAdmin(
@@ -83,13 +82,6 @@ public function __construct()
     add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
     add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
-}
-
-public function uninstall()
-{
-    foreach ($this->option_params as $p => $value) {
-        delete_option($p);
-    }
 }
 
 public function plugins_loaded()

@@ -177,11 +177,11 @@ public function admin_scripts() {
     wp_enqueue_script('editor');
     add_thickbox();
     wp_register_script(
-        'wfb-upload',
+        'wp-total-hacks-upload',
         $this->plugin_url.'/js/wp-total-hacks-upload.js',
         array('thickbox')
     );
-    wp_enqueue_script('wfb-upload');
+    wp_enqueue_script('wp-total-hacks-upload');
 }
 
 public function admin_menu()
