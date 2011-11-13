@@ -178,7 +178,7 @@ public function admin_scripts() {
     add_thickbox();
     wp_register_script(
         'wfb-upload',
-        $this->plugin_url.'/js/wfb-upload.js',
+        $this->plugin_url.'/js/wp-total-hacks-upload.js',
         array('thickbox')
     );
     wp_enqueue_script('wfb-upload');
