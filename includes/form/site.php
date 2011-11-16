@@ -7,6 +7,8 @@
         <p><?php _e('Please upload .ico image.', 'wp-total-hacks'); ?></p>
         <input type="text" id="wfb_favicon" name="wfb_favicon" class="media" value="<?php $this->op('wfb_favicon'); ?>" />
         <a class="media-upload" href="JavaScript:void(0);" rel="wfb_favicon"><?php _e('Select File', 'wp-total-hacks'); ?></a>
+        <p><?php _e('In addition, use this favicon with administration screens.', 'wp-total-hacks'); ?></p>
+        <?php $this->sel('wfb_admin_favicon'); ?>
     </div>
 </div>
 

@@ -19,6 +19,7 @@ class TotalHacks {
 private $option_params = array(
     'wfb_google_analytics' => 'text',
     'wfb_favicon' => 'url',
+    'wfb_admin_favicon' => 'bool',
     'wfb_apple_icon' => 'url',
     'wfb_hide_version' => 'bool',
     'wfb_google' => 'text',
@@ -245,6 +246,10 @@ public function wp_head()
 
 public function admin_head()
 {
+    if ($this->op('wfb_favicon') && $this->op('wfb_admin_favicon')) {
+        $link = '<link rel="Shortcut Icon" type="image/x-icon" href="%s" />'."\n";
+        printf($link, esc_url($this->op("wfb_favicon")));
+    }
     if (!$this->op("wfb_custom_logo")) {
         return;
     }
