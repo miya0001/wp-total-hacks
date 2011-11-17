@@ -59,8 +59,8 @@ msgstr "Wijzig admin header logo"
 
 # @ wp-total-hacks
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "Upload een afbeelding voor de admin header (30 x 30 pixel)"
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "Upload een afbeelding voor de admin header (%s x %s pixel)"
 
 # @ wp-total-hacks
 #: ../includes/form/appearance.php:16

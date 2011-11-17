@@ -60,8 +60,8 @@ msgid "Change admin header logo"
 msgstr "修改后台头部 logo"
 
 #: includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "上传 30 x 30 像素的图片作为后台头部的 logo。"
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "上传 %s x %s 像素的图片作为后台头部的 logo。"
 
 #: includes/form/appearance.php:16
 msgid "Change admin footer text"

@@ -47,8 +47,8 @@ msgid "Change admin header logo"
 msgstr "Cambia logo in testata amministrazione"
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "Carica immagine 30 x 30 pixel per logo amministrazione"
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "Carica immagine %s x %s pixel per logo amministrazione"
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"

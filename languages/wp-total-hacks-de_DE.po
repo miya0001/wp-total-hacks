@@ -48,8 +48,8 @@ msgid "Change admin header logo"
 msgstr "Admin-Kopfzeilenlogo ändern"
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "Lade ein Kopfzeilenlogo hoch (Bilddatei, 30*30 Pixel)."
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "Lade ein Kopfzeilenlogo hoch (Bilddatei, %s*%s Pixel)."
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"

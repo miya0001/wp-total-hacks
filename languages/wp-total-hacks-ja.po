@@ -48,8 +48,8 @@ msgid "Change admin header logo"
 msgstr "管理画面のヘッダーのロゴを変更"
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "30 x 30 ピクセルの画像をアップロードしてください。"
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "%s x %s ピクセルの画像をアップロードしてください。"
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"

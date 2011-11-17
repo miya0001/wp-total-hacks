@@ -51,8 +51,8 @@ msgid "Change admin header logo"
 msgstr "Змяніць лагатып у загалоўку админинтерфейса"
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "Загрузіць малюнак (30 x 30px) для лагатыпа ў загалоўку админинтерфейса."
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "Загрузіць малюнак (%s x %spx) для лагатыпа ў загалоўку админинтерфейса."
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"

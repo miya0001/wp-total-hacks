@@ -53,8 +53,8 @@ msgid "Change admin header logo"
 msgstr "Yönetim Alanı Logosunu Değiştir"
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
-msgstr "Yönetim alanı logosu için 30 x 30 piksel bir resim yükleyin"
+msgid "Upload %s x %s pixel image for admin header logo."
+msgstr "Yönetim alanı logosu için %s x %s piksel bir resim yükleyin"
 
 #: ../includes/form/appearance.php:16
 msgid "Change admin footer text"

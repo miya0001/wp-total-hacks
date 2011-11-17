@@ -48,7 +48,7 @@ msgid "Change admin header logo"
 msgstr ""
 
 #: ../includes/form/appearance.php:8
-msgid "Upload 30 x 30 pixel image for admin header logo."
+msgid "Upload %s x %s pixel image for admin header logo."
 msgstr ""
 
 #: ../includes/form/appearance.php:16
