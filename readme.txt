@@ -87,7 +87,7 @@ Please contact to me.
 == Changelog ==
 
 = 0.6.0 =
-* uninstall functions & some fix.
+* http://wpist.me/2011/11/17/wp-total-hacks-0-6-0/
 
 = 0.5.2 =
 * Belarusian support

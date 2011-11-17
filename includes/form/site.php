@@ -4,11 +4,10 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add a favicon', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Please upload .ico image.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Please upload .ico image.', 'wp-total-hacks'); ?><br />
         <input type="text" id="wfb_favicon" name="wfb_favicon" class="media" value="<?php $this->op('wfb_favicon'); ?>" />
-        <a class="media-upload" href="JavaScript:void(0);" rel="wfb_favicon"><?php _e('Select File', 'wp-total-hacks'); ?></a>
-        <p><?php _e('In addition, use this favicon with administration screens.', 'wp-total-hacks'); ?></p>
-        <?php $this->sel('wfb_admin_favicon'); ?>
+        <a class="media-upload" href="JavaScript:void(0);" rel="wfb_favicon"><?php _e('Select File', 'wp-total-hacks'); ?></a></p>
+        <p><?php $this->sel('wfb_admin_favicon'); ?> <?php _e('Use this favicon with administration screens.', 'wp-total-hacks'); ?></p>
     </div>
 </div>
 
