@@ -7,17 +7,21 @@ class TotalHacksAdmin {
 private $contributors = array(
     'Takayuki Miyauchi' => array(
         'country' => 'Japan',
-        'url' => 'http://twitter.com/#!/miya0001',
+        'url' => 'http://wpist.me/',
     ),
     'Felix Kern' => array(
         'country' => 'Germany',
         'url' => 'http://twitter.com/#!/kernfel',
     ),
+    'Mako' => array(
+        'country' => 'Japan',
+        'url' => 'http://profiles.wordpress.org/users/mako09',
+    ),
 );
 private $translators = array(
     'Takayuki Miyauchi' => array(
         'lang' => 'Japanese',
-        'url' => 'http://twitter.com/#!/miya0001',
+        'url' => 'http://wpist.me/',
     ),
     'Andrea Bersi' => array(
         'lang' => 'Italian',

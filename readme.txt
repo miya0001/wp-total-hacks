@@ -66,6 +66,7 @@ Please contact to me.
 
 * [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
 * [Felix Kern](http://twitter.com/#!/kernfel)
+* [Mako](http://profiles.wordpress.org/users/mako09)
 
 
 == Installation ==

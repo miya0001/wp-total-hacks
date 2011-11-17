@@ -19,6 +19,6 @@
 <div class="bside">
 <h3><?php _e('Contact', 'wp-total-hacks'); ?></h3>
 <ul>
-    <li><a href="http://twitter.com/#!/miya0001">Takayuki Miyauchi</a></li>
+    <li><a href="http://twitter.com/#!/wpist_me">Takayuki Miyauchi</a></li>
 </ul>
 </div>
