@@ -5,37 +5,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.2.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-21 02:55+0900\n"
-"PO-Revision-Date: 2011-09-29 16:28+0100\n"
+"POT-Creation-Date: 2011-11-17 21:17+0900\n"
+"PO-Revision-Date: 2011-11-18 10:14+0100\n"
 "Last-Translator: Felix Kern <kernfel@gmail.com>\n"
 "Language-Team: \n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
-#: ../includes/admin.php:245
+#: ../includes/admin.php:223
 #: ../includes/form/appearance.php:11
 #: ../includes/form/appearance.php:35
 #: ../includes/form/site.php:9
-#: ../includes/form/site.php:18
+#: ../includes/form/site.php:19
 msgid "Select File"
 msgstr "Datei auswählen..."
 
-#: ../includes/admin.php:382
+#: ../includes/admin.php:356
 msgid "Saved."
 msgstr "Gespeichert."
 
-#: ../includes/admin.php:389
+#: ../includes/admin.php:363
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: ../includes/admin.php:434
+#: ../includes/admin.php:408
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: ../includes/admin.php:436
-#: ../includes/admin.php:438
+#: ../includes/admin.php:410
+#: ../includes/admin.php:412
 msgid "Activate"
 msgstr "Aktivieren"
 
@@ -48,6 +48,7 @@ msgid "Change admin header logo"
 msgstr "Admin-Kopfzeilenlogo ändern"
 
 #: ../includes/form/appearance.php:8
+#, php-format
 msgid "Upload %s x %s pixel image for admin header logo."
 msgstr "Lade ein Kopfzeilenlogo hoch (Bilddatei, %s*%s Pixel)."
 
@@ -217,80 +218,84 @@ msgstr "Favicon hinzufügen"
 msgid "Please upload .ico image."
 msgstr "Lade eine .ico-Bilddatei hoch."
 
-#: ../includes/form/site.php:14
+#: ../includes/form/site.php:10
+msgid "Use this favicon with administration screens."
+msgstr "Dieses Favicon auch in der Admin-Oberfläche benutzen"
+
+#: ../includes/form/site.php:15
 msgid "Add a apple-touch-icon"
 msgstr "Apple-Touch-Icon hinzufügen"
 
-#: ../includes/form/site.php:16
+#: ../includes/form/site.php:17
 msgid "Please upload .png image."
 msgstr "Lade eine .png-Bilddatei hoch."
 
-#: ../includes/form/site.php:23
+#: ../includes/form/site.php:24
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "\"wlwmanifest\"- und \"xmlrpc\"-Tags entfernen"
 
-#: ../includes/form/site.php:25
+#: ../includes/form/site.php:26
 #, php-format
 msgid "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove unnecessary tags from head."
 msgstr "Wenn du \"<a href=\"%s\">Fernpublizieren</a>\" nicht verwendest, kannst du diese unnötigen Tags aus dem &lt;head&gt; entfernen."
 
-#: ../includes/form/site.php:31
+#: ../includes/form/site.php:32
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "rel-Links zu angrenzenden Artikel aus dem &lt;head&gt; von Seiten entfernen"
 
-#: ../includes/form/site.php:33
+#: ../includes/form/site.php:34
 msgid "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 msgstr "Entfernt diese bei Seiten unnötigen Links.<br /><span class=\"ex\">z.B. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
-#: ../includes/form/site.php:39
+#: ../includes/form/site.php:40
 msgid "Remove version number from head"
 msgstr "Versionsnummer aus dem &lt;head&gt; entfernen"
 
-#: ../includes/form/site.php:41
+#: ../includes/form/site.php:42
 msgid "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 msgstr "Entfernt den Generator-Tag (<span class=\"ex\">&lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>) aus dem &lt;head&gt;."
 
-#: ../includes/form/site.php:47
+#: ../includes/form/site.php:48
 msgid "Remove #more anchor"
 msgstr "#more-Anker entfernen"
 
-#: ../includes/form/site.php:49
+#: ../includes/form/site.php:50
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Entfernt den \"#more-xxx\"-Anker aus den \"Weiterlesen\"-Links."
 
-#: ../includes/form/site.php:55
+#: ../includes/form/site.php:56
 msgid "Remove \"[...]\" from excerpt"
 msgstr "\"[...]\" aus Auszügen entfernen"
 
-#: ../includes/form/site.php:57
+#: ../includes/form/site.php:58
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Entfernt \"[...]\" aus dem mit the_excerpt() angeforderten Text."
 
-#: ../includes/form/site.php:63
+#: ../includes/form/site.php:64
 msgid "Install Google Analytics"
 msgstr "Google Analytics installieren"
 
-#: ../includes/form/site.php:65
+#: ../includes/form/site.php:66
 msgid "Add Google analytics code."
 msgstr "Fügt Google-Analytics-Code ein."
 
-#: ../includes/form/site.php:72
+#: ../includes/form/site.php:73
 msgid "Exclude user logged in."
 msgstr "Nur für nicht eingeloggte Benutzer"
 
-#: ../includes/form/site.php:77
+#: ../includes/form/site.php:78
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools Verification"
 
-#: ../includes/form/site.php:79
+#: ../includes/form/site.php:80
 msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr "Gib deinen meta \"content\"-Wert ein, um deinen Blog mit <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a> und <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a> zu verifizieren."
 
-#: ../wp-total-hacks.php:292
+#: ../wp-total-hacks.php:333
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: ../wp-total-hacks.php:295
+#: ../wp-total-hacks.php:336
 msgid "Donate"
 msgstr "Spenden"
 
