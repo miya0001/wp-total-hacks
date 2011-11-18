@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-21 02:55+0900\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
+"POT-Creation-Date: 2011-11-18 16:31:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-Language: \n"
@@ -22,64 +22,64 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 # @ wp-total-hacks
-#: ../includes/admin.php:245 ../includes/form/appearance.php:11
-#: ../includes/form/appearance.php:35 ../includes/form/site.php:9
-#: ../includes/form/site.php:18
+#: includes/admin.php:223 includes/form/appearance.php:11
+#: includes/form/appearance.php:35 includes/form/site.php:9
+#: includes/form/site.php:19
 msgid "Select File"
 msgstr "Selecteer een bestand"
 
-#: ../includes/admin.php:382
+#: includes/admin.php:356
 msgid "Saved."
 msgstr ""
 
 # @ default
-#: ../includes/admin.php:389
+#: includes/admin.php:363
 msgid "Save Changes"
 msgstr ""
 
 # @ default
-#: ../includes/admin.php:434
+#: includes/admin.php:408
 msgid "Deactivate"
 msgstr ""
 
 # @ default
-#: ../includes/admin.php:436 ../includes/admin.php:438
+#: includes/admin.php:410 includes/admin.php:412
 msgid "Activate"
 msgstr ""
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:3
+#: includes/form/appearance.php:3
 msgid "Appearance in admin"
 msgstr "Verschijning in admin"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:6
+#: includes/form/appearance.php:6
 msgid "Change admin header logo"
 msgstr "Wijzig admin header logo"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:8
+#: includes/form/appearance.php:8
 msgid "Upload %s x %s pixel image for admin header logo."
 msgstr "Upload een afbeelding voor de admin header (%s x %s pixel)"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:16
+#: includes/form/appearance.php:16
 msgid "Change admin footer text"
 msgstr "Wijzig de admin footer text"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:18
+#: includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
 msgstr ""
 "U kan de admin footer tekst wijzigen. Regel overgangen worden verwijderd."
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:29
+#: includes/form/appearance.php:29
 msgid "Change login logo"
 msgstr "Wijzig het login logo"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:31
+#: includes/form/appearance.php:31
 msgid ""
 "You can customize logo, URL and Title. The logo image size is recommended "
 "310 x 70 pixel."
@@ -88,53 +88,53 @@ msgstr ""
 "logo is 310 x 70 pixels."
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:34
+#: includes/form/appearance.php:34
 msgid "Logo"
 msgstr "Logo"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:36
+#: includes/form/appearance.php:36
 msgid "URL"
 msgstr "URL"
 
 # @ wp-total-hacks
-#: ../includes/form/appearance.php:38
+#: includes/form/appearance.php:38
 msgid "Title"
 msgstr "Titel"
 
 # @ wp-total-hacks
-#: ../includes/form/footer.php:2
+#: includes/form/footer.php:2
 msgid "Translators"
 msgstr "Vertalers"
 
 # @ wp-total-hacks
-#: ../includes/form/footer.php:7
+#: includes/form/footer.php:7
 msgid "Contributors"
 msgstr "Medewerkers"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:2
+#: includes/form/other.php:2
 msgid "Other"
 msgstr "Andere"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:5
+#: includes/form/other.php:5
 #, fuzzy
 msgid "Deactivate Dashboard Widgets"
 msgstr "Schakel Dashboard Widgets uit"
 
-#: ../includes/form/other.php:7 ../includes/form/post.php:8
-#: ../includes/form/post.php:27
+#: includes/form/other.php:7 includes/form/post.php:8
+#: includes/form/post.php:27
 msgid "Choose the items you want to remove."
 msgstr ""
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:24
+#: includes/form/other.php:24
 msgid "Add role \"Webmaster\""
 msgstr "Voeg de functie \"Webmaster\" toe"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:26
+#: includes/form/other.php:26
 #, fuzzy
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
@@ -142,13 +142,13 @@ msgid ""
 msgstr "\"Webmaster\" is functie van \"Editor\" + \"edit_theme_options\"."
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:32
+#: includes/form/other.php:32
 #, fuzzy
 msgid "Change default email address"
 msgstr "Wijzig uw standaard email adres"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:34
+#: includes/form/other.php:34
 #, fuzzy
 msgid ""
 "Change the email address and sender name used by automatic email "
@@ -156,82 +156,82 @@ msgid ""
 msgstr "Wijzig us standaard email adres en weergegeven naam."
 
 # @ default
-#: ../includes/form/other.php:36
+#: includes/form/other.php:36
 msgid "Name"
 msgstr ""
 
 # @ default
-#: ../includes/form/other.php:38
+#: includes/form/other.php:38
 msgid "Email"
 msgstr ""
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:45
+#: includes/form/other.php:45
 msgid "Delete default contact methods"
 msgstr "Wis de standaard contact methodes"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:47
+#: includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
 msgstr "Wis de standaard contact methodes van het gebruikersprofiel"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:64
+#: includes/form/other.php:64
 msgid "Remove Update Notification"
 msgstr "Wis Update Aankondiging"
 
 # @ wp-total-hacks
-#: ../includes/form/other.php:66
+#: includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
 msgstr "Wis Update Aankondiging voor alle gebruikers behalve Admin User."
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:3
+#: includes/form/post.php:3
 #, fuzzy
 msgid "Posts &amp; Pages"
 msgstr "Berichten & Pagina's"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:6
+#: includes/form/post.php:6
 #, fuzzy
 msgid "Remove meta boxes for Posts"
 msgstr "Wis meta boxes voor berichten"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:25
+#: includes/form/post.php:25
 #, fuzzy
 msgid "Remove meta boxes for Pages"
 msgstr "Wis meta boxes voor pagina 's"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:44
+#: includes/form/post.php:44
 msgid "Revision Control"
 msgstr "Versie Controle"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:46
+#: includes/form/post.php:46
 #, fuzzy
 msgid "Limit the number of revisions allowed."
 msgstr "Gelieve een maximum van herzieningen op te geven."
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:48
+#: includes/form/post.php:48
 msgid "Store All"
 msgstr "Sla alles op"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:64
+#: includes/form/post.php:64
 msgid "Disable Auto Save"
 msgstr "Schakel Auto Opslaan uit"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:71
+#: includes/form/post.php:71
 #, fuzzy
 msgid "Stop self-pingbacks"
 msgstr "Stop Self Pings"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:73
+#: includes/form/post.php:73
 #, fuzzy
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
@@ -241,76 +241,79 @@ msgstr ""
 "van berichten."
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:79
+#: includes/form/post.php:79
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "Voeg \"Excerpt\" ondersteuning toe voor Pagina 's"
 
 # @ wp-total-hacks
-#: ../includes/form/post.php:81
+#: includes/form/post.php:81
 #, fuzzy
 msgid "Allows you to add excerpt text to pages."
 msgstr "Verplicht om excerpt tekst toe te voegen bij Pagina 's"
 
 # @ wp-total-hacks
-#: ../includes/form/sidebar.php:2
+#: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr "WordPress Plugins"
 
 # @ wp-total-hacks
-#: ../includes/form/sidebar.php:13
+#: includes/form/sidebar.php:13
 msgid "This Plugin needs your support"
 msgstr "Deze Plugin heeft uw aandacht nodig"
 
 # @ wp-total-hacks
-#: ../includes/form/sidebar.php:14
+#: includes/form/sidebar.php:14
 msgid "Please help support the continued development."
 msgstr "Help ons het verdere ontwikkelen te realiseren."
 
 # @ wp-total-hacks
-#: ../includes/form/sidebar.php:16
+#: includes/form/sidebar.php:16
 msgid "$200+ makes you an official contributor."
 msgstr "Bij stortingen van mer dan 200 $ wordt u een officieel medewerker."
 
 # @ wp-total-hacks
-#: ../includes/form/sidebar.php:20
+#: includes/form/sidebar.php:20
 msgid "Contact"
 msgstr "Contact"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:2
+#: includes/form/site.php:2
 msgid "Site Settings"
 msgstr "Site Instellingen"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:5
+#: includes/form/site.php:5
 msgid "Add a favicon"
 msgstr "Voeg een favicon toe"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:7
+#: includes/form/site.php:7
 msgid "Please upload .ico image."
 msgstr "Upload een .ico afbeelding."
 
+#: includes/form/site.php:10
+msgid "Use this favicon with administration screens."
+msgstr ""
+
 # @ wp-total-hacks
-#: ../includes/form/site.php:14
+#: includes/form/site.php:15
 msgid "Add a apple-touch-icon"
 msgstr "Voeg een apple-touch-icon toe"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:16
+#: includes/form/site.php:17
 msgid "Please upload .png image."
 msgstr "Upload een .png afbeelding."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:23
+#: includes/form/site.php:24
 #, fuzzy
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr ""
 "Schakel automatisch verwijderen \"wlwmanifest\" en \"xmlrpc\" van meta in."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:25
-#, php-format
+#: includes/form/site.php:26
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
@@ -319,12 +322,12 @@ msgstr ""
 "verwijder dan onnodige tags uit de header."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:31
+#: includes/form/site.php:32
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "Verwijder gelijkaardige posts rel links van de hoofdpagina"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:33
+#: includes/form/site.php:34
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
@@ -334,12 +337,12 @@ msgstr ""
 "\" ...&gt;</span>"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:39
+#: includes/form/site.php:40
 msgid "Remove version number from head"
 msgstr "Verwijder versie nummer van de hoofding"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:41
+#: includes/form/site.php:42
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
@@ -348,47 +351,47 @@ msgstr ""
 "name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:47
+#: includes/form/site.php:48
 msgid "Remove #more anchor"
 msgstr "Verwijder #lees meer bladwijzer"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:49
+#: includes/form/site.php:50
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Verwijder #lees meer-xxx bladwijzer van de meer links."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:55
+#: includes/form/site.php:56
 msgid "Remove \"[...]\" from excerpt"
 msgstr "Verwijder \"[...]\" van excerpt"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:57
+#: includes/form/site.php:58
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Verwijder \"[...]\" van de uitput van the_excerpt()."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:63
+#: includes/form/site.php:64
 msgid "Install Google Analytics"
 msgstr "Installeer Google Analytics"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:65
+#: includes/form/site.php:66
 msgid "Add Google analytics code."
 msgstr "Voeg Google Analytics code toe."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:72
+#: includes/form/site.php:73
 msgid "Exclude user logged in."
 msgstr "Sluit ingelogde gebruiker uit."
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:77
+#: includes/form/site.php:78
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools verificatie"
 
 # @ wp-total-hacks
-#: ../includes/form/site.php:79
+#: includes/form/site.php:80
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
@@ -401,14 +404,34 @@ msgstr ""
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 # @ default
-#: ../wp-total-hacks.php:292
+#: wp-total-hacks.php:333
 msgid "Settings"
 msgstr ""
 
 # @ wp-total-hacks
-#: ../wp-total-hacks.php:295
+#: wp-total-hacks.php:336
 msgid "Donate"
 msgstr "Steun ons"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Total Hacks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpist.me/wp/wp-total-hacks/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WP Total Hacks can customize your WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyauchi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpist.me/"
+msgstr ""
 
 # @ wp-total-hacks
 #~ msgid "Click on the check box that you want to delete."

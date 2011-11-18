@@ -1,306 +1,299 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Copyright (C) 2010 WP Total Hacks
+# This file is distributed under the same license as the WP Total Hacks package.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-11-17 21:17+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: WP Total Hacks 0.6.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
+"POT-Creation-Date: 2011-11-18 16:31:40+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: 8bit\n"
 
-#: ../includes/admin.php:223 ../includes/form/appearance.php:11
-#: ../includes/form/appearance.php:35 ../includes/form/site.php:9
-#: ../includes/form/site.php:19
+#: includes/admin.php:223 includes/form/appearance.php:11
+#: includes/form/appearance.php:35 includes/form/site.php:9
+#: includes/form/site.php:19
 msgid "Select File"
 msgstr ""
 
-#: ../includes/admin.php:356
+#: includes/admin.php:356
 msgid "Saved."
 msgstr ""
 
-#: ../includes/admin.php:363
+#: includes/admin.php:363
 msgid "Save Changes"
 msgstr ""
 
-#: ../includes/admin.php:408
+#: includes/admin.php:408
 msgid "Deactivate"
 msgstr ""
 
-#: ../includes/admin.php:410 ../includes/admin.php:412
+#: includes/admin.php:410 includes/admin.php:412
 msgid "Activate"
 msgstr ""
 
-#: ../includes/form/appearance.php:3
+#: includes/form/appearance.php:3
 msgid "Appearance in admin"
 msgstr ""
 
-#: ../includes/form/appearance.php:6
+#: includes/form/appearance.php:6
 msgid "Change admin header logo"
 msgstr ""
 
-#: ../includes/form/appearance.php:8
-#, php-format
+#: includes/form/appearance.php:8
 msgid "Upload %s x %s pixel image for admin header logo."
 msgstr ""
 
-#: ../includes/form/appearance.php:16
+#: includes/form/appearance.php:16
 msgid "Change admin footer text"
 msgstr ""
 
-#: ../includes/form/appearance.php:18
+#: includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
 msgstr ""
 
-#: ../includes/form/appearance.php:29
+#: includes/form/appearance.php:29
 msgid "Change login logo"
 msgstr ""
 
-#: ../includes/form/appearance.php:31
+#: includes/form/appearance.php:31
 msgid ""
 "You can customize logo, URL and Title. The logo image size is recommended "
 "310 x 70 pixel."
 msgstr ""
 
-#: ../includes/form/appearance.php:34
+#: includes/form/appearance.php:34
 msgid "Logo"
 msgstr ""
 
-#: ../includes/form/appearance.php:36
+#: includes/form/appearance.php:36
 msgid "URL"
 msgstr ""
 
-#: ../includes/form/appearance.php:38
+#: includes/form/appearance.php:38
 msgid "Title"
 msgstr ""
 
-#: ../includes/form/footer.php:2
+#: includes/form/footer.php:2
 msgid "Translators"
 msgstr ""
 
-#: ../includes/form/footer.php:7
+#: includes/form/footer.php:7
 msgid "Contributors"
 msgstr ""
 
-#: ../includes/form/other.php:2
+#: includes/form/other.php:2
 msgid "Other"
 msgstr ""
 
-#: ../includes/form/other.php:5
+#: includes/form/other.php:5
 msgid "Deactivate Dashboard Widgets"
 msgstr ""
 
-#: ../includes/form/other.php:7 ../includes/form/post.php:8
-#: ../includes/form/post.php:27
+#: includes/form/other.php:7 includes/form/post.php:8
+#: includes/form/post.php:27
 msgid "Choose the items you want to remove."
 msgstr ""
 
-#: ../includes/form/other.php:24
+#: includes/form/other.php:24
 msgid "Add role \"Webmaster\""
 msgstr ""
 
-#: ../includes/form/other.php:26
+#: includes/form/other.php:26
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr ""
 
-#: ../includes/form/other.php:32
+#: includes/form/other.php:32
 msgid "Change default email address"
 msgstr ""
 
-#: ../includes/form/other.php:34
+#: includes/form/other.php:34
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr ""
 
-#: ../includes/form/other.php:36
+#: includes/form/other.php:36
 msgid "Name"
 msgstr ""
 
-#: ../includes/form/other.php:38
+#: includes/form/other.php:38
 msgid "Email"
 msgstr ""
 
-#: ../includes/form/other.php:45
+#: includes/form/other.php:45
 msgid "Delete default contact methods"
 msgstr ""
 
-#: ../includes/form/other.php:47
+#: includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
 msgstr ""
 
-#: ../includes/form/other.php:64
+#: includes/form/other.php:64
 msgid "Remove Update Notification"
 msgstr ""
 
-#: ../includes/form/other.php:66
+#: includes/form/other.php:66
 msgid "Remove Update Notification for all users except Admin User."
 msgstr ""
 
-#: ../includes/form/post.php:3
+#: includes/form/post.php:3
 msgid "Posts &amp; Pages"
 msgstr ""
 
-#: ../includes/form/post.php:6
+#: includes/form/post.php:6
 msgid "Remove meta boxes for Posts"
 msgstr ""
 
-#: ../includes/form/post.php:25
+#: includes/form/post.php:25
 msgid "Remove meta boxes for Pages"
 msgstr ""
 
-#: ../includes/form/post.php:44
+#: includes/form/post.php:44
 msgid "Revision Control"
 msgstr ""
 
-#: ../includes/form/post.php:46
+#: includes/form/post.php:46
 msgid "Limit the number of revisions allowed."
 msgstr ""
 
-#: ../includes/form/post.php:48
+#: includes/form/post.php:48
 msgid "Store All"
 msgstr ""
 
-#: ../includes/form/post.php:64
+#: includes/form/post.php:64
 msgid "Disable Auto Save"
 msgstr ""
 
-#: ../includes/form/post.php:71
+#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr ""
 
-#: ../includes/form/post.php:73
+#: includes/form/post.php:73
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
 msgstr ""
 
-#: ../includes/form/post.php:79
+#: includes/form/post.php:79
 msgid "Add \"Excerpt\" support for Pages."
 msgstr ""
 
-#: ../includes/form/post.php:81
+#: includes/form/post.php:81
 msgid "Allows you to add excerpt text to pages."
 msgstr ""
 
-#: ../includes/form/sidebar.php:2
+#: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr ""
 
-#: ../includes/form/sidebar.php:13
+#: includes/form/sidebar.php:13
 msgid "This Plugin needs your support"
 msgstr ""
 
-#: ../includes/form/sidebar.php:14
+#: includes/form/sidebar.php:14
 msgid "Please help support the continued development."
 msgstr ""
 
-#: ../includes/form/sidebar.php:16
+#: includes/form/sidebar.php:16
 msgid "$200+ makes you an official contributor."
 msgstr ""
 
-#: ../includes/form/sidebar.php:20
+#: includes/form/sidebar.php:20
 msgid "Contact"
 msgstr ""
 
-#: ../includes/form/site.php:2
+#: includes/form/site.php:2
 msgid "Site Settings"
 msgstr ""
 
-#: ../includes/form/site.php:5
+#: includes/form/site.php:5
 msgid "Add a favicon"
 msgstr ""
 
-#: ../includes/form/site.php:7
+#: includes/form/site.php:7
 msgid "Please upload .ico image."
 msgstr ""
 
-#: ../includes/form/site.php:10
+#: includes/form/site.php:10
 msgid "Use this favicon with administration screens."
 msgstr ""
 
-#: ../includes/form/site.php:15
+#: includes/form/site.php:15
 msgid "Add a apple-touch-icon"
 msgstr ""
 
-#: ../includes/form/site.php:17
+#: includes/form/site.php:17
 msgid "Please upload .png image."
 msgstr ""
 
-#: ../includes/form/site.php:24
+#: includes/form/site.php:24
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr ""
 
-#: ../includes/form/site.php:26
-#, php-format
+#: includes/form/site.php:26
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
 msgstr ""
 
-#: ../includes/form/site.php:32
+#: includes/form/site.php:32
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr ""
 
-#: ../includes/form/site.php:34
+#: includes/form/site.php:34
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 msgstr ""
 
-#: ../includes/form/site.php:40
+#: includes/form/site.php:40
 msgid "Remove version number from head"
 msgstr ""
 
-#: ../includes/form/site.php:42
+#: includes/form/site.php:42
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 msgstr ""
 
-#: ../includes/form/site.php:48
+#: includes/form/site.php:48
 msgid "Remove #more anchor"
 msgstr ""
 
-#: ../includes/form/site.php:50
+#: includes/form/site.php:50
 msgid "Remove #more-xxx anchor from more links."
 msgstr ""
 
-#: ../includes/form/site.php:56
+#: includes/form/site.php:56
 msgid "Remove \"[...]\" from excerpt"
 msgstr ""
 
-#: ../includes/form/site.php:58
+#: includes/form/site.php:58
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr ""
 
-#: ../includes/form/site.php:64
+#: includes/form/site.php:64
 msgid "Install Google Analytics"
 msgstr ""
 
-#: ../includes/form/site.php:66
+#: includes/form/site.php:66
 msgid "Add Google analytics code."
 msgstr ""
 
-#: ../includes/form/site.php:73
+#: includes/form/site.php:73
 msgid "Exclude user logged in."
 msgstr ""
 
-#: ../includes/form/site.php:78
+#: includes/form/site.php:78
 msgid "Webmaster Tools Verification"
 msgstr ""
 
-#: ../includes/form/site.php:80
+#: includes/form/site.php:80
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
@@ -308,10 +301,30 @@ msgid ""
 "and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 
-#: ../wp-total-hacks.php:333
+#: wp-total-hacks.php:333
 msgid "Settings"
 msgstr ""
 
-#: ../wp-total-hacks.php:336
+#: wp-total-hacks.php:336
 msgid "Donate"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Total Hacks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpist.me/wp/wp-total-hacks/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WP Total Hacks can customize your WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Takayuki Miyauchi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpist.me/"
 msgstr ""
