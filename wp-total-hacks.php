@@ -329,7 +329,7 @@ public function plugin_row_meta($links, $file)
         $link = '<a href="%s">%s</a>';
         $links[] = sprintf(
             $link,
-            admin_url('options-general.php?page=wp-biz'),
+            admin_url('options-general.php?page=wp-total-hacks'),
             __("Settings")
         );
         $url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU";
