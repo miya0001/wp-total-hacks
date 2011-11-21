@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2011-11-18 16:31:40+00:00\n"
+"POT-Creation-Date: 2011-11-21 06:14:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,20 +329,20 @@ msgstr "寄付"
 
 #. Plugin Name of the plugin/theme
 msgid "WP Total Hacks"
-msgstr ""
+msgstr "WP Total Hacks"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wpist.me/wp/wp-total-hacks/"
-msgstr ""
+msgstr "http://firegoby.theta.ne.jp/wp/wp-total-hacks"
 
 #. Description of the plugin/theme
 msgid "WP Total Hacks can customize your WordPress."
-msgstr ""
+msgstr "20項目以上のカスタマイズができるWordPressプラグイン"
 
 #. Author of the plugin/theme
 msgid "Takayuki Miyauchi"
-msgstr ""
+msgstr "Takayuki Miyauchi"
 
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
-msgstr ""
+msgstr "http://firegoby.theta.ne.jp/"

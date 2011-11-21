@@ -33,9 +33,9 @@
     <div class="block_content">
         <p><?php _e('Change the email address and sender name used by automatic email notifications.', 'wp-total-hacks'); ?></p>
         <dl>
-            <dt><?php _e('Name'); ?></dt>
+            <dt><?php _e('Name', 'wp-total-hacks'); ?></dt>
             <dd><input class="text" type="text" name="wfb_sendername" value="<?php $this->op('wfb_sendername')?>" /></dd>
-            <dt><?php _e('Email'); ?></dt>
+            <dt><?php _e('Email', 'wp-total-hacks'); ?></dt>
             <dd><input class="text" type="text" name="wfb_emailaddress" value="<?php $this->op('wfb_emailaddress')?>" /></dd>
         </dl>
     </div>

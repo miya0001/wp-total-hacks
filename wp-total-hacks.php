@@ -330,7 +330,7 @@ public function plugin_row_meta($links, $file)
         $links[] = sprintf(
             $link,
             admin_url('options-general.php?page=wp-total-hacks'),
-            __("Settings")
+            __("Settings", "wp-total-hacks")
         );
         $url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU";
         $links[] = sprintf($link, esc_url($url), __("Donate", "wp-total-hacks"));
