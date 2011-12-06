@@ -179,14 +179,13 @@ public function wp_dashboard_setup()
 {
     if ($w = $this->op('wfb_widget')) {
         global $wp_meta_boxes;
-        foreach ($wp_meta_boxes['dashboard']['normal']['core'] as $key => $array) {
-            if (in_array($key, $w)) {
-                unset($wp_meta_boxes['dashboard']['normal']['core'][$key]);
-            }
-        }
-        foreach ($wp_meta_boxes['dashboard']['side']['core'] as $key => $array) {
-            if (in_array($key, $w)) {
-                unset($wp_meta_boxes['dashboard']['side']['core'][$key]);
+        foreach ( $wp_meta_boxes['dashboard'] as $position => $prio_boxes ) {
+            foreach ( $prio_boxes as $priority => $boxes ) {
+                foreach ( $boxes as $key => $array ) {
+                    if (in_array($key, $w)) {
+                        unset($wp_meta_boxes['dashboard'][$position][$priority][$key]);
+                    }
+                }
             }
         }
     }
