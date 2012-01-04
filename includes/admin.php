@@ -51,6 +51,10 @@ private $translators = array(
         'lang' => 'Belarusian',
         'url' => 'http://webhostinggeeks.com/science/'
     ),
+    'Zairul Azmil' => array(
+        'lang' => 'Malay',
+        'url' => 'http://flavors.me/zairul#2fa/wordpress'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';

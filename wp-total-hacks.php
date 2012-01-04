@@ -5,7 +5,7 @@ Author: Takayuki Miyauchi
 Plugin URI: http://wpist.me/wp/wp-total-hacks/
 Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
-Version: 0.7.1
+Version: 0.8.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -253,7 +253,8 @@ public function admin_head()
         return;
     }
     $style = '<style type="text/css">';
-    $style .= '#header-logo{background-image: url(%s) !important;}';
+    $style .= '#header-logo,#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-image: url(%s) !important;}';
+    $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
     $style .= '</style>';
     printf($style, esc_url($this->op("wfb_custom_logo")));
 }
