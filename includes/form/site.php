@@ -17,6 +17,13 @@
         <p><?php _e('Please upload .png image.', 'wp-total-hacks'); ?></p>
         <input type="text" id="wfb_apple_icon" name="wfb_apple_icon" class="media" value="<?php $this->op('wfb_apple_icon'); ?>" />
         <a class="media-upload" href="JavaScript:void(0);" rel="wfb_apple_icon"><?php _e('Select File', 'wp-total-hacks'); ?></a>
+        <p>
+<?php if (get_option('wfb_apple_icon_precomposed')): ?>
+            <input type="checkbox" name="wfb_apple_icon_precomposed" value="1" checked="checked"  />
+<?php else: ?>
+            <input type="checkbox" name="wfb_apple_icon_precomposed" value="1" />
+<?php endif; ?>
+        apple-touch-icon as precomposed.</p>
     </div>
 </div>
 

@@ -5,7 +5,7 @@ Author: Takayuki Miyauchi
 Plugin URI: http://wpist.me/wp/wp-total-hacks/
 Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
-Version: 0.8.0
+Version: 0.9.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -21,6 +21,7 @@ private $option_params = array(
     'wfb_favicon' => 'url',
     'wfb_admin_favicon' => 'bool',
     'wfb_apple_icon' => 'url',
+    'wfb_apple_icon_precomposed' => 'bool',
     'wfb_hide_version' => 'bool',
     'wfb_google' => 'text',
     'wfb_yahoo' => 'text',
@@ -235,7 +236,11 @@ public function wp_head()
         printf($link, esc_url($this->op("wfb_favicon")));
     }
     if ($this->op('wfb_apple_icon')) {
-        $link = '<link rel="apple-touch-icon" href="%s" />'."\n";
+        if ($this->op('wfb_apple_icon_precomposed')) {
+            $link = '<link rel="apple-touch-icon-precomposed" href="%s" />'."\n";
+        } else {
+            $link = '<link rel="apple-touch-icon" href="%s" />'."\n";
+        }
         printf($link, esc_url($this->op("wfb_apple_icon")));
     }
     echo $this->get_meta('google-site-verification', $this->op('wfb_google'));

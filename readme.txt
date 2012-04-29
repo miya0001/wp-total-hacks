@@ -4,7 +4,7 @@ Donate link: http://wpist.me/
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.2
 Tested up to: 3.3
-Stable tag: 0.8.0
+Stable tag: 0.9.0
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -86,6 +86,9 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+
+= 0.9.0 =
+* [apple-touch-icon-precomposed support.](http://wpist.me/2012/04/29/wp-total-hacks-0-9/)
 
 = 0.7.1 =
 * Malay support
