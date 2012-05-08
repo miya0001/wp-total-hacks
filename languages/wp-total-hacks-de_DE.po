@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.2.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2011-11-21 06:14:51+00:00\n"
+"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
 "PO-Revision-Date: 2011-11-18 10:14+0100\n"
 "Last-Translator: Felix Kern <kernfel@gmail.com>\n"
 "Language-Team: \n"
@@ -14,25 +14,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:223 includes/form/appearance.php:11
+#: includes/admin.php:227 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Datei auswählen..."
 
-#: includes/admin.php:356
+#: includes/admin.php:360
 msgid "Saved."
 msgstr "Gespeichert."
 
-#: includes/admin.php:363
+#: includes/admin.php:367
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: includes/admin.php:408
+#: includes/admin.php:412
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: includes/admin.php:410 includes/admin.php:412
+#: includes/admin.php:414 includes/admin.php:416
 msgid "Activate"
 msgstr "Aktivieren"
 
@@ -240,11 +240,11 @@ msgstr "Apple-Touch-Icon hinzufügen"
 msgid "Please upload .png image."
 msgstr "Lade eine .png-Bilddatei hoch."
 
-#: includes/form/site.php:24
+#: includes/form/site.php:31
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "\"wlwmanifest\"- und \"xmlrpc\"-Tags entfernen"
 
-#: includes/form/site.php:26
+#: includes/form/site.php:33
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
@@ -252,12 +252,12 @@ msgstr ""
 "Wenn du \"<a href=\"%s\">Fernpublizieren</a>\" nicht verwendest, kannst du "
 "diese unnötigen Tags aus dem &lt;head&gt; entfernen."
 
-#: includes/form/site.php:32
+#: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr ""
 "rel-Links zu angrenzenden Artikel aus dem &lt;head&gt; von Seiten entfernen"
 
-#: includes/form/site.php:34
+#: includes/form/site.php:41
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
@@ -265,11 +265,11 @@ msgstr ""
 "Entfernt diese bei Seiten unnötigen Links.<br /><span class=\"ex\">z.B. &lt;"
 "link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
-#: includes/form/site.php:40
+#: includes/form/site.php:47
 msgid "Remove version number from head"
 msgstr "Versionsnummer aus dem &lt;head&gt; entfernen"
 
-#: includes/form/site.php:42
+#: includes/form/site.php:49
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
@@ -277,39 +277,39 @@ msgstr ""
 "Entfernt den Generator-Tag (<span class=\"ex\">&lt;meta name=\"generator\" "
 "content=\"WordPress x.x.x\" /&gt;</span>) aus dem &lt;head&gt;."
 
-#: includes/form/site.php:48
+#: includes/form/site.php:55
 msgid "Remove #more anchor"
 msgstr "#more-Anker entfernen"
 
-#: includes/form/site.php:50
+#: includes/form/site.php:57
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Entfernt den \"#more-xxx\"-Anker aus den \"Weiterlesen\"-Links."
 
-#: includes/form/site.php:56
+#: includes/form/site.php:63
 msgid "Remove \"[...]\" from excerpt"
 msgstr "\"[...]\" aus Auszügen entfernen"
 
-#: includes/form/site.php:58
+#: includes/form/site.php:65
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Entfernt \"[...]\" aus dem mit the_excerpt() angeforderten Text."
 
-#: includes/form/site.php:64
+#: includes/form/site.php:71
 msgid "Install Google Analytics"
 msgstr "Google Analytics installieren"
 
-#: includes/form/site.php:66
+#: includes/form/site.php:73
 msgid "Add Google analytics code."
 msgstr "Fügt Google-Analytics-Code ein."
 
-#: includes/form/site.php:73
+#: includes/form/site.php:80
 msgid "Exclude user logged in."
 msgstr "Nur für nicht eingeloggte Benutzer"
 
-#: includes/form/site.php:78
+#: includes/form/site.php:85
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools Verification"
 
-#: includes/form/site.php:80
+#: includes/form/site.php:87
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
@@ -322,11 +322,11 @@ msgstr ""
 "href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a> zu "
 "verifizieren."
 
-#: wp-total-hacks.php:333
+#: wp-total-hacks.php:338
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: wp-total-hacks.php:336
+#: wp-total-hacks.php:341
 msgid "Donate"
 msgstr "Spenden"
 

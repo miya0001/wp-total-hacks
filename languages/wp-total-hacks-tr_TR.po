@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Total Hacks Turkish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2011-11-21 06:14:51+00:00\n"
+"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
 "PO-Revision-Date: 2011-09-21 18:20+0200\n"
 "Last-Translator: Serkan Algur <info@kaisercrazy.com>\n"
 "Language-Team: kaisercrazy <info@kaisercrazy.com>\n"
@@ -19,25 +19,25 @@ msgstr ""
 "X-Poedit-Country: TURKEY\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: includes/admin.php:223 includes/form/appearance.php:11
+#: includes/admin.php:227 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Gözat"
 
-#: includes/admin.php:356
+#: includes/admin.php:360
 msgid "Saved."
 msgstr "Kaydedildi."
 
-#: includes/admin.php:363
+#: includes/admin.php:367
 msgid "Save Changes"
 msgstr "Değişiklikleri Kaydet"
 
-#: includes/admin.php:408
+#: includes/admin.php:412
 msgid "Deactivate"
 msgstr "Etkisizleştir"
 
-#: includes/admin.php:410 includes/admin.php:412
+#: includes/admin.php:414 includes/admin.php:416
 msgid "Activate"
 msgstr "Etkinleştir"
 
@@ -244,11 +244,11 @@ msgstr "Iphone Dokunmatik Resmi Ekle"
 msgid "Please upload .png image."
 msgstr "Lütfen .png dosyası yükleyin"
 
-#: includes/form/site.php:24
+#: includes/form/site.php:31
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "\"wlwmanifest\" ve \"xmlrpc\" nin otomatik olarak silinmesini aktif et"
 
-#: includes/form/site.php:26
+#: includes/form/site.php:33
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
@@ -256,11 +256,11 @@ msgstr ""
 " \"<a href=\"%s\">Yönlendirmeli yayın</a>\" kullanmıyorsanız bu gereksiz "
 "eklentileri kaldırın"
 
-#: includes/form/site.php:32
+#: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "Sayfalardan gelişmiş yazı rel linklerini kaldır"
 
-#: includes/form/site.php:34
+#: includes/form/site.php:41
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
@@ -268,11 +268,11 @@ msgstr ""
 "Sayfalardan gelişmiş yazı rel linklerini kaldır<br />örn: <span class=\"ex"
 "\">&lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
-#: includes/form/site.php:40
+#: includes/form/site.php:47
 msgid "Remove version number from head"
 msgstr "Üst kısımdan WordPress versiyonunu kaldır"
 
-#: includes/form/site.php:42
+#: includes/form/site.php:49
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
@@ -280,39 +280,39 @@ msgstr ""
 "Üst kısımdan generator (oluşturucu) alanını kaldır örn: <span class=\"ex\"> "
 "&lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
-#: includes/form/site.php:48
+#: includes/form/site.php:55
 msgid "Remove #more anchor"
 msgstr "#more ifadesini kaldır "
 
-#: includes/form/site.php:50
+#: includes/form/site.php:57
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Yazı linklerinin sonundaki  #more-xxx ifadesini kaldır"
 
-#: includes/form/site.php:56
+#: includes/form/site.php:63
 msgid "Remove \"[...]\" from excerpt"
 msgstr "Devamını oku alanından \"[...]\" ifadesini kaldır"
 
-#: includes/form/site.php:58
+#: includes/form/site.php:65
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "the_excerpt() kodundan \"[...]\" ifadesini kaldır"
 
-#: includes/form/site.php:64
+#: includes/form/site.php:71
 msgid "Install Google Analytics"
 msgstr "Google Analytics Ekle"
 
-#: includes/form/site.php:66
+#: includes/form/site.php:73
 msgid "Add Google analytics code."
 msgstr "Google Analytics kodunuzu ekleyin"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:80
 msgid "Exclude user logged in."
 msgstr "Kullanıcı girişini durdurun"
 
-#: includes/form/site.php:78
+#: includes/form/site.php:85
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools Onayı"
 
-#: includes/form/site.php:80
+#: includes/form/site.php:87
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
@@ -324,11 +324,11 @@ msgstr ""
 "a> ve <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a> "
 "sistemleriden aldığınızı meta \"content\" anahtarını girin "
 
-#: wp-total-hacks.php:333
+#: wp-total-hacks.php:338
 msgid "Settings"
 msgstr "Seçenekler"
 
-#: wp-total-hacks.php:336
+#: wp-total-hacks.php:341
 msgid "Donate"
 msgstr "Bağış Yap"
 

@@ -55,6 +55,10 @@ private $translators = array(
         'lang' => 'Malay',
         'url' => 'http://flavors.me/zairul#2fa/wordpress'
     ),
+    'Rafael Funchal' => array(
+        'lang' => 'Brazilian Portuguese',
+        'url' => 'http://www.rafaelfunchal.com.br/'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';

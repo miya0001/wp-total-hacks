@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2011-11-21 06:14:51+00:00\n"
+"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
 "PO-Revision-Date: 2011-11-04 09:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: Web Geeks\n"
@@ -18,25 +18,25 @@ msgstr ""
 "X-Poedit-Country: BELARUS\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: includes/admin.php:223 includes/form/appearance.php:11
+#: includes/admin.php:227 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Абярыце файл"
 
-#: includes/admin.php:356
+#: includes/admin.php:360
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:363
+#: includes/admin.php:367
 msgid "Save Changes"
 msgstr "Захаваць змены"
 
-#: includes/admin.php:408
+#: includes/admin.php:412
 msgid "Deactivate"
 msgstr "Выключыць"
 
-#: includes/admin.php:410 includes/admin.php:412
+#: includes/admin.php:414 includes/admin.php:416
 msgid "Activate"
 msgstr "Уключыць"
 
@@ -247,13 +247,13 @@ msgstr "Дадаць абразок для сайта"
 msgid "Please upload .png image."
 msgstr "Загрузіце .ico файл."
 
-#: includes/form/site.php:24
+#: includes/form/site.php:31
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr ""
 "Усталяваць аўтаматычнае выдаленне \"wlwmanifest\" і \"xmlrpc\" з блока "
 "<head>."
 
-#: includes/form/site.php:26
+#: includes/form/site.php:33
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
@@ -261,11 +261,11 @@ msgstr ""
 "Калі \"<a href=\"%s\">Выдаленая публікацыя</a>\" не выкарыстоўваецца, можна "
 "выдаліць  \"лішнія\" тэгі з секцыі <b>head</b> html разметкі."
 
-#: includes/form/site.php:32
+#: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "Выдаліць спасылкі на \"сумежныя\" запісы з <head> секцыі html разметкі"
 
-#: includes/form/site.php:34
+#: includes/form/site.php:41
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
@@ -274,11 +274,11 @@ msgstr ""
 "Старонках.<br /><span class=\"ex\">e.g. &lt;link rel=\"next\" ...&gt; &lt;"
 "link rel=\"prev\" ...&gt;</span>"
 
-#: includes/form/site.php:40
+#: includes/form/site.php:47
 msgid "Remove version number from head"
 msgstr "Выдаліць нумар версіі Wordpress з секцыі <head> html разметкі"
 
-#: includes/form/site.php:42
+#: includes/form/site.php:49
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
@@ -286,39 +286,39 @@ msgstr ""
 "Выдаліць тэг \"generator\" з секцыі <head> html разметкі: <span class=\"ex"
 "\">e.g. &lt;meta name=\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
-#: includes/form/site.php:48
+#: includes/form/site.php:55
 msgid "Remove #more anchor"
 msgstr "Выдаліць #more якар"
 
-#: includes/form/site.php:50
+#: includes/form/site.php:57
 msgid "Remove #more-xxx anchor from more links."
 msgstr "Выдаліць #more-xxx якар для спасылак \"Падрабязней\"."
 
-#: includes/form/site.php:56
+#: includes/form/site.php:63
 msgid "Remove \"[...]\" from excerpt"
 msgstr "Выдаліць \"[...]\" з урыўкаў"
 
-#: includes/form/site.php:58
+#: includes/form/site.php:65
 msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Выдаліць \"[...]\" з высновы функцыі the_excerpt()."
 
-#: includes/form/site.php:64
+#: includes/form/site.php:71
 msgid "Install Google Analytics"
 msgstr "Усталяваць код Google Analytics"
 
-#: includes/form/site.php:66
+#: includes/form/site.php:73
 msgid "Add Google analytics code."
 msgstr "Дадаць код Google analytics."
 
-#: includes/form/site.php:73
+#: includes/form/site.php:80
 msgid "Exclude user logged in."
 msgstr "Exclude user logged in."
 
-#: includes/form/site.php:78
+#: includes/form/site.php:85
 msgid "Webmaster Tools Verification"
 msgstr "Пацверджанне мае рацыю на кіраванне сайтам"
 
-#: includes/form/site.php:80
+#: includes/form/site.php:87
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
@@ -330,11 +330,11 @@ msgstr ""
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, і <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:333
+#: wp-total-hacks.php:338
 msgid "Settings"
 msgstr "Налады"
 
-#: wp-total-hacks.php:336
+#: wp-total-hacks.php:341
 msgid "Donate"
 msgstr "Спансаваць"
 
