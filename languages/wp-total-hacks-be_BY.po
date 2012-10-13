@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
+"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
 "PO-Revision-Date: 2011-11-04 09:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: Web Geeks\n"
@@ -18,25 +18,25 @@ msgstr ""
 "X-Poedit-Country: BELARUS\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: includes/admin.php:227 includes/form/appearance.php:11
+#: includes/admin.php:231 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Абярыце файл"
 
-#: includes/admin.php:360
+#: includes/admin.php:364
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:367
+#: includes/admin.php:371
 msgid "Save Changes"
 msgstr "Захаваць змены"
 
-#: includes/admin.php:412
+#: includes/admin.php:416
 msgid "Deactivate"
 msgstr "Выключыць"
 
-#: includes/admin.php:414 includes/admin.php:416
+#: includes/admin.php:418 includes/admin.php:420
 msgid "Activate"
 msgstr "Уключыць"
 
@@ -201,23 +201,48 @@ msgstr "Дадаць падтрымку \"Цытат\" для Старонак."
 msgid "Allows you to add excerpt text to pages."
 msgstr "Усталяваць падтрымку цытавання тэксту для Старонак."
 
+#: includes/form/post.php:87
+#, fuzzy
+msgid "Remove attachment link from media uploader."
+msgstr "Выдаліць спасылкі на \"сумежныя\" запісы з <head> секцыі html разметкі"
+
+#: includes/form/post.php:89
+msgid "Allows you to remove link for attachment page from media uploader."
+msgstr ""
+
+#: includes/form/post.php:96
+msgid "Allow you to create chid page for \"draft\"."
+msgstr ""
+
+#: includes/form/post.php:98
+msgid "You can create child page for non-publish Page."
+msgstr ""
+
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr "Убудовы аўтара для WordPress"
 
 #: includes/form/sidebar.php:13
+msgid "Make WordPress Site Load Faster"
+msgstr ""
+
+#: includes/form/sidebar.php:14
+msgid "http://wpbooster.net/"
+msgstr ""
+
+#: includes/form/sidebar.php:18
 msgid "This Plugin needs your support"
 msgstr "Гэта ўбудова мае патрэбу ў Вашай падтрымцы"
 
-#: includes/form/sidebar.php:14
+#: includes/form/sidebar.php:19
 msgid "Please help support the continued development."
 msgstr "Вы можаце аказаць падтрымку для працягу распрацоўкі."
 
-#: includes/form/sidebar.php:16
+#: includes/form/sidebar.php:21
 msgid "$200+ makes you an official contributor."
 msgstr "Больш $200 атрымана афіцыйным распрацоўнікам."
 
-#: includes/form/sidebar.php:20
+#: includes/form/sidebar.php:25
 msgid "Contact"
 msgstr "Кантакты"
 
@@ -330,11 +355,11 @@ msgstr ""
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, і <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:338
+#: wp-total-hacks.php:386
 msgid "Settings"
 msgstr "Налады"
 
-#: wp-total-hacks.php:341
+#: wp-total-hacks.php:389
 msgid "Donate"
 msgstr "Спансаваць"
 

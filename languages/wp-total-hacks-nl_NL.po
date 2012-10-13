@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
+"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,28 +22,28 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 # @ wp-total-hacks
-#: includes/admin.php:227 includes/form/appearance.php:11
+#: includes/admin.php:231 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Selecteer een bestand"
 
-#: includes/admin.php:360
+#: includes/admin.php:364
 msgid "Saved."
 msgstr ""
 
 # @ default
-#: includes/admin.php:367
+#: includes/admin.php:371
 msgid "Save Changes"
 msgstr ""
 
 # @ default
-#: includes/admin.php:412
+#: includes/admin.php:416
 msgid "Deactivate"
 msgstr ""
 
 # @ default
-#: includes/admin.php:414 includes/admin.php:416
+#: includes/admin.php:418 includes/admin.php:420
 msgid "Activate"
 msgstr ""
 
@@ -252,27 +252,53 @@ msgid "Allows you to add excerpt text to pages."
 msgstr "Verplicht om excerpt tekst toe te voegen bij Pagina 's"
 
 # @ wp-total-hacks
+#: includes/form/post.php:87
+#, fuzzy
+msgid "Remove attachment link from media uploader."
+msgstr "Verwijder gelijkaardige posts rel links van de hoofdpagina"
+
+#: includes/form/post.php:89
+msgid "Allows you to remove link for attachment page from media uploader."
+msgstr ""
+
+#: includes/form/post.php:96
+msgid "Allow you to create chid page for \"draft\"."
+msgstr ""
+
+#: includes/form/post.php:98
+msgid "You can create child page for non-publish Page."
+msgstr ""
+
+# @ wp-total-hacks
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr "WordPress Plugins"
 
-# @ wp-total-hacks
 #: includes/form/sidebar.php:13
+msgid "Make WordPress Site Load Faster"
+msgstr ""
+
+#: includes/form/sidebar.php:14
+msgid "http://wpbooster.net/"
+msgstr ""
+
+# @ wp-total-hacks
+#: includes/form/sidebar.php:18
 msgid "This Plugin needs your support"
 msgstr "Deze Plugin heeft uw aandacht nodig"
 
 # @ wp-total-hacks
-#: includes/form/sidebar.php:14
+#: includes/form/sidebar.php:19
 msgid "Please help support the continued development."
 msgstr "Help ons het verdere ontwikkelen te realiseren."
 
 # @ wp-total-hacks
-#: includes/form/sidebar.php:16
+#: includes/form/sidebar.php:21
 msgid "$200+ makes you an official contributor."
 msgstr "Bij stortingen van mer dan 200 $ wordt u een officieel medewerker."
 
 # @ wp-total-hacks
-#: includes/form/sidebar.php:20
+#: includes/form/sidebar.php:25
 msgid "Contact"
 msgstr "Contact"
 
@@ -404,12 +430,12 @@ msgstr ""
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 # @ default
-#: wp-total-hacks.php:338
+#: wp-total-hacks.php:386
 msgid "Settings"
 msgstr ""
 
 # @ wp-total-hacks
-#: wp-total-hacks.php:341
+#: wp-total-hacks.php:389
 msgid "Donate"
 msgstr "Steun ons"
 

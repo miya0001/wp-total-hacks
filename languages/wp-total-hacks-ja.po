@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
+"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:227 includes/form/appearance.php:11
+#: includes/admin.php:231 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "ファイルを選択"
 
-#: includes/admin.php:360
+#: includes/admin.php:364
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:367
+#: includes/admin.php:371
 msgid "Save Changes"
 msgstr ""
 
-#: includes/admin.php:412
+#: includes/admin.php:416
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:414 includes/admin.php:416
+#: includes/admin.php:418 includes/admin.php:420
 msgid "Activate"
 msgstr ""
 
@@ -195,23 +195,47 @@ msgstr "ページに\"抜粋\"を追加"
 msgid "Allows you to add excerpt text to pages."
 msgstr "ページに\"抜粋\"を追加できます。"
 
+#: includes/form/post.php:87
+msgid "Remove attachment link from media uploader."
+msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"
+
+#: includes/form/post.php:89
+msgid "Allows you to remove link for attachment page from media uploader."
+msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"
+
+#: includes/form/post.php:96
+msgid "Allow you to create chid page for \"draft\"."
+msgstr "下書きページへの子ページの作成を許可"
+
+#: includes/form/post.php:98
+msgid "You can create child page for non-publish Page."
+msgstr "公開されていないページの子ページを作成することができます。"
+
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr "WordPress プラグイン"
 
 #: includes/form/sidebar.php:13
+msgid "Make WordPress Site Load Faster"
+msgstr "WordPressを高速化"
+
+#: includes/form/sidebar.php:14
+msgid "http://wpbooster.net/"
+msgstr "http://ja.wpbooster.net/"
+
+#: includes/form/sidebar.php:18
 msgid "This Plugin needs your support"
 msgstr "あなたのサポートが必要です"
 
-#: includes/form/sidebar.php:14
+#: includes/form/sidebar.php:19
 msgid "Please help support the continued development."
 msgstr "開発を継続するための支援をお願いします。"
 
-#: includes/form/sidebar.php:16
+#: includes/form/sidebar.php:21
 msgid "$200+ makes you an official contributor."
 msgstr "200ドル以上の寄付で公式な協力者としてご紹介させていただきます。"
 
-#: includes/form/sidebar.php:20
+#: includes/form/sidebar.php:25
 msgid "Contact"
 msgstr "連絡先"
 
@@ -319,11 +343,11 @@ msgstr ""
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:338
+#: wp-total-hacks.php:386
 msgid "Settings"
 msgstr "設定"
 
-#: wp-total-hacks.php:341
+#: wp-total-hacks.php:389
 msgid "Donate"
 msgstr "寄付"
 

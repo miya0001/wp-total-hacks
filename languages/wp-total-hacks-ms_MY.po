@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-05-08 17:57:44+00:00\n"
+"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
 "PO-Revision-Date: 2011-12-21 15:30+0900\n"
 "Last-Translator: Zairul Azmil <zazmil@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,25 +16,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:227 includes/form/appearance.php:11
+#: includes/admin.php:231 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Pilih Fail"
 
-#: includes/admin.php:360
+#: includes/admin.php:364
 msgid "Saved."
 msgstr "Selamat disimpan."
 
-#: includes/admin.php:367
+#: includes/admin.php:371
 msgid "Save Changes"
 msgstr "Simpan Perubahan"
 
-#: includes/admin.php:412
+#: includes/admin.php:416
 msgid "Deactivate"
 msgstr "Nyahaktifkan"
 
-#: includes/admin.php:414 includes/admin.php:416
+#: includes/admin.php:418 includes/admin.php:420
 msgid "Activate"
 msgstr "Aktifkan"
 
@@ -198,23 +198,49 @@ msgstr "Tambah sokongan \"Petikan\" untuk Page."
 msgid "Allows you to add excerpt text to pages."
 msgstr "Tambahan teks \"Petikan\" dibenarkan pada Page."
 
+#: includes/form/post.php:87
+#, fuzzy
+msgid "Remove attachment link from media uploader."
+msgstr "Buang pautan link bersebelahan dari pnegepala pada Page"
+
+#: includes/form/post.php:89
+msgid "Allows you to remove link for attachment page from media uploader."
+msgstr ""
+
+#: includes/form/post.php:96
+msgid "Allow you to create chid page for \"draft\"."
+msgstr ""
+
+#: includes/form/post.php:98
+msgid "You can create child page for non-publish Page."
+msgstr ""
+
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
 msgstr "WordPress Plugins"
 
 #: includes/form/sidebar.php:13
+msgid "Make WordPress Site Load Faster"
+msgstr ""
+
+#: includes/form/sidebar.php:14
+#, fuzzy
+msgid "http://wpbooster.net/"
+msgstr "http://wpist.me/"
+
+#: includes/form/sidebar.php:18
 msgid "This Plugin needs your support"
 msgstr "Plugin ini memerlukan sokongan dari anda"
 
-#: includes/form/sidebar.php:14
+#: includes/form/sidebar.php:19
 msgid "Please help support the continued development."
 msgstr "Sila bantu kami menyokong pembangunan plugin."
 
-#: includes/form/sidebar.php:16
+#: includes/form/sidebar.php:21
 msgid "$200+ makes you an official contributor."
 msgstr "Dengan derma US$200, nama anda akan disenarai sebagai penyokong rasmi."
 
-#: includes/form/sidebar.php:20
+#: includes/form/sidebar.php:25
 msgid "Contact"
 msgstr "Hubung"
 
@@ -323,11 +349,11 @@ msgstr ""
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a>, dan <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:338
+#: wp-total-hacks.php:386
 msgid "Settings"
 msgstr "Tetapan"
 
-#: wp-total-hacks.php:341
+#: wp-total-hacks.php:389
 msgid "Donate"
 msgstr "Derma"
 
