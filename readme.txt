@@ -88,6 +88,11 @@ Please contact to me.
 
 == Changelog ==
 
+= 1.1.0 =
+* fix for wordpress 3.5
+* remove "disable auto_save" function.
+* remove "remove atachement link" function.
+
 = 1.0.1 =
 * Allow you to remove attachment page.
 * Allow you to create child page for "Draft".
