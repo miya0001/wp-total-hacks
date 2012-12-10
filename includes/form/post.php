@@ -61,13 +61,6 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Disable Auto Save', 'wp-total-hacks'); ?></h4>
-    <div class="block_content">
-        <?php $this->sel('wfb_autosave'); ?>
-    </div>
-</div>
-
-<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Stop self-pingbacks', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php _e('Stop sending pingbacks from your own site to your own site when writing posts.', 'wp-total-hacks'); ?></p>
@@ -80,15 +73,6 @@
     <div class="block_content">
         <p><?php _e('Allows you to add excerpt text to pages.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_pageexcerpt'); ?>
-    </div>
-</div>
-
-<div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove attachment link from media uploader.', 'wp-total-hacks'); ?></h4>
-    <div class="block_content">
-        <p><?php _e('Allows you to remove link for attachment page from media uploader.', 'wp-total-hacks'); ?></p>
-        <p><img class="caption" alt="" src="<?php echo $this->get_plugin_url(); ?>/img/remove_attachment_link.png" style="max-width:80%;height:auto;"></p>
-        <?php $this->sel('wfb_attachmentlink'); ?>
     </div>
 </div>
 

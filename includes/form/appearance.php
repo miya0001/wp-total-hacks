@@ -19,7 +19,7 @@
         <p><img class="caption" alt="" src="<?php echo $this->get_plugin_url(); ?>/img/admin_footer_text.png"></p>
         <div class="poststuff">
         <div class="postdivrich" class="postarea">
-        <?php the_editor($this->op('wfb_admin_footer_text', false), "wfb_admin_footer_text"); ?>
+        <?php wp_editor($this->op('wfb_admin_footer_text', false), "wfb_admin_footer_text"); ?>
         </div><!--end #postdivrich-->
         </div><!--end #poststuff-->
     </div>

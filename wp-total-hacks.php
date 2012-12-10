@@ -5,7 +5,7 @@ Author: Takayuki Miyauchi
 Plugin URI: http://wpist.me/wp/wp-total-hacks/
 Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
-Version: 1.0.2
+Version: 1.1.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -28,7 +28,7 @@ private $option_params = array(
     'wfb_bing' => 'text',
     'wfb_hide_custom_fields' => 'bool',
     'wfb_revision' => 'int',
-    'wfb_autosave' => 'bool',
+    //'wfb_autosave' => 'bool',
     'wfb_selfping' => 'bool',
     'wfb_widget' => 'array',
     'wfb_custom_logo' => 'url',
@@ -49,7 +49,7 @@ private $option_params = array(
     'wfb_contact_methods' => 'array',
     'wfb_remove_excerpt' => 'bool',
     'wfb_update_notification' => 'bool',
-    'wfb_attachmentlink' => 'bool',
+    //'wfb_attachmentlink' => 'bool',
     'wfb_createpagefordraft' => 'bool',
 );
 
@@ -80,13 +80,11 @@ public function __construct()
     add_action('pre_ping',          array(&$this, 'pre_ping'));
     add_action('wp_dashboard_setup',array(&$this, 'wp_dashboard_setup'));
     add_filter('the_content_more_link', array(&$this, 'the_content_more_link'));
-    add_action('wp_print_scripts',  array(&$this, 'wp_print_scripts'));
     add_filter('wp_mail_from',      array(&$this, 'wp_mail_from'));
     add_filter('wp_mail_from_name', array(&$this, 'wp_mail_from_name'));
     add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
     add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
-    add_action('admin_print_styles', array(&$this, 'admin_print_styles'));
     add_filter('page_attributes_dropdown_pages_args', array(&$this, 'page_attributes_dropdown_pages_args'));
     add_action('save_post', array(&$this, 'save_post'));
 }
@@ -125,13 +123,6 @@ public function page_attributes_dropdown_pages_args($args)
         return $args;
     }
     return $args;
-}
-
-public function admin_print_styles()
-{
-    if ($this->op('wfb_attachmentlink')) {
-        echo '<style type="text/css">button.urlpost{display:none;}</style>';
-    }
 }
 
 public function plugins_loaded()
@@ -188,13 +179,6 @@ public function init()
 {
     if ($this->op("wfb_pageexcerpt")) {
         add_post_type_support('page', 'excerpt');
-    }
-}
-
-public function wp_print_scripts()
-{
-    if (strlen($this->op('wfb_autosave'))) {
-        wp_deregister_script('autosave');
     }
 }
 
