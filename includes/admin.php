@@ -59,6 +59,10 @@ private $translators = array(
         'lang' => 'Brazilian Portuguese',
         'url' => 'http://www.rafaelfunchal.com.br/'
     ),
+    'Guillaume VASLIN' => array(
+        'lang' => 'French',
+        'url' => 'http://www.chaptalstreetquartetfamily.fr/csqf00/'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
