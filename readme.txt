@@ -54,6 +54,7 @@ PHP5 is required!
 * Belarusian(be_BY) - [Alexander Ovsov](http://webhostinggeeks.com/science/)
 * Malay(ms_MY) - [Zairul Azmil](http://flavors.me/zairul#2fa/wordpress)
 * Brazilian Portuguese(pt_BR) - [Rafael Funchal](http://www.rafaelfunchal.com.br/)
+* French(fr_FR) - [Guillaume VASLIN](http://www.chaptalstreetquartetfamily.fr/)
 
 You can send your own language pack to me.
 
