@@ -383,7 +383,7 @@ msgstr "Outils de vérification du Webmaster"
 #: includes/form/site.php:87
 #@ wp-total-hacks
 msgid "Enter your meta key \"content\" value to verify your blog with <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
-msgstr "Entrez votre clé de méta \"contenu \" pour vérifier votre blog avec <a href=\"https://www.google.com/webmasters/tools/\">Outils Google pour les webmasters</ a>, <a href=\"https://siteexplorer.search.yahoo.com/ \"> Yahoo! Site Explorer </ a> et <a href=\"http://www.bing.com/webmaster\"> Bing Webmaster Center </ a>."
+msgstr "Entrez votre clé de méta \"contenu \" pour vérifier votre blog avec <a href=\"https://www.google.com/webmasters/tools/\">Outils Google pour les webmasters</a>, <a href=\"https://siteexplorer.search.yahoo.com/\"> Yahoo! Site Explorer </a> et <a href=\"http://www.bing.com/webmaster\"> Bing Webmaster Center </a>."
 
 #. translators: plugin header field 'Name'
 #: wp-total-hacks.php:0
