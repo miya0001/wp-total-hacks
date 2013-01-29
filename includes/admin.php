@@ -63,6 +63,10 @@ private $translators = array(
         'lang' => 'French',
         'url' => 'http://www.chaptalstreetquartetfamily.fr/csqf00/'
     ),
+    'George Siamidis' => array(
+        'lang' => 'Greek',
+        'url' => 'https://www.facebook.com/darkosxrc'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
