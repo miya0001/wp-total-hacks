@@ -67,6 +67,10 @@ private $translators = array(
         'lang' => 'Greek',
         'url' => 'https://www.facebook.com/darkosxrc'
     ),
+    'Branco' => array(
+        'lang' => 'Slovak',
+        'url' => 'http://webhostinggeeks.com/'
+    ),
 );
 private $role = 'manage_options';
 private $plugin_url = '';
