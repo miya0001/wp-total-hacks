@@ -71,7 +71,12 @@ private $translators = array(
         'lang' => 'Slovak',
         'url' => 'http://webhostinggeeks.com/'
     ),
+    'Amir Maskani' => array(
+        'lang' => 'Persian',
+        'url' => 'http://emir.ir/'
+    ),
 );
+
 private $role = 'manage_options';
 private $plugin_url = '';
 private $page_title = 'WP Total Hacks';

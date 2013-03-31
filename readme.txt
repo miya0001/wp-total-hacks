@@ -4,7 +4,7 @@ Donate link: http://wpist.me/
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -57,6 +57,7 @@ PHP5 is required!
 * French(fr_FR) - [Guillaume VASLIN](http://www.chaptalstreetquartetfamily.fr/)
 * Greek(el) - [George Siamidis](https://www.facebook.com/darkosxrc)
 * Slovak(sk_SK) - [Branco](http://webhostinggeeks.com/)
+* Persian(fa_IR) - [Amir Maskani](http://emir.ir/)
 
 You can send your own language pack to me.
 
@@ -90,6 +91,9 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+
+= 1.2.0 =
+* bug fix (logo in admin bar not display on the site.)
 
 = 1.1.0 =
 * fix for wordpress 3.5
