@@ -4,7 +4,7 @@ Donate link: http://wpist.me/
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
