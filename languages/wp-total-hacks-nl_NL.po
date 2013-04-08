@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,28 +22,28 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 # @ wp-total-hacks
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Selecteer een bestand"
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr ""
 
 # @ default
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr ""
 
 # @ default
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr ""
 
 # @ default
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr ""
 
@@ -221,17 +221,12 @@ msgstr "Sla alles op"
 
 # @ wp-total-hacks
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "Schakel Auto Opslaan uit"
-
-# @ wp-total-hacks
-#: includes/form/post.php:71
 #, fuzzy
 msgid "Stop self-pingbacks"
 msgstr "Stop Self Pings"
 
 # @ wp-total-hacks
-#: includes/form/post.php:73
+#: includes/form/post.php:66
 #, fuzzy
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
@@ -241,31 +236,21 @@ msgstr ""
 "van berichten."
 
 # @ wp-total-hacks
-#: includes/form/post.php:79
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "Voeg \"Excerpt\" ondersteuning toe voor Pagina 's"
 
 # @ wp-total-hacks
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 #, fuzzy
 msgid "Allows you to add excerpt text to pages."
 msgstr "Verplicht om excerpt tekst toe te voegen bij Pagina 's"
 
-# @ wp-total-hacks
-#: includes/form/post.php:87
-#, fuzzy
-msgid "Remove attachment link from media uploader."
-msgstr "Verwijder gelijkaardige posts rel links van de hoofdpagina"
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr ""
 
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
-msgstr ""
-
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
 
@@ -430,12 +415,12 @@ msgstr ""
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 # @ default
-#: wp-total-hacks.php:386
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr ""
 
 # @ wp-total-hacks
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "Steun ons"
 
@@ -458,6 +443,15 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+# @ wp-total-hacks
+#~ msgid "Disable Auto Save"
+#~ msgstr "Schakel Auto Opslaan uit"
+
+# @ wp-total-hacks
+#, fuzzy
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr "Verwijder gelijkaardige posts rel links van de hoofdpagina"
 
 # @ wp-total-hacks
 #~ msgid "Click on the check box that you want to delete."

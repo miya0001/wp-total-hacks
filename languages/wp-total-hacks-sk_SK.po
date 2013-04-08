@@ -1,34 +1,36 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Branco  <brradenovich@gmail.com>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Výber súboru"
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr "Uložené."
 
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr "Uložiť zmeny"
 
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr "Deaktivova"
 
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr "Aktivova"
 
@@ -55,6 +57,12 @@ msgstr "Môzete upravova» admin text päty. Konce riadkov odstráni."
 #: includes/form/appearance.php:29
 msgid "Change login logo"
 msgstr "Zmena login logo"
+
+#: includes/form/appearance.php:31
+msgid ""
+"You can customize logo, URL and Title. The logo image size is recommended "
+"310 x 70 pixel."
+msgstr ""
 
 #: includes/form/appearance.php:34
 msgid "Logo"
@@ -93,9 +101,21 @@ msgstr "Vyberte polozky, ktoré chcete odstráni»."
 msgid "Add role \"Webmaster\""
 msgstr "Prida» role \"Webmaster\""
 
+#: includes/form/other.php:26
+msgid ""
+"This role has the capabilities of an \"Editor\", but can also edit theme "
+"options."
+msgstr ""
+
 #: includes/form/other.php:32
 msgid "Change default email address"
 msgstr "Zmena predvoleného e-mailová adresa"
+
+#: includes/form/other.php:34
+msgid ""
+"Change the email address and sender name used by automatic email "
+"notifications."
+msgstr ""
 
 #: includes/form/other.php:36
 msgid "Name"
@@ -148,34 +168,28 @@ msgid "Store All"
 msgstr "Ulo¾enie All"
 
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "Zakáza» Auto Save"
-
-#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr "Zastavi» self-Pingbacks"
 
-#: includes/form/post.php:79
+#: includes/form/post.php:66
+msgid ""
+"Stop sending pingbacks from your own site to your own site when writing "
+"posts."
+msgstr ""
+
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "Pridať \"Excerpt\"  výpis podporu stránok."
 
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
 msgstr "Umozòuje prida» výòatok textu na stránkach."
 
-#: includes/form/post.php:87
-msgid "Remove attachment link from media uploader."
-msgstr "Odstráni» prílohu odkaz z Media Uploader."
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
-msgstr "Umozòuje odstráni» odkaz pre upevòovacie stránku z Media Uploader."
-
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr "Umozòuje vytvori» peskoval stránky pre \"draft\"."
 
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "Môzete vytvori» podstránku pre non-publikova» stránke."
 
@@ -235,13 +249,31 @@ msgstr "Prosím, nahrajte. png obrázok."
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
 msgstr "Odstráni \"wlwmanifest\" and \"xmlrpc\" z meta."
 
+#: includes/form/site.php:33
+msgid ""
+"If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
+"unnecessary tags from head."
+msgstr ""
+
 #: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
 msgstr "Odstráni» priµahlé príspevky rel odkazy z hlavy na stránkach"
 
+#: includes/form/site.php:41
+msgid ""
+"Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
+"\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
+msgstr ""
+
 #: includes/form/site.php:47
 msgid "Remove version number from head"
 msgstr "Odstráni» èíslo verzie z hlavy"
+
+#: includes/form/site.php:49
+msgid ""
+"Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
+"\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
+msgstr ""
 
 #: includes/form/site.php:55
 msgid "Remove #more anchor"
@@ -275,11 +307,19 @@ msgstr "Vylúèi» uzívateµ prihlásený"
 msgid "Webmaster Tools Verification"
 msgstr "Nástroje pre webmasterov Overenie"
 
-#: wp-total-hacks.php:386
+#: includes/form/site.php:87
+msgid ""
+"Enter your meta key \"content\" value to verify your blog with <a href="
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
+"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
+"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+msgstr ""
+
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "Donate"
 
@@ -302,3 +342,12 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "Disable Auto Save"
+#~ msgstr "Zakáza» Auto Save"
+
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr "Odstráni» prílohu odkaz z Media Uploader."
+
+#~ msgid "Allows you to remove link for attachment page from media uploader."
+#~ msgstr "Umozòuje odstráni» odkaz pre upevòovacie stránku z Media Uploader."

@@ -4,34 +4,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Total Hacks 1.0.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: 2013-03-29 18:09+0330\n"
 "Last-Translator: Amir Maskani <AmirMaskani@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "انتخاب فایل"
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr "ذخیره شد."
 
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr "ذخیره تغییرات"
 
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr "غیر فعال سازی"
 
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr "فعال سازی"
 
@@ -174,41 +175,29 @@ msgid "Store All"
 msgstr "همه را ذخیره کن"
 
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "غیرفعالسازی ذخیره خودکار"
-
-#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr "توقف بازتاب به خود"
 
-#: includes/form/post.php:73
+#: includes/form/post.php:66
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
 msgstr ""
 "توقف ارسال بازتاب از سایت خودتان به سایت خودتان زمانی که مطلبی می نویسید."
 
-#: includes/form/post.php:79
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "افزودن پشتیبانی از \"چکیده\"  برای برگه ها."
 
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
 msgstr "به شما اجازه می دهد برای برگه های خود متن چکیده اضافه کنید."
 
-#: includes/form/post.php:87
-msgid "Remove attachment link from media uploader."
-msgstr "حذف پیوند به رسانه از بارگذار رسانه"
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
-msgstr "به شما اجازه می دهد که پیوند به رسانه را از بارگذار رسانه حذف کنید."
-
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr "اجازه ساخت زیر برگه برای برگه های \"پیش نویس\""
 
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "شما می توانید برای برگه های منتشر نشده زیر برگه ایجاد کنید."
 
@@ -345,11 +334,11 @@ msgstr ""
 "\"http://www.bing.com/webmaster\" target=\"_blank\">بینگ وبمستر سنتر</a> متا "
 "کی خودتان را وارد کنید."
 
-#: wp-total-hacks.php:386
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr "تنظیمات"
 
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "حمایت"
 
@@ -372,3 +361,12 @@ msgstr "تاکایوکی میااوچی"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "Disable Auto Save"
+#~ msgstr "غیرفعالسازی ذخیره خودکار"
+
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr "حذف پیوند به رسانه از بارگذار رسانه"
+
+#~ msgid "Allows you to remove link for attachment page from media uploader."
+#~ msgstr "به شما اجازه می دهد که پیوند به رسانه را از بارگذار رسانه حذف کنید."

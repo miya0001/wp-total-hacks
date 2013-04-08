@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.2.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: 2011-11-18 10:14+0100\n"
 "Last-Translator: Felix Kern <kernfel@gmail.com>\n"
 "Language-Team: \n"
@@ -14,25 +14,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Datei auswählen..."
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr "Gespeichert."
 
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr "Deaktivieren"
 
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr "Aktivieren"
 
@@ -174,43 +174,29 @@ msgid "Store All"
 msgstr "Unbegrenzt"
 
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "Automatisches Speichern deaktivieren"
-
-#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr "Pingbacks auf eigene Artikel verhindern"
 
-#: includes/form/post.php:73
+#: includes/form/post.php:66
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
 msgstr ""
 "Verhindert, dass deine Artikel Pingbacks von anderen deiner Artikel erhalten."
 
-#: includes/form/post.php:79
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "Auszüge für Seiten ermöglichen"
 
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
 msgstr "Ermöglicht das Hinzufügen von Auszügen bei Seiten."
 
-#: includes/form/post.php:87
-#, fuzzy
-msgid "Remove attachment link from media uploader."
-msgstr ""
-"rel-Links zu angrenzenden Artikel aus dem &lt;head&gt; von Seiten entfernen"
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr ""
 
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
-msgstr ""
-
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
 
@@ -348,11 +334,11 @@ msgstr ""
 "href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a> zu "
 "verifizieren."
 
-#: wp-total-hacks.php:386
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "Spenden"
 
@@ -375,3 +361,12 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+#~ msgid "Disable Auto Save"
+#~ msgstr "Automatisches Speichern deaktivieren"
+
+#, fuzzy
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr ""
+#~ "rel-Links zu angrenzenden Artikel aus dem &lt;head&gt; von Seiten "
+#~ "entfernen"

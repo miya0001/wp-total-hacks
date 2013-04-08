@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "ファイルを選択"
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr ""
 
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr ""
 
@@ -174,40 +174,28 @@ msgid "Store All"
 msgstr "全て保存"
 
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "自動保存を無効"
-
-#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr "セルフピンバックを停止"
 
-#: includes/form/post.php:73
+#: includes/form/post.php:66
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
 msgstr "あなたのサイトからあなたのサイトへのピンバックを停止する。"
 
-#: includes/form/post.php:79
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "ページに\"抜粋\"を追加"
 
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
 msgstr "ページに\"抜粋\"を追加できます。"
 
-#: includes/form/post.php:87
-msgid "Remove attachment link from media uploader."
-msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
-msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"
-
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr "下書きページへの子ページの作成を許可"
 
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "公開されていないページの子ページを作成することができます。"
 
@@ -343,11 +331,11 @@ msgstr ""
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:386
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr "設定"
 
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "寄付"
 
@@ -370,3 +358,12 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://firegoby.theta.ne.jp/"
+
+#~ msgid "Disable Auto Save"
+#~ msgstr "自動保存を無効"
+
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"
+
+#~ msgid "Allows you to remove link for attachment page from media uploader."
+#~ msgstr "メディアアプローダーから添付ファイルのページへのリンクを削除"

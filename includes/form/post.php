@@ -77,7 +77,7 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Allow you to create chid page for "draft".', 'wp-total-hacks'); ?></h4>
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Allow you to create child page for "draft".', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php _e('You can create child page for non-publish Page.', 'wp-total-hacks'); ?></p>
         <?php $this->sel('wfb_createpagefordraft'); ?>

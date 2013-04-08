@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2012-10-13 07:32:49+00:00\n"
+"POT-Creation-Date: 2013-04-08 07:06:08+00:00\n"
 "PO-Revision-Date: 2011-09-18 21:11+0800\n"
 "Last-Translator: missing猪 <520@qq.com>\n"
 "Language-Team: \n"
@@ -20,25 +20,25 @@ msgstr ""
 "\\plugins\\wp-total-hacks\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: includes/admin.php:231 includes/form/appearance.php:11
+#: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "选择文件"
 
-#: includes/admin.php:364
+#: includes/admin.php:381
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:371
+#: includes/admin.php:388
 msgid "Save Changes"
 msgstr "保存更改"
 
-#: includes/admin.php:416
+#: includes/admin.php:433
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:418 includes/admin.php:420
+#: includes/admin.php:435 includes/admin.php:437
 msgid "Activate"
 msgstr ""
 
@@ -175,41 +175,28 @@ msgid "Store All"
 msgstr "保存全部"
 
 #: includes/form/post.php:64
-msgid "Disable Auto Save"
-msgstr "禁用自动保存"
-
-#: includes/form/post.php:71
 msgid "Stop self-pingbacks"
 msgstr "禁止自我广播pingback"
 
-#: includes/form/post.php:73
+#: includes/form/post.php:66
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
 msgstr "禁止发表日志后，发送通知广播到自己的网站"
 
-#: includes/form/post.php:79
+#: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
 msgstr "页面添加“摘要”"
 
-#: includes/form/post.php:81
+#: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
 msgstr "允许给页面添加“摘要”"
 
-#: includes/form/post.php:87
-#, fuzzy
-msgid "Remove attachment link from media uploader."
-msgstr "移除头部相邻文章的相关链接"
-
-#: includes/form/post.php:89
-msgid "Allows you to remove link for attachment page from media uploader."
+#: includes/form/post.php:80
+msgid "Allow you to create child page for \"draft\"."
 msgstr ""
 
-#: includes/form/post.php:96
-msgid "Allow you to create chid page for \"draft\"."
-msgstr ""
-
-#: includes/form/post.php:98
+#: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
 
@@ -345,11 +332,11 @@ msgstr ""
 "Explorer</a>, 和 <a href=\"http://www.bing.com/webmaster\">Bing Webmaster "
 "Center</a>代码."
 
-#: wp-total-hacks.php:386
+#: wp-total-hacks.php:378
 msgid "Settings"
 msgstr "设置"
 
-#: wp-total-hacks.php:389
+#: wp-total-hacks.php:381
 msgid "Donate"
 msgstr "捐助"
 
@@ -372,3 +359,10 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+#~ msgid "Disable Auto Save"
+#~ msgstr "禁用自动保存"
+
+#, fuzzy
+#~ msgid "Remove attachment link from media uploader."
+#~ msgstr "移除头部相邻文章的相关链接"
