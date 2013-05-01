@@ -17,8 +17,7 @@
 <div class="bside">
 <h3><?php _e('This Plugin needs your support', 'wp-total-hacks'); ?></h3>
 <p><?php _e('Please help support the continued development.', 'wp-total-hacks'); ?></p>
-<div style="text-align:center;"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU"><img alt="PayPal" src="<?php echo $this->get_plugin_url(); ?>/img/paypal.png"></a></div>
-<p><?php _e('$200+ makes you an official contributor.', 'wp-total-hacks'); ?></p>
+<div style="text-align:center;"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8RADH554RPKDU"><img alt="PayPal" src="<?php echo $this->get_plugin_url(); ?>/img/paypal.png"></a></div>
 </div>
 
 <div class="bside">

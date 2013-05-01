@@ -5,7 +5,7 @@ Author: Takayuki Miyauchi
 Plugin URI: http://wpist.me/wp/wp-total-hacks/
 Description: WP Total Hacks can customize your WordPress.
 Author: Takayuki Miyauchi
-Version: 1.2.2
+Version: 1.3.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -265,7 +265,7 @@ public function wp_head()
     }
     if ($this->op('wfb_favicon')) {
         $link = '<link rel="Shortcut Icon" type="image/x-icon" href="%s" />'."\n";
-        printf($link, esc_url($this->op("wfb_favicon")));
+        printf($link, $this->remove_scheme(esc_url($this->op("wfb_favicon"))));
     }
     if ($this->op('wfb_apple_icon')) {
         if ($this->op('wfb_apple_icon_precomposed')) {
@@ -273,7 +273,7 @@ public function wp_head()
         } else {
             $link = '<link rel="apple-touch-icon" href="%s" />'."\n";
         }
-        printf($link, esc_url($this->op("wfb_apple_icon")));
+        printf($link, $this->remove_scheme(esc_url($this->op("wfb_apple_icon"))));
     }
     echo $this->get_meta('google-site-verification', $this->op('wfb_google'));
     echo $this->get_meta('y_key', $this->op('wfb_yahoo'));
@@ -284,7 +284,7 @@ public function wp_head()
         $style .= '#header-logo,#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-image: url(%s) !important;}';
         $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
         $style .= '</style>';
-        printf($style, esc_url($this->op("wfb_custom_logo")));
+        printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
     }
 }
 
@@ -301,7 +301,7 @@ public function admin_head()
     $style .= '#header-logo,#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-image: url(%s) !important;}';
     $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
     $style .= '</style>';
-    printf($style, esc_url($this->op("wfb_custom_logo")));
+    printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
 }
 
 private function get_meta($name, $content)
@@ -329,7 +329,7 @@ public function login_head()
     if ($this->op("wfb_login_logo")) {
         printf(
             '<style type="text/css">h1 a {background-image: url(%s) !important;}</style>',
-            esc_url($this->op('wfb_login_logo'))
+            $this->remove_scheme(esc_url($this->op('wfb_login_logo')))
         );
     }
 }
@@ -381,6 +381,11 @@ public function plugin_row_meta($links, $file)
         $links[] = sprintf($link, esc_url($url), __("Donate", "wp-total-hacks"));
     }
     return $links;
+}
+
+private function remove_scheme($url)
+{
+    return preg_replace("/^http:/", "", $url);
 }
 
 }
