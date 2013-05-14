@@ -44,7 +44,7 @@ msgstr "Interfaccia amministrazione"
 
 #: includes/form/appearance.php:6
 msgid "Change admin header logo"
-msgstr "Cambia logo amministrazione di  header"
+msgstr "Cambia logo amministrazione di header"
 
 #: includes/form/appearance.php:8
 msgid "Upload %s x %s pixel image for admin header logo."
@@ -103,7 +103,7 @@ msgstr "Disattiva Widgets Bacheca"
 #: includes/form/other.php:7 includes/form/post.php:8
 #: includes/form/post.php:27
 msgid "Choose the items you want to remove."
-msgstr "Seleziona l'oggetto per cancellare"
+msgstr "Seleziona un oggetto per cancellare"
 
 #: includes/form/other.php:24
 msgid "Add role \"Webmaster\""
@@ -113,7 +113,8 @@ msgstr "Aggiungi ruolo \"Webmaster\""
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
-msgstr "\"Webmaster\"  è ruolo  analogo a \"Editor\" + \"edit_theme_options\" "
+msgstr "Questo ruolo ha la capacità di un \"Editor\", ma puo modificare "
+"le opzioni dei temi."
 
 #: includes/form/other.php:32
 msgid "Change default email address"
@@ -135,11 +136,11 @@ msgstr "Email"
 
 #: includes/form/other.php:45
 msgid "Delete default contact methods"
-msgstr "Cancella metodo contatto di default"
+msgstr "Cancella metodi di contatto"
 
 #: includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
-msgstr "Cancella metodo contatto di default dal profilo utente"
+msgstr "Cancella metodi di contatto dal profilo utente"
 
 #: includes/form/other.php:64
 msgid "Remove Update Notification"
@@ -182,7 +183,7 @@ msgstr "Sospendi self-pingbacks"
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
-msgstr "Sospendi sending pings verso altri siti quando pubblichi contenuti."
+msgstr "Sospendi di mandare pings verso altri siti quando pubblichi i posts."
 
 #: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
@@ -226,11 +227,11 @@ msgstr "$200 per diventare sostenitore ufficiale"
 
 #: includes/form/sidebar.php:25
 msgid "Contact"
-msgstr "Contatto"
+msgstr "Contatti"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
-msgstr "Impostazioni sito"
+msgstr "Impostazioni del sito"
 
 #: includes/form/site.php:5
 msgid "Add a favicon"
@@ -261,12 +262,12 @@ msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
 msgstr ""
-"Se non usi \"<a href=\"%s\">Pubblicazione da remoto</a>\", rimuovi i tag "
-"non necessari i meta tag dal head"
+"Se non usi \"<a href=\"%s\">Remote Publishing</a>\", rimuovi i meta tag "
+"non necessari dal head"
 
 #: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
-msgstr "Rimuovi rel links dal head nelle pagine"
+msgstr "Rimuovi i post adiacenti con rel links dal head nelle pagine"
 
 #: includes/form/site.php:41
 msgid ""
