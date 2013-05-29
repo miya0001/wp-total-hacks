@@ -75,6 +75,10 @@ private $translators = array(
         'lang' => 'Persian',
         'url' => 'http://emir.ir/'
     ),
+    'Anja Skrba' => array(
+        'lang' => 'Anja Skrba',
+        'url' => 'http://webhostinggeeks.com/wordpresshosting.php'
+    ),
 );
 
 private $role = 'manage_options';
