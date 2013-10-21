@@ -84,12 +84,10 @@
 <div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Webmaster Tools Verification', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
-        <p><?php _e('Enter your meta key "content" value to verify your blog with <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a>, <a href="https://siteexplorer.search.yahoo.com/">Yahoo! Site Explorer</a>, and <a href="http://www.bing.com/webmaster">Bing Webmaster Center</a>.', 'wp-total-hacks'); ?></p>
+        <p><?php _e('Enter your meta key "content" value to verify your blog with <a href="https://www.google.com/webmasters/tools/">Google Webmaster Tools</a> and <a href="http://www.bing.com/webmaster">Bing Webmaster Center</a>.', 'wp-total-hacks'); ?></p>
         <dl>
             <dt>Google</dt>
             <dd><input class="text" type="text" name="wfb_google" value="<?php $this->op('wfb_google')?>" /></dd>
-            <dt>Yahoo</dt>
-            <dd><input class="text" type="text" name="wfb_yahoo" value="<?php $this->op('wfb_yahoo')?>" /></dd>
             <dt>Bing</dt>
             <dd><input class="text" type="text" name="wfb_bing" value="<?php $this->op('wfb_bing')?>" /></dd>
         </dl>
