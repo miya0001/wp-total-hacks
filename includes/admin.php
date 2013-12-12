@@ -17,6 +17,10 @@ private $contributors = array(
         'country' => 'Japan',
         'url' => 'http://profiles.wordpress.org/users/mako09',
     ),
+    'Shuhei Nishimura' => array(
+        'country' => 'Japan',
+        'url' => 'http://private.hibou-web.com/',
+    ),
 );
 private $translators = array(
     'Takayuki Miyauchi' => array(

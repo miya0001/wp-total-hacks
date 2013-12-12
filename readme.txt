@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.5
 Tested up to: 3.7
-Stable tag: 1.4.0
+Stable tag: 1.5.0
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -74,6 +74,7 @@ Please contact to me.
 * [Takayuki Miyauchi](http://firegoby.theta.ne.jp/)
 * [Felix Kern](http://twitter.com/#!/kernfel)
 * [Mako](http://profiles.wordpress.org/users/mako09)
+* [Shuhei Nishimura](http://private.hibou-web.com/)
 
 
 == Installation ==
