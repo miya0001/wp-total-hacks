@@ -279,7 +279,8 @@ public function wp_head()
     if (is_user_logged_in() && $this->op("wfb_custom_logo")) {
         $style = '<style type="text/css">';
         $style .= '#header-logo,#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-image: url(%s) !important;}';
-        $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
+        $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 10px;}';
+		//$style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before { position: absolute; left: -1000%; }';
         $style .= '</style>';
         printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
     }
@@ -295,8 +296,9 @@ public function admin_head()
         return;
     }
     $style = '<style type="text/css">';
-    $style .= '#header-logo,#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-image: url(%s) !important;}';
     $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
+    $style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {position: absolute; left: -1000%%;}';
+    $style .= '#wpcontent > #wpadminbar > #wp-toolbar > #wp-admin-bar-root-default > #wp-admin-bar-wp-logo .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; top: 9px; left: 2px;}';
     $style .= '</style>';
     printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
 }
