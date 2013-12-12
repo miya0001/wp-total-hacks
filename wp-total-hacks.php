@@ -325,7 +325,7 @@ public function login_head()
 {
     if ($this->op("wfb_login_logo")) {
         printf(
-            '<style type="text/css">h1 a {background-image: url(%s) !important;}</style>',
+            '<style type="text/css">h1 a {background-image: url(%s) !important; width: auto; background-size: suto;}</style>',
             $this->remove_scheme(esc_url($this->op('wfb_login_logo')))
         );
     }
