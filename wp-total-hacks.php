@@ -281,7 +281,7 @@ public function wp_head()
 		$style .= '#wp-admin-bar-wp-logo a.ab-item { position: relative; }';
         $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
         $style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {position: absolute; left: -1000%%;}';
-        $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-size: auto; margin-top: 6px; position: absolute; }';
+        $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-size: auto; margin-top: 6px; background-position: center center; left: 2px; }';
         $style .= '</style>';
         printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
     }
@@ -300,7 +300,7 @@ public function admin_head()
 	$style .= '#wp-admin-bar-wp-logo a.ab-item { position: relative; }';
     $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
     $style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {position: absolute; left: -1000%%;}';
-    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-size: auto; margin-top: 6px; position: absolute; }';
+    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-size: auto; margin-top: 6px; background-position: center center; left:2px; }';
         $style .= '</style>';
     printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
 }
