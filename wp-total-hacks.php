@@ -280,7 +280,7 @@ public function wp_head()
         $style = '<style type="text/css">';
         $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
     $style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {position: absolute; left: -1000%%;}';
-    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; top: 9px; left: 2px;}';
+    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-position: center center; background-size: auto; margin-top: 6px; left: 2px;}';
         $style .= '</style>';
         printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
     }
@@ -298,7 +298,7 @@ public function admin_head()
     $style = '<style type="text/css">';
     $style .= '#wp-admin-bar-wp-logo > .ab-item .ab-icon{background-position: 0 0;}';
     $style .= '#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {position: absolute; left: -1000%%;}';
-    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; top: 9px; left: 2px;}';
+    $style .= '#wpadminbar > #wp-toolbar.quicklinks > #wp-admin-bar-root-default.ab-top-menu > #wp-admin-bar-wp-logo.menupop > .ab-item > .ab-icon {background-image: url(%s) !important; width: 16px; height: 16px; background-repeat: no-repeat; background-position: center center; background-size: auto; margin-top: 6px; left: 2px;}';
     $style .= '</style>';
     printf($style, $this->remove_scheme(esc_url($this->op("wfb_custom_logo"))));
 }
