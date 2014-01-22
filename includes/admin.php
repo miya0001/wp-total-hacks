@@ -80,8 +80,12 @@ private $translators = array(
         'url' => 'http://emir.ir/'
     ),
     'Anja Skrba' => array(
-        'lang' => 'Anja Skrba',
+        'lang' => 'Serbo-Croation',
         'url' => 'http://webhostinggeeks.com/wordpresshosting.php'
+    ),
+    'Trong' => array(
+        'lang' => 'Vietnamese',
+        'url' => 'http://bizover.net/'
     ),
 );
 
