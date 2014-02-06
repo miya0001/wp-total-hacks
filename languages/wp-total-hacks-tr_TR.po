@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Total Hacks Turkish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
 "POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
-"PO-Revision-Date: 2011-09-21 18:20+0200\n"
-"Last-Translator: Serkan Algur <info@kaisercrazy.com>\n"
+"PO-Revision-Date: 2014-01-24 09:02+0200\n"
+"Last-Translator: Serkan Algur <info@wpadami.com>\n"
 "Language-Team: kaisercrazy <info@kaisercrazy.com>\n"
-"Language: \n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: TURKISH\n"
-"X-Poedit-Country: TURKEY\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
 
 #: includes/admin.php:248 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
@@ -198,11 +198,11 @@ msgstr "Devamını oku ibaresinin sayfalara eklenmesini gerektirir."
 
 #: includes/form/post.php:80
 msgid "Allow you to create child page for \"draft\"."
-msgstr ""
+msgstr "\"Taslak\" yazılar için alt sayfa oluşturmaya izin ver."
 
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
-msgstr ""
+msgstr "Yayınlanmamış sayfalar için alt sayfa oluşutrabilirsiniz."
 
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
@@ -210,11 +210,11 @@ msgstr "WordPress Eklentileri"
 
 #: includes/form/sidebar.php:13
 msgid "Make WordPress Site Load Faster"
-msgstr ""
+msgstr "WordPress siteni daha hılzı yükle"
 
 #: includes/form/sidebar.php:14
 msgid "http://wpbooster.net/"
-msgstr ""
+msgstr "http://wpbooster.net/"
 
 #: includes/form/sidebar.php:18
 msgid "This Plugin needs your support"
@@ -246,7 +246,7 @@ msgstr "Lütfen .ico dosyası yükleyin"
 
 #: includes/form/site.php:10
 msgid "Use this favicon with administration screens."
-msgstr ""
+msgstr "Bu ikonu yönetim panelinde kullan."
 
 #: includes/form/site.php:15
 msgid "Add a apple-touch-icon"
@@ -346,23 +346,23 @@ msgstr "Bağış Yap"
 
 #. Plugin Name of the plugin/theme
 msgid "WP Total Hacks"
-msgstr ""
+msgstr "WP Total Hacks"
 
 #. Plugin URI of the plugin/theme
 msgid "http://wpist.me/wp/wp-total-hacks/"
-msgstr ""
+msgstr "http://wpist.me/wp/wp-total-hacks/"
 
 #. Description of the plugin/theme
 msgid "WP Total Hacks can customize your WordPress."
-msgstr ""
+msgstr "Wp Total Hacks WordPress sisteminizi özelleştirebilir."
 
 #. Author of the plugin/theme
 msgid "Takayuki Miyauchi"
-msgstr ""
+msgstr "Takayuki Miyauchi"
 
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
-msgstr ""
+msgstr "http://wpist.me/"
 
 #~ msgid "Disable Auto Save"
 #~ msgstr "Otomatik kaydı kapat"
