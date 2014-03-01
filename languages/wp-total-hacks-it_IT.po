@@ -40,11 +40,11 @@ msgstr "Attiva"
 
 #: includes/form/appearance.php:3
 msgid "Appearance in admin"
-msgstr "Aspetto in amministrazione"
+msgstr "Interfaccia amministrazione"
 
 #: includes/form/appearance.php:6
 msgid "Change admin header logo"
-msgstr "Cambia logo in testata amministrazione"
+msgstr "Cambia logo amministrazione di header"
 
 #: includes/form/appearance.php:8
 msgid "Upload %s x %s pixel image for admin header logo."
@@ -52,24 +52,24 @@ msgstr "Carica immagine %s x %s pixel per logo amministrazione"
 
 #: includes/form/appearance.php:16
 msgid "Change admin footer text"
-msgstr "Cambia testo piè di pagina amministrazione"
+msgstr "Cambia testo dell'amministrazione del footer"
 
 #: includes/form/appearance.php:18
 msgid "You can edit admin footer text. Line breaks will remove."
 msgstr ""
-"Puoi cambiare il testo del pié di pagina amministrazione. Gli a capo vengono "
+"Puoi cambiare il testo dell'amministrazione del footer. Interruzioni di riga verranno "
 "rimosssi"
 
 #: includes/form/appearance.php:29
 msgid "Change login logo"
-msgstr "Cambia logo finestra accesso backend"
+msgstr "Cambia logo della finestra accesso"
 
 #: includes/form/appearance.php:31
 msgid ""
 "You can customize logo, URL and Title. The logo image size is recommended "
 "310 x 70 pixel."
 msgstr ""
-"Puoi personalizzare logo, URL e titolo. L'immagine del logo raccomandata è "
+"Puoi personalizzare logo, URL e titolo. Le dimensioni del logo raccomandati sono "
 "310 x 70 pixel."
 
 #: includes/form/appearance.php:34
@@ -103,7 +103,7 @@ msgstr "Disattiva Widgets Bacheca"
 #: includes/form/other.php:7 includes/form/post.php:8
 #: includes/form/post.php:27
 msgid "Choose the items you want to remove."
-msgstr "Click sul check box per cancellare"
+msgstr "Seleziona un oggetto per cancellare"
 
 #: includes/form/other.php:24
 msgid "Add role \"Webmaster\""
@@ -113,17 +113,18 @@ msgstr "Aggiungi ruolo \"Webmaster\""
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
-msgstr "\"Webmaster\"  è ruolo  analogo a \"Editor\" + \"edit_theme_options\" "
+msgstr "Questo ruolo ha la capacità di un \"Editor\", ma puo modificare "
+"le opzioni dei temi."
 
 #: includes/form/other.php:32
 msgid "Change default email address"
-msgstr "Cambia valore email di default"
+msgstr "Cambia email di default"
 
 #: includes/form/other.php:34
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
-msgstr "Cambia valore email di default e nome del sender"
+msgstr "Cambia email di default e nome del mittente usati dall'email automatico"
 
 #: includes/form/other.php:36
 msgid "Name"
@@ -135,11 +136,11 @@ msgstr "Email"
 
 #: includes/form/other.php:45
 msgid "Delete default contact methods"
-msgstr "Cancella metodo contatto di default"
+msgstr "Cancella metodi di contatto"
 
 #: includes/form/other.php:47
 msgid "Delete default contact methods from user profile."
-msgstr "Cancella metodo contatto di default dak profilo utente"
+msgstr "Cancella metodi di contatto dal profilo utente"
 
 #: includes/form/other.php:64
 msgid "Remove Update Notification"
@@ -176,13 +177,13 @@ msgstr "Registra tutto"
 
 #: includes/form/post.php:64
 msgid "Stop self-pingbacks"
-msgstr "Stop self-pingbacks"
+msgstr "Sospendi self-pingbacks"
 
 #: includes/form/post.php:66
 msgid ""
 "Stop sending pingbacks from your own site to your own site when writing "
 "posts."
-msgstr "Stop sending pings verso altri siti quando pubblichi contenuti."
+msgstr "Sospendi di mandare pings verso altri siti quando pubblichi i posts."
 
 #: includes/form/post.php:72
 msgid "Add \"Excerpt\" support for Pages."
@@ -190,15 +191,15 @@ msgstr "Aggiungi \"Riassunto\" alle pagine"
 
 #: includes/form/post.php:74
 msgid "Allows you to add excerpt text to pages."
-msgstr "Necessario per aggiungere riassunto alle pagine"
+msgstr "Ti permette di aggiungere riassunto alle pagine"
 
 #: includes/form/post.php:80
 msgid "Allow you to create child page for \"draft\"."
-msgstr ""
+msgstr "Ti permette di creare una paginca child per \"draft\"."
 
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
-msgstr ""
+msgstr "Puoi creare pagine child per Pagine non-publish."
 
 #: includes/form/sidebar.php:2
 msgid "WordPress Plugins"
@@ -218,7 +219,7 @@ msgstr "Questo plugin necessita del tuo supporto"
 
 #: includes/form/sidebar.php:19
 msgid "Please help support the continued development."
-msgstr "Si prega di aiutare il mantenimento del plugin"
+msgstr "Vi preghiamo di aiutarci al mantenimento del plugin"
 
 #: includes/form/sidebar.php:21
 msgid "$200+ makes you an official contributor."
@@ -226,11 +227,11 @@ msgstr "$200 per diventare sostenitore ufficiale"
 
 #: includes/form/sidebar.php:25
 msgid "Contact"
-msgstr "Contatto"
+msgstr "Contatti"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
-msgstr "Impostazioni sito"
+msgstr "Impostazioni del sito"
 
 #: includes/form/site.php:5
 msgid "Add a favicon"
@@ -242,7 +243,7 @@ msgstr "Caricare una immagine .ico"
 
 #: includes/form/site.php:10
 msgid "Use this favicon with administration screens."
-msgstr ""
+msgstr "Usa questo Favicon con schermo dell'amministrazione."
 
 #: includes/form/site.php:15
 msgid "Add a apple-touch-icon"
@@ -254,38 +255,38 @@ msgstr "Caricare una immagine .png"
 
 #: includes/form/site.php:31
 msgid "Remove \"wlwmanifest\" and \"xmlrpc\" from meta."
-msgstr "Abilita la rimozione di \"wlwmanifest\" e \"xmlrpc\" dai meta tag"
+msgstr "Rimuovi \"wlwmanifest\" e \"xmlrpc\" dai meta tag"
 
 #: includes/form/site.php:33
 msgid ""
 "If you don't use \"<a href=\"%s\">Remote Publishing</a>\", remove "
 "unnecessary tags from head."
 msgstr ""
-"Se non usi \"<a href=\"%s\">Pubblucazione da remoto</a>\" rimuovi i tag "
-"relativi dai meta tag"
+"Se non usi \"<a href=\"%s\">Remote Publishing</a>\", rimuovi i meta tag "
+"non necessari dal head"
 
 #: includes/form/site.php:39
 msgid "Remove adjacent posts rel links from head on Pages"
-msgstr "Rimuovi rel links dall'head nelle pagine"
+msgstr "Rimuovi i post adiacenti con rel links dal head nelle pagine"
 
 #: includes/form/site.php:41
 msgid ""
 "Remove adjacent posts rel links from head on Pages.<br /><span class=\"ex"
 "\">e.g. &lt;link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 msgstr ""
-"Rimuovi rel links dall'head nelle pagine<br /><span class=\"ex\">e.g. &lt;"
+"Rimuovi rel links dal head nelle pagine<br /><span class=\"ex\">e.g. &lt;"
 "link rel=\"next\" ...&gt; &lt;link rel=\"prev\" ...&gt;</span>"
 
 #: includes/form/site.php:47
 msgid "Remove version number from head"
-msgstr "Rimuovi tag di versione dai meta tag"
+msgstr "Rimuovi tag di versione dai meta tag dal head"
 
 #: includes/form/site.php:49
 msgid ""
 "Remove generator tag from head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 msgstr ""
-"Rimuovi tag di versione dai meta tag. <span class=\"ex\">e.g. &lt;meta name="
+"Rimuovi tag di versione dai meta tag dal head. <span class=\"ex\">e.g. &lt;meta name="
 "\"generator\" content=\"WordPress x.x.x\" /&gt;</span>"
 
 #: includes/form/site.php:55
@@ -310,7 +311,7 @@ msgstr "Installa Google Analytics"
 
 #: includes/form/site.php:73
 msgid "Add Google analytics code."
-msgstr "Aggiungi codice pe rGoogle Analytics"
+msgstr "Aggiungi codice per Google Analytics"
 
 #: includes/form/site.php:80
 msgid "Exclude user logged in."
@@ -338,7 +339,7 @@ msgstr "Impostazioni"
 
 #: wp-total-hacks.php:381
 msgid "Donate"
-msgstr "Dona"
+msgstr "Donazione"
 
 #. Plugin Name of the plugin/theme
 msgid "WP Total Hacks"
@@ -365,4 +366,4 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Remove attachment link from media uploader."
-#~ msgstr "Rimuovi rel links dall'head nelle pagine"
+#~ msgstr "Rimuovi rel links dal head nelle pagine"
