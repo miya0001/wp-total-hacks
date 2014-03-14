@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Branco  <brradenovich@gmail.com>\n"
 "Language-Team: \n"
@@ -12,25 +12,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Výber súboru"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr "Uložené."
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr "Uložiť zmeny"
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr "Deaktivova"
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr "Aktivova"
 
@@ -213,11 +213,7 @@ msgstr "Tento plugin potrebuje va¹u pomoc"
 msgid "Please help support the continued development."
 msgstr "Prosím, pomôzte podpori» ïal¹í vývoj."
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "$ 200 + robí oficiálne prispievateµom."
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -292,34 +288,43 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Odstráni \"[…]\" z výstupu the_excerpt ()."
 
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Zastavi» self-Pingbacks"
+
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Zastavi» self-Pingbacks"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "In¹talova» Google Analytics"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Prida» kód Google Analytics."
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Vylúèi» uzívateµ prihlásený"
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Nástroje pre webmasterov Overenie"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Donate"
 
@@ -342,6 +347,9 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "$ 200 + robí oficiálne prispievateµom."
 
 #~ msgid "Disable Auto Save"
 #~ msgstr "Zakáza» Auto Save"

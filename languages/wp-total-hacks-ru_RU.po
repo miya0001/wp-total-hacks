@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-total-hacks\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: 2011-05-24 23:36+0300\n"
 "Last-Translator: LiVsI <livsi1977@list.ru>\n"
 "Language-Team: LiVsI <pered@li.ru>\n"
@@ -18,25 +18,25 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Выберите файл"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr "Выключить"
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr "Включить"
 
@@ -226,11 +226,7 @@ msgstr "Это плагин нуждается в Вашей поддержке"
 msgid "Please help support the continued development."
 msgstr "Вы можете оказать поддержку для продолжения разработки."
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "Более $200 получено официальным разработчиком."
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "Контакты"
 
@@ -316,38 +312,48 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Удалить \"[...]\" из вывода функции the_excerpt()."
 
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Остановить пинг внутри сайта"
+
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Остановить пинг внутри сайта"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Установить код Google Analytics"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Добавить код Google analytics."
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Exclude user logged in."
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Подтверждение прав на управление сайтом"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "Введите ключ для отслеживания блога с помощью <a href=\"https://www.google."
 "com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://"
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, и <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "Настройки"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Спонсировать"
 
@@ -370,6 +376,9 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "Более $200 получено официальным разработчиком."
 
 #~ msgid "Disable Auto Save"
 #~ msgstr "Отключить автосохранение"

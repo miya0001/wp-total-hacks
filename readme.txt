@@ -3,8 +3,8 @@ Contributors: miyauchi,marushu
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FR7RD5SGEU69Y
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 1.7.2
+Tested up to: 3.9
+Stable tag: 1.8.0
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -35,6 +35,7 @@ PHP5 is required!
 * Customize limit the number of allowed revisions.
 * Disable auto save.
 * Stop sending pings from your own site to your own site when you write posts.
+* Block pingbacks.
 * And other!
 
 = Support =
@@ -94,6 +95,9 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+
+= 1.8.0 =
+* Add "Block pingbacks".
 
 = 1.7.1 =
 * Add language Vietnamese.

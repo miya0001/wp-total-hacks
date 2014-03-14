@@ -68,6 +68,14 @@
 </div>
 
 <div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Block all pingbacks', 'wp-total-hacks'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('Block all pingbacks.', 'wp-total-hacks'); ?></p>
+        <?php $this->sel('wfb_disallow_pingback'); ?>
+    </div>
+</div>
+
+<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Install Google Analytics', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php _e('Add Google analytics code.', 'wp-total-hacks'); ?></p>

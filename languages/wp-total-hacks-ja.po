@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,25 +17,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "ファイルを選択"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr ""
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr ""
 
@@ -219,11 +219,7 @@ msgstr "あなたのサポートが必要です"
 msgid "Please help support the continued development."
 msgstr "開発を継続するための支援をお願いします。"
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "200ドル以上の寄付で公式な協力者としてご紹介させていただきます。"
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "連絡先"
 
@@ -304,38 +300,46 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "the_excerpt() の出力結果から、[...] を削除します。"
 
 #: includes/form/site.php:71
+msgid "Block all pingbacks"
+msgstr "すべてのピンバックを拒否"
+
+#: includes/form/site.php:73
+msgid "Block all pingbacks."
+msgstr "すべてのピンバックを拒否"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Google Analytics をインストール"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Google Analytics コードを入力してください。"
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "ログインユーザーには無効にする。"
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "ウェブマスターツールの認証"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "認証用の meta \"content\" の値を入力してください。 <a href=\"https://www."
 "google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a href=\"https://"
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "設定"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "寄付"
 
@@ -358,6 +362,9 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://firegoby.theta.ne.jp/"
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "200ドル以上の寄付で公式な協力者としてご紹介させていただきます。"
 
 #~ msgid "Disable Auto Save"
 #~ msgstr "自動保存を無効"

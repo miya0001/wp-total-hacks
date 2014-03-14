@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,28 +22,28 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 
 # @ wp-total-hacks
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Selecteer een bestand"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr ""
 
 # @ default
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr ""
 
 # @ default
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr ""
 
 # @ default
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr ""
 
@@ -278,12 +278,7 @@ msgid "Please help support the continued development."
 msgstr "Help ons het verdere ontwikkelen te realiseren."
 
 # @ wp-total-hacks
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "Bij stortingen van mer dan 200 $ wordt u een officieel medewerker."
-
-# @ wp-total-hacks
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "Contact"
 
@@ -383,31 +378,43 @@ msgstr "Verwijder \"[...]\" van de uitput van the_excerpt()."
 
 # @ wp-total-hacks
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Stop Self Pings"
+
+# @ wp-total-hacks
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Stop Self Pings"
+
+# @ wp-total-hacks
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Installeer Google Analytics"
 
 # @ wp-total-hacks
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Voeg Google Analytics code toe."
 
 # @ wp-total-hacks
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Sluit ingelogde gebruiker uit."
 
 # @ wp-total-hacks
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools verificatie"
 
 # @ wp-total-hacks
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "Voeg uw meta sleutel \"content\" waarde in om uw blog te verrifiêren met <a "
 "href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</"
@@ -415,12 +422,12 @@ msgstr ""
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 # @ default
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr ""
 
 # @ wp-total-hacks
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Steun ons"
 
@@ -443,6 +450,10 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+# @ wp-total-hacks
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "Bij stortingen van mer dan 200 $ wordt u een officieel medewerker."
 
 # @ wp-total-hacks
 #~ msgid "Disable Auto Save"

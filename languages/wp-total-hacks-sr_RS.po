@@ -4,38 +4,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Total Hacks 1.2.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: 2013-05-18 21:06+0100\n"
 "Last-Translator: Anja Skrba <anjas@webhostinggeeks.com>\n"
 "Language-Team: Anja Skrba <anjas@webhostinggeeks.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"Language: sr_RS\n"
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Izaberite fajl"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr "Sačuvano."
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr "Sačuvati izmene"
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr "Deaktivirati"
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr "Aktivirate"
 
@@ -230,11 +230,7 @@ msgstr "Ovom dodatku treba vaša podrška"
 msgid "Please help support the continued development."
 msgstr "Molimo vas, pomozite kontinuirani razvoj."
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "$200+ vas čini zvaničnim doprinosiocem."
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -316,27 +312,37 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Ukloniti \"[...]\" iz izlaza the_excerpt()."
 
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Zaustaviti auto ping odzive"
+
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Zaustaviti auto ping odzive"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Instalacija Google Analytics -a"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Dodaje Google analytics kod."
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Isključiti prijavljenog korisnika."
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools verifikacija"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "Unesite vašu vrednost meta ključa \"content\" (sadržaj), da verifikujete "
 "svoj blog pomoću <a href=\"https://www.google.com/webmasters/tools/\">Google "
@@ -344,11 +350,11 @@ msgstr ""
 "\">Yahoo! Site Explorer</a> -a, i <a href=\"http://www.bing.com/webmaster"
 "\">Bing Webmaster Center</a> -a."
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "Podešavanja"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Donirajte"
 
@@ -371,3 +377,6 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "$200+ vas čini zvaničnim doprinosiocem."

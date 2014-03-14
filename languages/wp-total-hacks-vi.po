@@ -4,36 +4,37 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Total Hacks 1.2.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: 2014-01-18 21:11+0700\n"
 "Last-Translator: \n"
 "Language-Team: OSS localization blog | http://bizover.net <contact@bizover."
 "net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Chọn tập tin"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr "Lưu."
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr "Lưu thay đổi"
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr "Tắt"
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr "Kích hoạt"
 
@@ -223,11 +224,7 @@ msgstr "Plugin này cần hỗ trợ của bạn"
 msgid "Please help support the continued development."
 msgstr "Xin vui lòng giúp hỗ trợ việc phát triển."
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "$200 + làm cho bạn một đóng góp chính thức."
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "Liên hệ"
 
@@ -308,38 +305,48 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "Loại bỏ \"[...]\" từ đầu ra của the_excerpt()."
 
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Ngừng tự-pingbacks"
+
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Ngừng tự-pingbacks"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Cài đặt Google Analytics"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Thêm Google analytics mã."
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Loại trừ người dùng đăng nhập."
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Quản trị trang web công cụ xác minh"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "Nhập chìa khóa meta của bạn \"content\" giá trị để xác minh blog của bạn với "
 "<a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</"
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Quyên góp"
 
@@ -362,3 +369,6 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr "$200 + làm cho bạn một đóng góp chính thức."

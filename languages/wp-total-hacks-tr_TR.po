@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Total Hacks Turkish\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2013-04-10 08:33:29+00:00\n"
+"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
 "PO-Revision-Date: 2014-01-24 09:02+0200\n"
 "Last-Translator: Serkan Algur <info@wpadami.com>\n"
 "Language-Team: kaisercrazy <info@kaisercrazy.com>\n"
@@ -19,25 +19,25 @@ msgstr ""
 "X-Generator: Poedit 1.6.3\n"
 "X-Poedit-Basepath: .\n"
 
-#: includes/admin.php:248 includes/form/appearance.php:11
+#: includes/admin.php:260 includes/form/appearance.php:11
 #: includes/form/appearance.php:35 includes/form/site.php:9
 #: includes/form/site.php:19
 msgid "Select File"
 msgstr "Gözat"
 
-#: includes/admin.php:381
+#: includes/admin.php:393
 msgid "Saved."
 msgstr "Kaydedildi."
 
-#: includes/admin.php:388
+#: includes/admin.php:400
 msgid "Save Changes"
 msgstr "Değişiklikleri Kaydet"
 
-#: includes/admin.php:433
+#: includes/admin.php:445
 msgid "Deactivate"
 msgstr "Etkisizleştir"
 
-#: includes/admin.php:435 includes/admin.php:437
+#: includes/admin.php:447 includes/admin.php:449
 msgid "Activate"
 msgstr "Etkinleştir"
 
@@ -224,11 +224,7 @@ msgstr "Bu eklentinin sizin desteğinize ihtiyacı var."
 msgid "Please help support the continued development."
 msgstr "Geliştirmenin devamının sağlanabilmesi için yardımda bulun"
 
-#: includes/form/sidebar.php:21
-msgid "$200+ makes you an official contributor."
-msgstr "200$ ve yukarısındaki bağışlar sizi katkıda bulunan kişilerden yapar"
-
-#: includes/form/sidebar.php:25
+#: includes/form/sidebar.php:24
 msgid "Contact"
 msgstr "İletişim"
 
@@ -309,38 +305,48 @@ msgid "Remove \"[...]\" from output of the_excerpt()."
 msgstr "the_excerpt() kodundan \"[...]\" ifadesini kaldır"
 
 #: includes/form/site.php:71
+#, fuzzy
+msgid "Block all pingbacks"
+msgstr "Kendine ping atmasını durdur"
+
+#: includes/form/site.php:73
+#, fuzzy
+msgid "Block all pingbacks."
+msgstr "Kendine ping atmasını durdur"
+
+#: includes/form/site.php:79
 msgid "Install Google Analytics"
 msgstr "Google Analytics Ekle"
 
-#: includes/form/site.php:73
+#: includes/form/site.php:81
 msgid "Add Google analytics code."
 msgstr "Google Analytics kodunuzu ekleyin"
 
-#: includes/form/site.php:80
+#: includes/form/site.php:88
 msgid "Exclude user logged in."
 msgstr "Kullanıcı girişini durdurun"
 
-#: includes/form/site.php:85
+#: includes/form/site.php:93
 msgid "Webmaster Tools Verification"
 msgstr "Webmaster Tools Onayı"
 
-#: includes/form/site.php:87
+#: includes/form/site.php:95
+#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
-"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>, <a "
-"href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, "
-"and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
+"\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
+"<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 "<a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</"
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a> ve <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a> "
 "sistemleriden aldığınızı meta \"content\" anahtarını girin "
 
-#: wp-total-hacks.php:378
+#: wp-total-hacks.php:390
 msgid "Settings"
 msgstr "Seçenekler"
 
-#: wp-total-hacks.php:381
+#: wp-total-hacks.php:393
 msgid "Donate"
 msgstr "Bağış Yap"
 
@@ -363,6 +369,10 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "$200+ makes you an official contributor."
+#~ msgstr ""
+#~ "200$ ve yukarısındaki bağışlar sizi katkıda bulunan kişilerden yapar"
 
 #~ msgid "Disable Auto Save"
 #~ msgstr "Otomatik kaydı kapat"

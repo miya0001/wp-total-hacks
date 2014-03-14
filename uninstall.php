@@ -41,6 +41,7 @@ $total_hacks_options = array(
     'wfb_update_notification',
     'wfb_attachmentlink',
     'wfb_createpagefordraft',
+    'wfb_disallow_pingback',
 );
 
 
