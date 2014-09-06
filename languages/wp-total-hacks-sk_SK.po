@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Branco  <brradenovich@gmail.com>\n"
 "Language-Team: \n"
@@ -18,19 +18,19 @@ msgstr ""
 msgid "Select File"
 msgstr "Výber súboru"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr "Uložené."
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "Uložiť zmeny"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr "Deaktivova"
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr "Aktivova"
 
@@ -98,46 +98,66 @@ msgid "Choose the items you want to remove."
 msgstr "Vyberte polozky, ktoré chcete odstráni»."
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Prida» role \"Webmaster\""
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr ""
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "Zmena predvoleného e-mailová adresa"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr ""
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "Meno"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "Email"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Odstráni» metódy predvolený kontakt"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Odstráni» metódy predvolené kontaktné od profilu pou¾ívateµa."
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Odstráni» oznámenia o aktualizáciu"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr ""
 "Odstráňte Aktualizácia oznámenia pre všetkých užívateľov s výnimkou Admin "
@@ -192,30 +212,6 @@ msgstr "Umozòuje vytvori» peskoval stránky pre \"draft\"."
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "Môzete vytvori» podstránku pre non-publikova» stránke."
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress Plugins"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr "Skontrolujte, WordPress stránok Load Faster"
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr "http://wpbooster.net/"
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Tento plugin potrebuje va¹u pomoc"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Prosím, pomôzte podpori» ïal¹í vývoj."
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Kontakt"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -320,11 +316,11 @@ msgid ""
 "<a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 msgstr ""
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "Nastavenia"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Donate"
 
@@ -347,6 +343,24 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress Plugins"
+
+#~ msgid "Make WordPress Site Load Faster"
+#~ msgstr "Skontrolujte, WordPress stránok Load Faster"
+
+#~ msgid "http://wpbooster.net/"
+#~ msgstr "http://wpbooster.net/"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Tento plugin potrebuje va¹u pomoc"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "Prosím, pomôzte podpori» ïal¹í vývoj."
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "$ 200 + robí oficiálne prispievateµom."

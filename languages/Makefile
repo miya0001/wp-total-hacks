@@ -6,9 +6,9 @@ PROJECT = plugin
 MAKEPOT = $(HOME)/wordpress-i18n/makepot.php
 
 
-PHP = /usr/bin/php
-MSGMERGE = /usr/local/bin/msgmerge
-MSGFMT = /usr/local/bin/msgfmt
+PHP = php
+MSGMERGE = msgmerge
+MSGFMT = msgfmt
 
 srcdir = ..
 langdir = .

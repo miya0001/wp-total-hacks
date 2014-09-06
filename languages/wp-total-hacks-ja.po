@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,19 +23,19 @@ msgstr ""
 msgid "Select File"
 msgstr "ファイルを選択"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr ""
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr ""
 
@@ -105,47 +105,70 @@ msgid "Choose the items you want to remove."
 msgstr "削除したい項目をクリックしてください。"
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr "テキストウィジェットでショートコードを使用可能にする"
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+"デフォルトでは、テキストウィジェットはテキストとHTMLしかサポートしていませんが、これを有効化するとショートコードが使用できるようになります。"
+
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr "テキストウィジェットでoEmbedを使用可能にする"
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+"デフォルトでは、テキストウィジェットはテキストとHTMLしかサポートしていませんが、これを有効化するとoEmbedが使用できるようになります。"
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "\"Webmaster\" 権限を追加"
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr ""
 "\"Webmaster\" は、\"Editor\" 権限と \"edit_theme_options\" が可能です。"
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "デフォルトのメールアドレスを変更"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr "デフォルトのメールアドレスと送信者名を変更します。"
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "名前"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "Email"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "デフォルトの連絡先情報を削除"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "ユーザーの編集からデフォルトの連絡先情報を削除します。"
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "アップデート通知を停止"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr "アップデート通知を管理者以外の全てのユーザーに対して停止します。"
 
@@ -198,30 +221,6 @@ msgstr "下書きページへの子ページの作成を許可"
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "公開されていないページの子ページを作成することができます。"
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress プラグイン"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr "WordPressを高速化"
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr "http://ja.wpbooster.net/"
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "あなたのサポートが必要です"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "開発を継続するための支援をお願いします。"
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "連絡先"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -324,7 +323,6 @@ msgid "Webmaster Tools Verification"
 msgstr "ウェブマスターツールの認証"
 
 #: includes/form/site.php:95
-#, fuzzy
 msgid ""
 "Enter your meta key \"content\" value to verify your blog with <a href="
 "\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a> and "
@@ -335,11 +333,11 @@ msgstr ""
 "siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</a>, and <a href="
 "\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "設定"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "寄付"
 
@@ -362,6 +360,24 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://firegoby.theta.ne.jp/"
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress プラグイン"
+
+#~ msgid "Make WordPress Site Load Faster"
+#~ msgstr "WordPressを高速化"
+
+#~ msgid "http://wpbooster.net/"
+#~ msgstr "http://ja.wpbooster.net/"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "あなたのサポートが必要です"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "開発を継続するための支援をお願いします。"
+
+#~ msgid "Contact"
+#~ msgstr "連絡先"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "200ドル以上の寄付で公式な協力者としてご紹介させていただきます。"

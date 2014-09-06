@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: 2011-12-21 15:30+0900\n"
 "Last-Translator: Zairul Azmil <zazmil@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,19 @@ msgstr ""
 msgid "Select File"
 msgstr "Pilih Fail"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr "Selamat disimpan."
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "Simpan Perubahan"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr "Nyahaktifkan"
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr "Aktifkan"
 
@@ -104,21 +104,41 @@ msgid "Choose the items you want to remove."
 msgstr "Pilih item yang mahu dibuang."
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Tambah jawatan \"Webmaster\""
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr ""
 "Jawatan ini juga mempunyai keupayaan \"Editor\" dan boleh edit pilihan tema."
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "Tukar alamat emel lalai"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
@@ -126,27 +146,27 @@ msgstr ""
 "Tukar alamat emel lalai dan nama pengirim yang digunakan pada notifikasi "
 "emel automatik."
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "Nama"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "Emel"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Padam kaedah hubungan lalai"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Padam kaedah hubungan lalai dari profil pengguna."
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Buang Notifikasi Kemaskini"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr "Buang Notifikasi Kemaskini pada semua pengguna kecuali Admin."
 
@@ -201,31 +221,6 @@ msgstr ""
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress Plugins"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr ""
-
-#: includes/form/sidebar.php:14
-#, fuzzy
-msgid "http://wpbooster.net/"
-msgstr "http://wpist.me/"
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Plugin ini memerlukan sokongan dari anda"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Sila bantu kami menyokong pembangunan plugin."
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Hubung"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -342,11 +337,11 @@ msgstr ""
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a>, dan <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "Tetapan"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Derma"
 
@@ -369,6 +364,22 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress Plugins"
+
+#, fuzzy
+#~ msgid "http://wpbooster.net/"
+#~ msgstr "http://wpist.me/"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Plugin ini memerlukan sokongan dari anda"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "Sila bantu kami menyokong pembangunan plugin."
+
+#~ msgid "Contact"
+#~ msgstr "Hubung"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr ""

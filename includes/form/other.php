@@ -21,6 +21,22 @@
 </div>
 
 <div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Enable shortcode in the text widget', 'wp-total-hacks'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('By default, the Text widget only support text and HTML. If you activate it, shortcode would be supported.', 'wp-total-hacks'); ?></p>
+        <?php $this->sel('wfb_shortcode'); ?>
+    </div>
+</div>
+
+<div class="block">
+    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Enable oEmbed in the text widget', 'wp-total-hacks'); ?></h4>
+    <div class="block_content">
+        <p><?php _e('By default, the Text widget only support text and HTML. If you activate it, oEmbed would be supported.', 'wp-total-hacks'); ?></p>
+        <?php $this->sel('wfb_oembed'); ?>
+    </div>
+</div>
+
+<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Add role "Webmaster"', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php _e('This role has the capabilities of an "Editor", but can also edit theme options.', 'wp-total-hacks'); ?></p>

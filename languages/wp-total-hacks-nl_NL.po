@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,22 +28,22 @@ msgstr ""
 msgid "Select File"
 msgstr "Selecteer een bestand"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr ""
 
 # @ default
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr ""
 
 # @ default
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr ""
 
 # @ default
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr ""
 
@@ -128,13 +128,33 @@ msgstr "Schakel Dashboard Widgets uit"
 msgid "Choose the items you want to remove."
 msgstr ""
 
-# @ wp-total-hacks
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+# @ wp-total-hacks
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Voeg de functie \"Webmaster\" toe"
 
 # @ wp-total-hacks
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 #, fuzzy
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
@@ -142,13 +162,13 @@ msgid ""
 msgstr "\"Webmaster\" is functie van \"Editor\" + \"edit_theme_options\"."
 
 # @ wp-total-hacks
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 #, fuzzy
 msgid "Change default email address"
 msgstr "Wijzig uw standaard email adres"
 
 # @ wp-total-hacks
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 #, fuzzy
 msgid ""
 "Change the email address and sender name used by automatic email "
@@ -156,32 +176,32 @@ msgid ""
 msgstr "Wijzig us standaard email adres en weergegeven naam."
 
 # @ default
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr ""
 
 # @ default
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr ""
 
 # @ wp-total-hacks
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Wis de standaard contact methodes"
 
 # @ wp-total-hacks
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Wis de standaard contact methodes van het gebruikersprofiel"
 
 # @ wp-total-hacks
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Wis Update Aankondiging"
 
 # @ wp-total-hacks
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr "Wis Update Aankondiging voor alle gebruikers behalve Admin User."
 
@@ -253,34 +273,6 @@ msgstr ""
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
-
-# @ wp-total-hacks
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress Plugins"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr ""
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr ""
-
-# @ wp-total-hacks
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Deze Plugin heeft uw aandacht nodig"
-
-# @ wp-total-hacks
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Help ons het verdere ontwikkelen te realiseren."
-
-# @ wp-total-hacks
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Contact"
 
 # @ wp-total-hacks
 #: includes/form/site.php:2
@@ -422,12 +414,12 @@ msgstr ""
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
 # @ default
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr ""
 
 # @ wp-total-hacks
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Steun ons"
 
@@ -450,6 +442,22 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+# @ wp-total-hacks
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress Plugins"
+
+# @ wp-total-hacks
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Deze Plugin heeft uw aandacht nodig"
+
+# @ wp-total-hacks
+#~ msgid "Please help support the continued development."
+#~ msgstr "Help ons het verdere ontwikkelen te realiseren."
+
+# @ wp-total-hacks
+#~ msgid "Contact"
+#~ msgstr "Contact"
 
 # @ wp-total-hacks
 #~ msgid "$200+ makes you an official contributor."

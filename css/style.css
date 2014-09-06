@@ -141,7 +141,6 @@
 .wrap #total-hacks-tabs
 {
     display :none;
-    margin-right: 300px;
 }
 
 .wrap .total-hacks-tab
@@ -165,13 +164,6 @@
     margin-bottom: 1em;
 }
 
-.wrap #wfb-sidebar
-{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 285px;
-}
 
 .wrap .bside
 {
@@ -219,7 +211,7 @@
 
 .wrap #wfb-footer
 {
-    margin-right: 300px;
+
 }
 
 #wfb-notice

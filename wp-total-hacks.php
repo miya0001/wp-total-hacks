@@ -2,9 +2,9 @@
 /*
 Plugin Name: WP Total Hacks
 Author: Takayuki Miyauchi
-Plugin URI: http://wpist.me/wp/wp-total-hacks/
+Plugin URI: https://github.com/miya0001/wp-total-hacks
 Description: WP Total Hacks can customize your WordPress.
-Version: 1.8.0
+Version: 1.9.0
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -50,6 +50,8 @@ private $option_params = array(
     //'wfb_attachmentlink' => 'bool',
     'wfb_createpagefordraft' => 'bool',
     'wfb_disallow_pingback' => 'bool',
+    'wfb_shortcode' => 'bool',
+    'wfb_oembed' => 'bool',
 );
 
 public function __construct()
@@ -134,6 +136,16 @@ public function plugins_loaded()
 
     if ($this->op('wfb_disallow_pingback')) {
         add_filter('xmlrpc_methods', array($this, 'xmlrpc_methods'));
+    }
+
+    if ($this->op('wfb_shortcode')) {
+        add_filter('widget_text', 'do_shortcode');
+    }
+
+    if ($this->op('wfb_oembed')) {
+        global $wp_embed;
+        add_filter( 'widget_text', array( $wp_embed, 'run_shortcode' ), 8 );
+        add_filter( 'widget_text', array( $wp_embed, 'autoembed'), 8 );
     }
 }
 

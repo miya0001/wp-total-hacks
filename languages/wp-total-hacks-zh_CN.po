@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: 2011-09-18 21:11+0800\n"
 "Last-Translator: missing猪 <520@qq.com>\n"
 "Language-Team: \n"
@@ -26,19 +26,19 @@ msgstr ""
 msgid "Select File"
 msgstr "选择文件"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "保存更改"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr ""
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr ""
 
@@ -107,46 +107,66 @@ msgid "Choose the items you want to remove."
 msgstr "选择你想移除的项目"
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "添加角色\"Webmaster\"（网络管理员）"
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr "这个角色拥有“编辑”的权限，但同时可以设置主题选项"
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "修改默认 e-mail 信息"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr "修改wordpress的自动通知功能使用的 e-mail 信息"
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr ""
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr ""
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "删除默认联系方式"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "删除用户个人资料里的默认联系方式"
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "禁用升级提示"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr "除管理员外的角色都禁用升级提示"
 
@@ -199,30 +219,6 @@ msgstr ""
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress 插件"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr ""
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr ""
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "这款插件需要你的支持"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "请捐赠以支持插件的继续开发"
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "联系"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -338,11 +334,11 @@ msgstr ""
 "Explorer</a>, 和 <a href=\"http://www.bing.com/webmaster\">Bing Webmaster "
 "Center</a>代码."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "设置"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "捐助"
 
@@ -365,6 +361,18 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress 插件"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "这款插件需要你的支持"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "请捐赠以支持插件的继续开发"
+
+#~ msgid "Contact"
+#~ msgstr "联系"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "$200+将让你成为官方的捐助者"

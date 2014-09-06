@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: 2011-05-23 09:15+0100\n"
 "Last-Translator: Andrea Bersi\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,19 +22,19 @@ msgstr ""
 msgid "Select File"
 msgstr "Seleziona file"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr ""
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "Salva"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr "Disattiva"
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr "Attiva"
 
@@ -106,46 +106,66 @@ msgid "Choose the items you want to remove."
 msgstr "Click sul check box per cancellare"
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Aggiungi ruolo \"Webmaster\""
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
 msgstr "\"Webmaster\"  è ruolo  analogo a \"Editor\" + \"edit_theme_options\" "
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "Cambia valore email di default"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr "Cambia valore email di default e nome del sender"
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "Nome"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "Email"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Cancella metodo contatto di default"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Cancella metodo contatto di default dak profilo utente"
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Rimuovi notifiche di aggiornamento"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr ""
 "Rimuovi notifiche di aggiornamento per tutti utenti tranne Amministratore"
@@ -199,30 +219,6 @@ msgstr ""
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr ""
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress Pulgins"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr ""
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr ""
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Questo plugin necessita del tuo supporto"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Si prega di aiutare il mantenimento del plugin"
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Contatto"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -338,11 +334,11 @@ msgstr ""
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a>, e <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Dona"
 
@@ -365,6 +361,18 @@ msgstr ""
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr ""
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress Pulgins"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Questo plugin necessita del tuo supporto"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "Si prega di aiutare il mantenimento del plugin"
+
+#~ msgid "Contact"
+#~ msgstr "Contatto"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "$200 per diventare sostenitore ufficiale"

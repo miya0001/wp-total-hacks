@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Total Hacks 1.2.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: 2013-05-18 21:06+0100\n"
 "Last-Translator: Anja Skrba <anjas@webhostinggeeks.com>\n"
 "Language-Team: Anja Skrba <anjas@webhostinggeeks.com>\n"
@@ -23,19 +23,19 @@ msgstr ""
 msgid "Select File"
 msgstr "Izaberite fajl"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr "Sačuvano."
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "Sačuvati izmene"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr "Deaktivirati"
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr "Aktivirate"
 
@@ -109,10 +109,30 @@ msgid "Choose the items you want to remove."
 msgstr "Odaberite stavke koje želite da uklonite."
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Dodati ulogu \"Urednik web sajta (Webmaster)\""
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
@@ -120,11 +140,11 @@ msgstr ""
 "Ova uloga ima mogućnosti \"Urednik (Editor)\" -a, a može da uređuje i opcije "
 "teme."
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "Izmeniti podrazumevanu e-mail adresu"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
@@ -132,27 +152,27 @@ msgstr ""
 "Izmeniti e-mail adresu i ime pošiljaoca, koji se koriste za automatsko "
 "obaveštavanje e-mailom."
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "Ime"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "E-mail"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Obrisati podrazumevane metode kontakta"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Obrisati podrazumevane metode kontakta sa profila korisnika."
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Ukloniti obaveštenje o ažuriranju"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr ""
 "Ukloniti obaveštenje o ažuriranju za sve korisnike, osim Admin korisnika "
@@ -209,30 +229,6 @@ msgstr "Dozvoliti vam kreiranje potomak-strane za \"nacrt (draft)\"."
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "Možete kreirati potomak-stranu za neobjavljenu (non-publish) stranu."
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress dodaci (Plugins)"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr "Učinite da se WordPress sajt brže učitava"
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr "http://wpbooster.net/"
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Ovom dodatku treba vaša podrška"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Molimo vas, pomozite kontinuirani razvoj."
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Kontakt"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -350,11 +346,11 @@ msgstr ""
 "\">Yahoo! Site Explorer</a> -a, i <a href=\"http://www.bing.com/webmaster"
 "\">Bing Webmaster Center</a> -a."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "Podešavanja"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Donirajte"
 
@@ -377,6 +373,24 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress dodaci (Plugins)"
+
+#~ msgid "Make WordPress Site Load Faster"
+#~ msgstr "Učinite da se WordPress sajt brže učitava"
+
+#~ msgid "http://wpbooster.net/"
+#~ msgstr "http://wpbooster.net/"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Ovom dodatku treba vaša podrška"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "Molimo vas, pomozite kontinuirani razvoj."
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "$200+ vas čini zvaničnim doprinosiocem."

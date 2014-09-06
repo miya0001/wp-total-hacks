@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Total Hacks 1.2.2\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-total-hacks\n"
-"POT-Creation-Date: 2014-03-14 10:20:39+00:00\n"
+"POT-Creation-Date: 2014-09-06 03:35:26+00:00\n"
 "PO-Revision-Date: 2014-01-18 21:11+0700\n"
 "Last-Translator: \n"
 "Language-Team: OSS localization blog | http://bizover.net <contact@bizover."
@@ -22,19 +22,19 @@ msgstr ""
 msgid "Select File"
 msgstr "Chọn tập tin"
 
-#: includes/admin.php:393
+#: includes/admin.php:390
 msgid "Saved."
 msgstr "Lưu."
 
-#: includes/admin.php:400
+#: includes/admin.php:397
 msgid "Save Changes"
 msgstr "Lưu thay đổi"
 
-#: includes/admin.php:445
+#: includes/admin.php:442
 msgid "Deactivate"
 msgstr "Tắt"
 
-#: includes/admin.php:447 includes/admin.php:449
+#: includes/admin.php:444 includes/admin.php:446
 msgid "Activate"
 msgstr "Kích hoạt"
 
@@ -104,10 +104,30 @@ msgid "Choose the items you want to remove."
 msgstr "Chọn các mục bạn muốn loại bỏ."
 
 #: includes/form/other.php:24
+msgid "Enable shortcode in the text widget"
+msgstr ""
+
+#: includes/form/other.php:26
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"shortcode would be supported."
+msgstr ""
+
+#: includes/form/other.php:32
+msgid "Enable oEmbed in the text widget"
+msgstr ""
+
+#: includes/form/other.php:34
+msgid ""
+"By default, the Text widget only support text and HTML. If you activate it, "
+"oEmbed would be supported."
+msgstr ""
+
+#: includes/form/other.php:40
 msgid "Add role \"Webmaster\""
 msgstr "Thêm vai trò \"Webmaster\""
 
-#: includes/form/other.php:26
+#: includes/form/other.php:42
 msgid ""
 "This role has the capabilities of an \"Editor\", but can also edit theme "
 "options."
@@ -115,38 +135,38 @@ msgstr ""
 "Vai trò này có khả năng của một \"Editor\", nhưng cũng có thể chỉnh sửa tùy "
 "chọn chủ đề."
 
-#: includes/form/other.php:32
+#: includes/form/other.php:48
 msgid "Change default email address"
 msgstr "Thay đổi địa chỉ thư điện tử mặc định"
 
-#: includes/form/other.php:34
+#: includes/form/other.php:50
 msgid ""
 "Change the email address and sender name used by automatic email "
 "notifications."
 msgstr ""
 "Thay đổi email địa chỉ và gửi tên được sử dụng bởi thông báo email tự động."
 
-#: includes/form/other.php:36
+#: includes/form/other.php:52
 msgid "Name"
 msgstr "Tên"
 
-#: includes/form/other.php:38
+#: includes/form/other.php:54
 msgid "Email"
 msgstr "Thư điện tử"
 
-#: includes/form/other.php:45
+#: includes/form/other.php:61
 msgid "Delete default contact methods"
 msgstr "Xóa phương pháp liên lạc mặc định"
 
-#: includes/form/other.php:47
+#: includes/form/other.php:63
 msgid "Delete default contact methods from user profile."
 msgstr "Xóa phương pháp liên lạc mặc định từ hồ sơ người dùng."
 
-#: includes/form/other.php:64
+#: includes/form/other.php:80
 msgid "Remove Update Notification"
 msgstr "Loại bỏ bản cập nhật thông báo"
 
-#: includes/form/other.php:66
+#: includes/form/other.php:82
 msgid "Remove Update Notification for all users except Admin User."
 msgstr ""
 "Loại bỏ bản cập nhật thông báo cho tất cả người dùng ngoại trừ người dùng "
@@ -203,30 +223,6 @@ msgstr "Cho phép bạn tạo trang trẻ em cho \"draft\"."
 #: includes/form/post.php:82
 msgid "You can create child page for non-publish Page."
 msgstr "Bạn có thể tạo trang trẻ em cho non-publish trang."
-
-#: includes/form/sidebar.php:2
-msgid "WordPress Plugins"
-msgstr "WordPress Plugins"
-
-#: includes/form/sidebar.php:13
-msgid "Make WordPress Site Load Faster"
-msgstr "Làm cho WordPress trang web tải nhanh hơn"
-
-#: includes/form/sidebar.php:14
-msgid "http://wpbooster.net/"
-msgstr "http://wpbooster.net/"
-
-#: includes/form/sidebar.php:18
-msgid "This Plugin needs your support"
-msgstr "Plugin này cần hỗ trợ của bạn"
-
-#: includes/form/sidebar.php:19
-msgid "Please help support the continued development."
-msgstr "Xin vui lòng giúp hỗ trợ việc phát triển."
-
-#: includes/form/sidebar.php:24
-msgid "Contact"
-msgstr "Liên hệ"
 
 #: includes/form/site.php:2
 msgid "Site Settings"
@@ -342,11 +338,11 @@ msgstr ""
 "a>, <a href=\"https://siteexplorer.search.yahoo.com/\">Yahoo! Site Explorer</"
 "a>, and <a href=\"http://www.bing.com/webmaster\">Bing Webmaster Center</a>."
 
-#: wp-total-hacks.php:390
+#: wp-total-hacks.php:402
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: wp-total-hacks.php:393
+#: wp-total-hacks.php:405
 msgid "Donate"
 msgstr "Quyên góp"
 
@@ -369,6 +365,24 @@ msgstr "Takayuki Miyauchi"
 #. Author URI of the plugin/theme
 msgid "http://wpist.me/"
 msgstr "http://wpist.me/"
+
+#~ msgid "WordPress Plugins"
+#~ msgstr "WordPress Plugins"
+
+#~ msgid "Make WordPress Site Load Faster"
+#~ msgstr "Làm cho WordPress trang web tải nhanh hơn"
+
+#~ msgid "http://wpbooster.net/"
+#~ msgstr "http://wpbooster.net/"
+
+#~ msgid "This Plugin needs your support"
+#~ msgstr "Plugin này cần hỗ trợ của bạn"
+
+#~ msgid "Please help support the continued development."
+#~ msgstr "Xin vui lòng giúp hỗ trợ việc phát triển."
+
+#~ msgid "Contact"
+#~ msgstr "Liên hệ"
 
 #~ msgid "$200+ makes you an official contributor."
 #~ msgstr "$200 + làm cho bạn một đóng góp chính thức."
