@@ -83,7 +83,6 @@ public function __construct()
     add_filter('the_content_more_link', array(&$this, 'the_content_more_link'));
     add_filter('wp_mail_from',      array(&$this, 'wp_mail_from'));
     add_filter('wp_mail_from_name', array(&$this, 'wp_mail_from_name'));
-    add_filter('plugin_row_meta',   array(&$this, 'plugin_row_meta'), 10, 2);
     add_filter('user_contactmethods', array(&$this, 'user_contactmethods'));
     add_filter('excerpt_more',      array(&$this, 'excerpt_more'));
     add_filter('page_attributes_dropdown_pages_args', array(&$this, 'page_attributes_dropdown_pages_args'));
@@ -389,22 +388,6 @@ private function op($key, $default = false)
     } else {
         return trim(stripslashes($op));
     }
-}
-
-public function plugin_row_meta($links, $file)
-{
-    $pname = plugin_basename(__FILE__);
-    if ($pname === $file) {
-        $link = '<a href="%s">%s</a>';
-        $links[] = sprintf(
-            $link,
-            admin_url('options-general.php?page=wp-total-hacks'),
-            __("Settings", "wp-total-hacks")
-        );
-        $url = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=8NDYFAG2ZM9TU";
-        $links[] = sprintf($link, esc_url($url), __("Donate", "wp-total-hacks"));
-    }
-    return $links;
 }
 
 private function remove_scheme($url)
