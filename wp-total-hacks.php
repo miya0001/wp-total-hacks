@@ -4,7 +4,7 @@ Plugin Name: WP Total Hacks
 Author: Takayuki Miyauchi
 Plugin URI: https://github.com/miya0001/wp-total-hacks
 Description: WP Total Hacks can customize your WordPress.
-Version: 1.9.0
+Version: 1.9.1
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -26,7 +26,6 @@ private $option_params = array(
     'wfb_bing' => 'text',
     'wfb_hide_custom_fields' => 'bool',
     'wfb_revision' => 'int',
-    //'wfb_autosave' => 'bool',
     'wfb_selfping' => 'bool',
     'wfb_widget' => 'array',
     'wfb_custom_logo' => 'url',
@@ -47,7 +46,6 @@ private $option_params = array(
     'wfb_contact_methods' => 'array',
     'wfb_remove_excerpt' => 'bool',
     'wfb_update_notification' => 'bool',
-    //'wfb_attachmentlink' => 'bool',
     'wfb_createpagefordraft' => 'bool',
     'wfb_disallow_pingback' => 'bool',
     'wfb_shortcode' => 'bool',
@@ -282,7 +280,7 @@ public function wp_head()
     if ($this->op("wfb_google_analytics")) {
         if ($this->op("wfb_exclude_loggedin") && is_user_logged_in()) {
         } else {
-            echo stripslashes($this->op("wfb_google_analytics"));
+            echo apply_filters( "wp_total_hacks_google_analytics", stripslashes( $this->op( "wfb_google_analytics" ) ) );
         }
     }
     if ($this->op('wfb_favicon')) {
