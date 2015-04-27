@@ -3,8 +3,8 @@ Contributors: miyauchi,marushu
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FR7RD5SGEU69Y
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.8
-Tested up to: 4.1
-Stable tag: 1.9.1
+Tested up to: 4.2
+Stable tag: 1.9.2
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -96,6 +96,9 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+
+= 1.9.2 =
+* Tested up to WordPress 4.2.
 
 = 1.9.0 =
 * Enable shortcode/oembed in the text widget.
