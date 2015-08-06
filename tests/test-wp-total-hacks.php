@@ -60,7 +60,7 @@ class WPTotalHacksTest extends WP_UnitTestCase
 		$this->assertSame( 1, preg_match( '#<link rel="Shortcut Icon" type="image/x-icon" href="//path/to/favicon.png" />#', $header ) );
 		$this->assertSame( 1, preg_match( '#<link rel="apple-touch-icon" href="//path/to/apple_icon.png" />#', $header ) );
 
-		if ( has_site_icon() ) {
+		if ( function_exists( 'has_site_icon' ) ) {
 			update_option( 'site_icon', $this->attachment_id );
 			// go to page and force fire wp_head()
 			ob_start();

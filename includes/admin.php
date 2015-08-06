@@ -87,6 +87,10 @@ private $translators = array(
         'lang' => 'Vietnamese',
         'url' => 'http://bizover.net/'
     ),
+    'Michael Skweres' => array(
+        'lang' => 'Polish',
+        'url' => 'http://livepoint.pl/'
+    ),
 );
 
 private $role = 'manage_options';
@@ -469,4 +473,3 @@ private function get_translators()
 }
 
 }
-
