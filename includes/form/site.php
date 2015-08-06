@@ -36,14 +36,6 @@
 </div>
 
 <div class="block">
-    <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove adjacent posts rel links from head on Pages', 'wp-total-hacks'); ?></h4>
-    <div class="block_content">
-        <p><?php _e('Remove adjacent posts rel links from head on Pages.<br /><span class="ex">e.g. &lt;link rel="next" ...&gt; &lt;link rel="prev" ...&gt;</span>', 'wp-total-hacks'); ?></p>
-        <?php $this->sel('wfb_adjacent_posts_rel_links'); ?>
-    </div>
-</div>
-
-<div class="block">
     <h4><img src="<?php echo $this->get_plugin_url(); ?>/img/check.png" height="24" width="24" /><?php _e('Remove version number from head', 'wp-total-hacks'); ?></h4>
     <div class="block_content">
         <p><?php _e('Remove generator tag from head. <span class="ex">e.g. &lt;meta name="generator" content="WordPress x.x.x" /&gt;</span>', 'wp-total-hacks'); ?></p>
@@ -103,4 +95,3 @@
 </div>
 
 </div><!--end .tab-->
-

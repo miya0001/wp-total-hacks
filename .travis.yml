@@ -5,6 +5,7 @@ php:
     - 5.4
 
 env:
+    - WP_VERSION=4.3-RC1 WP_MULTISITE=0
     - WP_VERSION=latest WP_MULTISITE=0
     - WP_VERSION=3.8 WP_MULTISITE=0
 

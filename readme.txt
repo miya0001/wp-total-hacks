@@ -3,8 +3,8 @@ Contributors: miyauchi,marushu
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FR7RD5SGEU69Y
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.8
-Tested up to: 4.2
-Stable tag: 1.9.2
+Tested up to: 4.3
+Stable tag: 2.0.0
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!
@@ -62,6 +62,7 @@ PHP5 is required!
 * Persian(fa_IR) - [Amir Maskani](http://emir.ir/)
 * Serbo-Croation(sr_RS) - [Anja Skrba](http://webhostinggeeks.com/wordpresshosting.php)
 * Vietnamese(vi) - [Trong](http://bizover.net/)
+* Polish(pl_PL) - [Michael Skweres](http://livepoint.pl/)
 
 You can send your own language pack to me.
 
@@ -96,6 +97,10 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+
+= 2.0.0 =
+* Tested on WordPress 4.3
+* Add translation pl_PL
 
 = 1.9.2 =
 * Tested up to WordPress 4.2.
