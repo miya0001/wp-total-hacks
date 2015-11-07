@@ -15,7 +15,6 @@ matrix:
 
 env:
   matrix:
-    - WP_VERSION=4.3-RC1 WP_MULTISITE=0
     - WP_VERSION=latest WP_MULTISITE=0
     - WP_VERSION=4.1 WP_MULTISITE=0
     - WP_VERSION=4.0 WP_MULTISITE=0
