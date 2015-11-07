@@ -6,19 +6,29 @@ notifications:
 
 php:
     - 5.3
-    - 5.4
-    - 5.5
     - 5.6
 
+matrix:
+  include:
+    - php: 5.3
+      env: WP_VERSION=latest WP_MULTISITE=0 WP_PULUGIN_DEPLOY=1
+
 env:
+  matrix:
     - WP_VERSION=4.3-RC1 WP_MULTISITE=0
     - WP_VERSION=latest WP_MULTISITE=0
     - WP_VERSION=4.1 WP_MULTISITE=0
     - WP_VERSION=4.0 WP_MULTISITE=0
     - WP_VERSION=3.9 WP_MULTISITE=0
     - WP_VERSION=3.8 WP_MULTISITE=0
+  global:
+    - SVN_REPO: https://plugins.svn.wordpress.org/wp-total-hacks/
+    - GH_REF: https://github.com/miya0001/wp-total-hacks.git
+    - secure: "PqxS1z6+Y33DkadAaJGscsGMEdzj0U4tK+dHRkx7rRD9v5tK/+Q+XoaoCMk1Fdst1DKl2SQTeOK9EK+poUlCFgVjOrmaHC3FXDOS6jsaqzKRtd2UBQuwPQQIi498/NyZin02Ia+VHBUqb6Nd7YaL35T0K6UYQ/jR503XVuHgFlI="
 
 before_script:
     - bash bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION
 
 script: phpunit
+
+after_success: curl -L https://raw.githubusercontent.com/miya0001/travis2wpplugin/master/deploy.sh | bash
