@@ -96,6 +96,8 @@ Please contact to me.
 4. Other
 
 == Changelog ==
+= 4.7.2 =
+* Remove depricated function call.
 
 = 2.0.0 =
 * Tested on WordPress 4.3
