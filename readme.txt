@@ -3,7 +3,7 @@ Contributors: miyauchi,marushu
 Tags: head, post, page, functions.php, admin, logo, auto save, revision, meta box, dashboard
 Requires at least: 3.8
 Tested up to: 4.7
-Stable tag: 4.7.1
+Stable tag: 4.7.2
 
 WP Total Hacks can customize more than 20 settings on your WordPress Site.
 PHP5 is required!

@@ -4,7 +4,7 @@ Plugin Name: WP Total Hacks
 Author: Takayuki Miyauchi
 Plugin URI: https://github.com/miya0001/wp-total-hacks
 Description: WP Total Hacks can customize your WordPress.
-Version: 4.7.1
+Version: 4.7.2
 Author URI: http://wpist.me/
 Domain Path: /languages
 Text Domain: wp-total-hacks
@@ -366,8 +366,6 @@ class TotalHacks {
 			}
 		}
 		if ( $this->op( 'wfb_update_notification' ) ) {
-			global $user_login;
-			get_currentuserinfo();
 			if ( !current_user_can( 'update_plugins' ) ) {
 				remove_action( 'admin_notices', 'update_nag', 3 );
 			}
